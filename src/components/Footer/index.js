@@ -46,7 +46,6 @@ const Footer = ({ t }) => (
     className="pt-4 pb-4 pt-md-4 border-top"
     style={{
       borderBottom: '3px solid #c00',
-      marginBottom: '1px', // Show full bottom border
     }}
   >
     <div className="container">

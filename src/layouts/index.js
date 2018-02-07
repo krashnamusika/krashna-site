@@ -18,7 +18,7 @@ class TemplateWrapper extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="fill-page">
         <Helmet
           title="Krashna Musika"
           meta={[
@@ -40,14 +40,17 @@ class TemplateWrapper extends React.Component {
           <link rel="shortcut icon" type="image/png" href={favicon} />
         </Helmet>
         <Header />
-        <div
-          style={{
-            paddingTop: '50px',
-          }}
-        >
-          {this.props.children()}
+        <div className="d-flex flex-column fill-page">
+          <div
+            style={{
+              paddingTop: '50px',
+              flex: 'auto',
+            }}
+          >
+            {this.props.children()}
+          </div>
+          <Footer />
         </div>
-        <Footer />
       </div>
     )
   }

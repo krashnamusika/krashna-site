@@ -1,5 +1,8 @@
 html,
-body {
+body,
+#___gatsby,
+#___gatsby > div,
+.fill-page {
   margin: 0;
   padding: 0;
   height: 100%;
