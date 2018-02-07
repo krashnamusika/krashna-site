@@ -15,12 +15,3 @@ exports.onPostBootstrap = () => {
     path.join(__dirname, "/public/locales")
   );
 };
-
-exports.modifyWebpackConfig = ({ config }) =>
-  config.plugin(`jquery`, webpack.ProvidePlugin, [
-    {
-      jQuery: 'jquery',
-      $: 'jquery',
-      jquery: 'jquery'
-    }
-  ])

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import '../utils/i18n.js'
 
-import $ from 'jquery';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../node_modules/font-awesome/css/font-awesome.min.css'
 
@@ -15,10 +14,6 @@ import favicon from './favicon.png'
 class TemplateWrapper extends React.Component {
   static propTypes = {
     children: PropTypes.func,
-  }
-
-  componentDidMount() {
-    window.$ = window.jQuery = $
   }
 
   render() {
@@ -37,18 +32,6 @@ class TemplateWrapper extends React.Component {
                 'krashna, krashna musika, dsmg krashna, delft, muziek, music, orchestra, choir, tu delft',
             },
           ]}
-          script={
-            [
-              {
-                src:
-                  'https://code.jquery.com/jquery-3.2.1.slim.min.js',
-              },
-              {
-                src:
-                  'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js',
-              },
-            ]
-          }
         >
           <link
             href="https://fonts.googleapis.com/css?family=Raleway"
