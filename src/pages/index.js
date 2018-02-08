@@ -1,9 +1,9 @@
 import React from 'react'
-import Jumbotron from "../components/Jumbotron";
+import Jumbotron from '../components/Jumbotron'
 
 const IndexPage = () => (
   <div>
-    <Jumbotron/>
+    <Jumbotron />
   </div>
 )
 

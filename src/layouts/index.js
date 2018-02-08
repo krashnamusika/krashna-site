@@ -23,16 +23,19 @@ class TemplateWrapper extends React.Component {
           meta={[
             {
               name: 'description',
-              content: 'Delfts Studenten Muziek Gezelschap Krashna Musika',
+              content: 'Delfts Studenten Muziekgezelschap Krashna Musika',
             },
             {
               name: 'keywords',
               content:
-                'krashna, krashna musika, dsmg krashna, delft, muziek, music, orchestra, choir, tu delft',
+                'krashna, krashna musika, dsmg krashna, delft, muziek, music, orkest, koor, orchestra, choir, tu delft',
             },
           ]}
         >
-          <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Raleway:400,700"
+            rel="stylesheet"
+          />
           <link rel="shortcut icon" type="image/png" href={favicon} />
         </Helmet>
         <Header />
