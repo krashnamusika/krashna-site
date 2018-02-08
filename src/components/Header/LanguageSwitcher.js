@@ -14,7 +14,7 @@ class LanguageSwitcher extends Component {
   }
 
   getImageByCode(code) {
-    return code === 'en' ? enFlag : nlFlag
+    return code === 'en-GB' ? enFlag : nlFlag
   }
 
   componentWillReceiveProps(nextProps) {
@@ -49,8 +49,8 @@ class LanguageSwitcher extends Component {
 
   render() {
     const languages = [
-      { code: 'en', label: 'English' },
-      { code: 'nl', label: 'Nederlands' },
+      { code: 'en-GB', label: 'English' },
+      { code: 'nl-NL', label: 'Nederlands' },
     ]
 
     return (

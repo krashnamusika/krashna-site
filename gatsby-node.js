@@ -14,4 +14,12 @@ exports.onPostBootstrap = () => {
     path.join(__dirname, "/src/locales"),
     path.join(__dirname, "/public/locales")
   );
+  fs.copySync(
+    path.join(__dirname, "/public/locales/en-GB"),
+    path.join(__dirname, "/public/locales/en")
+  );
+  fs.copySync(
+    path.join(__dirname, "/public/locales/nl-NL"),
+    path.join(__dirname, "/public/locales/nl")
+  );
 };
