@@ -1,14 +1,14 @@
-import React from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
 import Helmet from 'react-helmet'
-import '../utils/i18n.js'
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Footer from '../components/Footer'
 
 import Header from '../components/Header'
-import Footer from '../components/Footer'
-import './index.css'
+import '../utils/i18n.js'
 import favicon from './favicon.png'
+import './index.css'
 
 class TemplateWrapper extends React.Component {
   static propTypes = {
@@ -32,10 +32,7 @@ class TemplateWrapper extends React.Component {
             },
           ]}
         >
-          <link
-            href="https://fonts.googleapis.com/css?family=Raleway"
-            rel="stylesheet"
-          />
+          <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
           <link rel="shortcut icon" type="image/png" href={favicon} />
         </Helmet>
         <Header />
