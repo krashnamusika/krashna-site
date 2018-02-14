@@ -1,20 +1,20 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import CenteredButton from '../components/CenteredButton'
+import PageTemplate from '../templates/pageTemplate'
 
 const NotFoundPage = () => (
-  <div className="container text-page-container">
-    <h1>404: Not Found</h1>
-    <p>
+  <PageTemplate title="404: Not Found">
+    <p className="text-center lead">
       Nothing here... except for a{' '}
       <a href="https://youtu.be/P9G6lwQ72Io" target="blank">
         404 Hz sine wave
       </a>.
     </p>
-    <Link className="btn btn-primary" to="/">
-      <span className="fa fa-home mr-2" />
+    <CenteredButton url="/">
+      <span className="fa fa-home mr-2"/>
       Return home
-    </Link>
-  </div>
+    </CenteredButton>
+  </PageTemplate>
 )
 
 export default NotFoundPage
