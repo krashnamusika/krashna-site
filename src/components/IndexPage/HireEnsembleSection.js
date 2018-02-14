@@ -3,7 +3,7 @@ import React from 'react'
 
 const HireEnsembleSection = () => {
   return (
-    <div className="text-white bg-strijkers-oranje">
+    <div className="text-white bg-kamu">
       <div className="container pt-4 pb-4 text-center">
         <p style={{fontSize: "2rem"}}>
         Want to hire a musical ensemble for your occasion?
