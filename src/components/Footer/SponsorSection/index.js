@@ -1,6 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import { translate } from 'react-i18next'
 import expansion from './expansion-widget.png'
 import topdesk from './topdesk-widget.png'
 import tudelft from './tudelft-widget.png'

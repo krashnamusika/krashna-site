@@ -1,9 +1,14 @@
 import React from 'react'
-import Jumbotron from '../components/Jumbotron'
+import HireEnsembleSection from "../components/IndexPage/HireEnsembleSection";
+import Jumbotron from '../components/IndexPage/Jumbotron'
 
 const IndexPage = () => (
   <div>
     <Jumbotron />
+    <div className="container display-3 text-center p-4">
+      TODO: Concerts
+    </div>
+    <HireEnsembleSection />
   </div>
 )
 

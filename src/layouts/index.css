@@ -15,3 +15,31 @@ body {
 .text-page-container {
   padding-top: 40px;
 }
+
+.bg-krashna {
+  background-color: #cc0000;
+}
+
+.bg-koper-goud {
+  background-color: #ffd700;
+}
+
+.bg-strijkers-oranje {
+  background-color: #ff7700;
+}
+
+.bg-hout-groen {
+  background-color: #00cc66;
+}
+
+.bg-koor-blauw {
+  background-color: #00cccc;
+}
+
+.bg-slagwerk-grijs {
+  background-color: #666666;
+}
+
+.bg-kamu {
+  background-color: #db4c4c;
+}

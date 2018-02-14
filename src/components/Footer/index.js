@@ -1,8 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import { translate } from 'react-i18next'
+import {translate} from 'react-i18next'
 import krashnaSharp from './krashna-sharp.png'
-import SponsorSection from '../SponsorSection'
+import SponsorSection from './SponsorSection'
 
 const SocialLink = ({ iconName, url }) => (
   <a className="text-muted mr-2" href={url} target="blank">
@@ -43,7 +42,7 @@ const SocialLinkList = () => (
 
 const Footer = ({ t }) => (
   <footer
-    className="pt-4 pb-4 pt-md-4 border-top"
+    className="pt-4 pb-2 pt-md-4 border-top"
     style={{
       borderBottom: '3px solid #c00',
     }}
@@ -76,7 +75,7 @@ const Footer = ({ t }) => (
           </small>
         </div>
         <div className="col-12 col-md text-center mt-md-0 mt-2">
-          <img src={krashnaSharp} alt="Krashna Musika" width="240px" />
+          <img src={krashnaSharp} alt="Krashna Musika" width="220px" />
         </div>
         <div className="col-12 col-md text-md-right text-center text-muted mt-md-0 mt-4">
           <SponsorSection title={t('partners')} />
