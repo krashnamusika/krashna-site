@@ -1,0 +1,81 @@
+---
+header:
+  krashna:
+    name: Krashna
+    choir: Koor
+    orchestra: Orkest
+    conductors: Dirigenten
+    chamber-music: Kamermuziek
+    chamber-choir: Kamerkoor
+    chamber-orchestra: Kamerorkest
+  association:
+    name: Vereniging
+    about: Over ons
+    committees: Commissies
+    recommendation: Comité van Aanbeveling
+    contact: Contact
+  impressions:
+    name: Impressies
+    photos: Foto's
+    videos: Video's
+  business:
+    name: Zakelijk
+    rent-instrument: Instrumentenverhuur
+    hire-ensemble: Ensemble huren
+    hire-orchestra-choir: Orkest/Koor huren
+    donate: Donateurschap
+    partners: Partners
+  members: Voor leden
+  join: Lid worden
+
+footer:
+  partners: Onze partners
+  feedback:
+    question: Heb je feedback over deze site?
+    action: Laat het ons weten!
+
+choir:
+  title: Koor
+  text: >
+    Het Krashna koor is een groep van ongeveer 50 enthousiaste zangers. We komen elke woensdag samen om te werken aan zeer gevarieerde stukken uit het klassieke repertoire en natuurlijk ook aan onze zangtechniek. Het koor is houdt geen audities en bied daarom plek voor zowel startende als ervaren zangers. Per jaar doet het koor twee a drie grote projecten. Door het repertoire zo gevarieerd mogelijk te houden, is er altijd weer nieuwe uitdaging op het gebied van noten studeren, maar vooral ook expressie. Onder leiding van onze kundige dirigent komen ook de minder ervaren zangers met goed succes tot lekker en ontspannen zingen, dit terwijl de muzikale kwaliteit van het koor gewaarborgd wordt. Recente stukken die het koor heeft gezongen zijn: Requiem van Fauré, Magnificat van Rutter, Kytich van Martinu, Messa di Gloria van Puccini. Verder doet het koor aan gave a capella stukken als het Requiem van Daily.
+  join-button: Zing je mee in ons koor?
+
+orchestra:
+  title: Orkest
+  text: >
+    Het orkest van Delfts Studenten Muziek Gezelschap Krashna Musika bestaat op dit moment uit ongeveer 60 leden en staat onder leiding van dirigent Daan Admiraal. Het heeft een standaard symfonieorkestbezetting waarmee op hoog niveau klassieke muziek gemaakt wordt. Op het repertoire staan vaak grote klassieke werken, maar moderne muziek wordt ook gespeeld. Recente voorbeelden zijn 'Tod und Verklärung' van R. Strauss, Dodeneiland van Rachmaninoff, de 5de symfonie van Sjostakovitsj en Mahler's 'Das Lied von der Erde'. Per jaar geeft Krashna twee concertreeksen waarbij zowel het orkest als koor werken uitvoeren. Het koor wordt dan door het orkest (vaak in kleinere bezetting) begeleid. Stukken die recent met het koor zijn uitgevoerd zijn het Mozart Requiem, 'Kytice' van Martinu en 'Messa di Gloria' van Puccini.
+  join-button: Speel je mee in ons orkest?
+
+conductors:
+  title: Dirigenten
+  choir:
+    title: >
+      Onze koordirigent: Ruben de Grauw
+    text: |
+      Ruben de Grauw (1980) zingt al van jongs af aan. Op 7 jarige leeftijd zong hij in het  Sacramentskoor in Breda. Waarna hij op zijn 16e samen met vrienden een eigen koor oprichte: Jeugdkamerkoor Plurale Tantum, voor jongeren tussen 15 en 25 jaar. Na achttien jaar gedirigeerd the hebben nam hij in 2015 afscheid van dit koor.
+
+      Ruben studeerde Koordirectie bij Wiecher Mandemaker aan het Rotterdams Conservatorium. Hij begon in 2004 en volgde zijn bachelor op met een ‘Master of Music’ bij Louis Buskens in Tilburg aan het Fontys Conservatorium. Verder is Ruben tussen 2009 en 2013 assistent-dirigent geweest bij het Nederlands Studenten Kamerkoor en is hij momenteel dirigent van het project koor Cappella Ex Occasione, Breda, en natuurlijk van het Krashna Musika studenten koor, Delft. Recentelijk is Ruben consulent Amateurkunst geworden bij Stichting Nieuwe Veste in Breda. Als zanger is Ruben actief als tenor bij het  Laurens Collegium in Rotterdam en Studium Chorale in Maastricht.
+
+      Wij zijn erg blij te kunnen zeggen dat Ruben sinds november 2011 voor het koor van Krashna Musika staat.
+  orchestra:
+    title: >
+      Onze orkestdirigent: Daan Admiraal
+    text: |
+      Daan Admiraal werd in 1949 in Eindhoven geboren. Na zijn gymnasium-b-opleiding studeerde hij hobo aan het Amsterdams Conservatorium bij Cees van der Kraan. Hij studeerde af met vele onderscheidingen: de Zilveren Vriendenkrans (1974) en de Prix d’Excellence (1976). Zijn eerste orkestervaring deed hij tijdens zijn studietijd op als invaller in het Concertgebouworkest. Nog voor zijn eindexamen conservatorium werd hij solo-hoboïst in Het Gelders Orkest in Arnhem waar hij van 1971-1974 aan verbonden was. Daarna werkte hij jarenlang als free-lance hoboïst bij de grote Nederlandse symfonieorkesten. Orkest- en koordirectie studeerde hij bij Louis Stotijn en Frans Moonen aan het Koninklijk Conservatorium in Den Haag, waarna hij nog enige tijd privé studeerde bij de vermaarde Russische dirigent Kirill Kondrasjin.
+
+      Daan Admiraal is dirigent van drie universiteits-orkesten, het VU-Orkest en het VU-Kamerorkest in Amsterdam en Krashna Musika van de TU Delft, die onder de amateurorkesten in Nederland een vooraanstaande positie innemen. Tevens dirigeert hij het Amsterdamse symfonieorkest De Philharmonie en het Symfonie Orkest Eindhoven. Daan Admiraal maakte ook naam als koordirigent. Hij was van 1993 tot 2008 dirigent en artistiek leider van Toonkunst Rotterdam. Sinds 2009 is hij dirigent van het Haagse Toonkunst Koor, waarmee Krashna heeft samengewerkt (2009 en 2010). Daan Admiraal werd in 2001 benoemd tot Ridder in de Orde van Oranje-Nassau. Voor zijn verdiensten voor het VU-Orkest ontving hij in 2010 de VU-erepenning, het belangrijkste niet-academische eerbetoon dat de VU kent.
+
+      We zijn trots om te kunnen zeggen dat Daan al vanaf 1981 bij ons dirigeert.
+
+photos:
+  title: Foto's
+  flickr: Onze Flickr pagina
+
+contact:
+  title: Contact
+
+members:
+  title: Voor leden
+
+join:
+  title: Lid worden

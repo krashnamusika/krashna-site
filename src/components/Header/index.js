@@ -26,12 +26,14 @@ const Dropdown = ({ id, t }) => (
       aria-haspopup="true"
       aria-expanded="false"
     >
-      {t(id).name}
+      {t('header.' + id).name}
     </a>
     <div className="dropdown-menu" aria-labelledby={id + 'Dropdown'}>
-      {Object.keys(t(id))
+      {Object.keys(t('header.' + id))
         .filter(it => it !== 'name')
-        .map(key => <DropdownLink id={key} key={key} name={t(id)[key]} />)}
+        .map(key => (
+          <DropdownLink id={key} key={key} name={t('header.' + id)[key]} />
+        ))}
     </div>
   </li>
 )
@@ -75,8 +77,8 @@ class Header extends React.Component {
               <Dropdown id="association" t={t} />
               <Dropdown id="impressions" t={t} />
               <Dropdown id="business" t={t} />
-              <NavLink id="members" name={t('members')} />
-              <NavLink id="join" name={t('join')} />
+              <NavLink id="members" name={t('header.members')} />
+              <NavLink id="join" name={t('header.join')} />
               <LanguageSwitcher />
             </div>
           </div>
@@ -86,4 +88,4 @@ class Header extends React.Component {
   }
 }
 
-export default translate('Header')(Header)
+export default translate('translations')(Header)

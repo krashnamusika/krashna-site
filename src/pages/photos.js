@@ -4,7 +4,7 @@ import { translate } from 'react-i18next'
 import CenteredButton from '../components/CenteredButton'
 
 const PhotoPage = ({ t }) => (
-  <PageTemplate title={t('title')}>
+  <PageTemplate title={t('photos.title')}>
     <center>
       <a
         data-flickr-embed="true"
@@ -29,9 +29,9 @@ const PhotoPage = ({ t }) => (
       external={true}
     >
       <span className="fa fa-camera mr-2" />
-      {t('flickr')}
+      {t('photos.flickr')}
     </CenteredButton>
   </PageTemplate>
 )
 
-export default translate('Photos')(PhotoPage)
+export default translate('translations')(PhotoPage)

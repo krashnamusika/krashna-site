@@ -1,5 +1,5 @@
 import React from 'react'
-import {translate} from 'react-i18next'
+import { translate } from 'react-i18next'
 import krashnaSharp from './krashna-sharp.png'
 import SponsorSection from './SponsorSection'
 
@@ -78,9 +78,9 @@ const Footer = ({ t }) => (
           <img src={krashnaSharp} alt="Krashna Musika" width="220px" />
         </div>
         <div className="col-12 col-md text-md-right text-center text-muted mt-md-0 mt-4">
-          <SponsorSection title={t('partners')} />
+          <SponsorSection title={t('footer.partners')} />
           <div className="pt-3">
-            {t('feedback').question}
+            {t('footer.feedback').question}
             <br />
             <a
               className="text-muted"
@@ -88,7 +88,7 @@ const Footer = ({ t }) => (
               target="blank"
             >
               <i className="fa fa-bullhorn mr-2" />
-              {t('feedback').action}
+              {t('footer.feedback').action}
             </a>
           </div>
         </div>
@@ -97,4 +97,4 @@ const Footer = ({ t }) => (
   </footer>
 )
 
-export default translate('Footer')(Footer)
+export default translate('translations')(Footer)
