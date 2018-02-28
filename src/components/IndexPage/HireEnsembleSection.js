@@ -4,7 +4,7 @@ import React from 'react'
 const HireEnsembleSection = () => {
   return (
     <div className="text-white bg-kamu">
-      <div className="container pt-4 pb-4 text-center">
+      <div className="container pt-5 pb-5 text-center">
         <h2>Want to hire a musical ensemble for your occasion?</h2>
         <Link className="btn btn-light" to="/hire-ensemble">
           Learn more
