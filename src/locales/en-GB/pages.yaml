@@ -1,39 +1,4 @@
 ---
-header:
-  krashna:
-    name: Krashna
-    choir: Choir
-    orchestra: Orchestra
-    conductors: Conductors
-    chamber-music: Chamber Music
-    chamber-choir: Chamber Choir
-    chamber-orchestra: Chamber Orchestra
-  association:
-    name: Association
-    about: About Us
-    committees: Committees
-    recommendation: Committee of Recommendation
-    contact: Contact
-  impressions:
-    name: Impressions
-    photos: Photos
-    videos: Videos
-  business:
-    name: Business
-    rent-instrument: Rent an instrument
-    hire-ensemble: Hire an ensemble
-    hire-orchestra-choir: Hire the orchestra/choir
-    donate: Donate
-    partners: Partners
-  members: For members
-  join: Join us
-
-footer:
-  partners: Our partners
-  feedback:
-    question: Have feedback on this site?
-    action: Let us know!
-
 choir:
   title: Choir
   text: >

@@ -1,39 +1,4 @@
 ---
-header:
-  krashna:
-    name: Krashna
-    choir: Koor
-    orchestra: Orkest
-    conductors: Dirigenten
-    chamber-music: Kamermuziek
-    chamber-choir: Kamerkoor
-    chamber-orchestra: Kamerorkest
-  association:
-    name: Vereniging
-    about: Over ons
-    committees: Commissies
-    recommendation: Comité van Aanbeveling
-    contact: Contact
-  impressions:
-    name: Impressies
-    photos: Foto's
-    videos: Video's
-  business:
-    name: Zakelijk
-    rent-instrument: Instrumentenverhuur
-    hire-ensemble: Ensemble huren
-    hire-orchestra-choir: Orkest/Koor huren
-    donate: Donateurschap
-    partners: Partners
-  members: Voor leden
-  join: Lid worden
-
-footer:
-  partners: Onze partners
-  feedback:
-    question: Heb je feedback over deze site?
-    action: Laat het ons weten!
-
 choir:
   title: Koor
   text: >
