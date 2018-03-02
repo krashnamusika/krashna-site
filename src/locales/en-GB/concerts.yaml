@@ -1,0 +1,24 @@
+---
+concerts:
+  spring-the-hague-2018:
+    title: Lustrum Concerts - Schönbergzaal Den Haag
+    description: |
+      Krashna Musika is turning 50! The Delft Student Music Association is celebrating this with two amazing lustrum concerts! The enchanting ‘Eternal Light’ by Howard Goodall and the spectacular ‘Gadfly Suite’ by Dmitri Shostakovich will be performed by our orchestra and choir, consisting of 150 musical students and the vocalists Hadewich De Meester, Matevž Kajdiž and Frank Hermans.
+
+      This concert will take place in the Schönbergzaal of the Royal Conservatory in The Hague. Thanks to the beautiful acoustics, the enthusiasm of the musicians and the power of music, this will prove to be an amazing concert! On the 17th of March, another concert will take place in the auditorium of the TU Delft.
+
+      Tickets are €12.50 for students and €17.50 for others.
+
+  spring-delft-2018:
+    title: Lustrum Concerts - Aula TU Delft
+    description: |
+      Krashna Musika is turning 50! The Delft Student Music Association is celebrating this with two amazing lustrum concerts! The enchanting ‘Eternal Light’ by Howard Goodall and the spectacular ‘Gadfly Suite’ by Dmitri Shostakovich will be performed by our orchestra and choir, consisting of 150 musical students and the vocalists Hadewich De Meester, Matevž Kajdiž and Frank Hermans.
+
+      This concert will take place in the auditorium of the TU Delft. Thanks to the beautiful acoustics, the enthusiasm of the musicians and the power of music, this will prove to be an amazing concert! On the 16th of March, another concert will take place in the Schönbergzaal of the Royal Conservatory in The Hague.
+
+      Tickets are €12.50 for students and €17.50 for others.
+
+  kamu-march-2018:
+    title: Chamber Music Concert
+    description: |
+      Concluding a series of campus concerts, join us at Unit Culture for a variety of chamber music performances! Entrance is free, as always.

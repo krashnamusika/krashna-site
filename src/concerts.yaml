@@ -1,0 +1,24 @@
+---
+- id: spring-the-hague-2018
+  type: main
+  date: 2018-03-16
+  time: 20:15
+  location: Schönbergzaal, Koninklijk Conservatorium, Den Haag
+  locationLink: https://www.google.com/maps/place/Royal+Conservatory+in+The+Hague/@52.0812408,4.3297854,17z/data=!3m1!4b1!4m5!3m4!1s0x47c5b71069f918ed:0x1ed7cc387835cef!8m2!3d52.0812408!4d4.3319741?hl=en
+  tickets: "https://www.theaterdeveste.nl/programma/9942/Krashna_Musika/50_jaar_Krashna_Musika_een_gouden_lustrum_/?type=show"
+
+- id: spring-delft-2018
+  type: main
+  date: 2018-03-17
+  time: 20:15
+  location: Aula, TU Delft
+  locationLink: "https://www.google.com/maps/place/TU+Delft+Aula+Conference+Centre/@52.0021289,4.3711095,17z/data=!3m1!4b1!4m5!3m4!1s0x47c5b5929cb28153:0xd5b81144a89ac9a7!8m2!3d52.0021256!4d4.3732982?hl=en"
+  tickets: "https://www.theaterdeveste.nl/programma/9944/Krashna_Musika/50_jaar_Krashna_Musika_een_gouden_lustrum_/?type=show"
+
+- id: kamu-march-2018
+  type: kamu
+  date: 2018-03-04
+  time: 19:30
+  location: Unit Culture, TU Delft
+  locationLink: "https://www.google.com/maps/place/TU+Delft+Unit+Culture/@51.9954478,4.3744681,17z/data=!4m8!1m2!2m1!1sunit+culture!3m4!1s0x47c5b58f10c8176b:0x87c46f9383b7a8b2!8m2!3d51.9951969!4d4.3771742?hl=en"
+  freeEntrance: true
