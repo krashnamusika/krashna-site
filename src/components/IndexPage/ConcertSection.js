@@ -5,10 +5,15 @@ import {translate} from "react-i18next";
 const ConcertSection = ({concerts, t}) => {
   const dateCheckpoint = new Date();
   dateCheckpoint.setDate(dateCheckpoint.getDate() - 2);
-  console.log(dateCheckpoint, concerts)
   const sortedConcerts = concerts.map(obj => obj.node)
     .filter(concert => new Date(concert.date) > dateCheckpoint)
     .sort((a, b) => (a.date > b.date) ? 1 : ((b.date > a.date) ? -1 : 0));
+
+  if (sortedConcerts.length === 0) {
+    return (
+      <div/>
+    )
+  }
 
   return (
     <div>
