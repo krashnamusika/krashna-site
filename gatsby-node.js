@@ -8,6 +8,8 @@ const path = require('path');
 const fs = require("fs-extra");
 const yaml = require("js-yaml");
 
+const { createFilePath } = require(`gatsby-source-filesystem`);
+
 exports.onPostBootstrap = () => {
   console.log("Copying locales");
 
@@ -34,6 +36,42 @@ exports.onPostBootstrap = () => {
     path.join(__dirname, "/public/locales/nl-NL"),
     path.join(__dirname, "/public/locales/nl")
   );
+};
+
+
+exports.createPages = ({ graphql, boundActionCreators }) => {
+  const { createPage } = boundActionCreators
+  return new Promise((resolve, reject) => {
+    graphql(`
+      {
+        allConcertsYaml {
+          edges {
+            node {
+              id
+              type
+              date
+              time
+              location
+              locationLink
+              tickets
+              freeEntrance
+            }
+          }
+        }
+      }
+    `).then(result => {
+      result.data.allConcertsYaml.edges.forEach(({ node }) => {
+        createPage({
+          path: `/concerts/${node.id}/`,
+          component: path.resolve(`./src/templates/concertPageTemplate.js`),
+          context: {
+            concert: node
+          },
+        })
+      })
+      resolve()
+    })
+  })
 };
 
 

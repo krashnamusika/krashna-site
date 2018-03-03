@@ -1,12 +1,12 @@
 import React from 'react'
-import ConcertSection from "../components/IndexPage/ConcertSection";
+import ConcertSection from '../components/IndexPage/ConcertSection'
 import HireEnsembleSection from '../components/IndexPage/HireEnsembleSection'
 import Jumbotron from '../components/IndexPage/Jumbotron'
 
-const IndexPage = ({data}) => (
+const IndexPage = ({ data }) => (
   <div>
     <Jumbotron />
-    <ConcertSection concerts={data.allConcertsYaml.edges}/>
+    <ConcertSection concerts={data.allConcertsYaml.edges} />
     <HireEnsembleSection />
   </div>
 )
@@ -30,4 +30,4 @@ export const query = graphql`
       }
     }
   }
-`;
+`
