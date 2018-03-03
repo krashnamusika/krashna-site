@@ -36,6 +36,12 @@ exports.onPostBootstrap = () => {
     path.join(__dirname, "/public/locales/nl-NL"),
     path.join(__dirname, "/public/locales/nl")
   );
+
+  // Copy redirects
+  fs.copySync(
+    path.join(__dirname, "/_redirects"),
+    path.join(__dirname, "/public/_redirects")
+  );
 };
 
 
