@@ -49,3 +49,11 @@ contact:
 
 join:
   title: Join us
+
+not-found:
+  title: 404 - Page Not Found
+  message: |
+    We couldn't find that page! We're still adding content to this website, so please check back later.
+
+    In the meantime, don't hesitate to [contact us](/contact) if you have any questions.
+  return-home: Return home

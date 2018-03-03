@@ -1,11 +1,11 @@
 import React from 'react'
-import PageTemplate from '../templates/pageTemplate'
-import { translate } from 'react-i18next'
+import {translate} from 'react-i18next'
 import CenteredButton from '../components/CenteredButton'
+import PageTemplate from '../templates/pageTemplate'
 
 const PhotoPage = ({ t }) => (
   <PageTemplate title={t('photos.title')}>
-    <center>
+    <div className="text-center">
       <a
         data-flickr-embed="true"
         href="https://www.flickr.com/photos/krashna/albums/72157681488568660"
@@ -23,7 +23,7 @@ const PhotoPage = ({ t }) => (
         src="//embedr.flickr.com/assets/client-code.js"
         charSet="utf-8"
       />
-    </center>
+    </div>
     <CenteredButton
       url="https://www.flickr.com/photos/krashna/sets/"
       external={true}

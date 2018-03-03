@@ -1,21 +1,19 @@
 import React from 'react'
+import {translate} from "react-i18next";
+import Markdown from "react-remarkable";
 import CenteredButton from '../components/CenteredButton'
 import PageTemplate from '../templates/pageTemplate'
 
-const NotFoundPage = () => (
-  <PageTemplate title="404: Not Found">
+const NotFoundPage = ({t}) => (
+  <PageTemplate title={t("not-found.title")}>
     <p className="text-center lead">
-      The website is still under construction. For now, there's nothing here...
-      except for a{' '}
-      <a href="https://youtu.be/P9G6lwQ72Io" target="blank">
-        404 Hz sine wave
-      </a>.
+      <Markdown>{t("not-found.message")}</Markdown>
     </p>
     <CenteredButton url="/">
       <span className="fa fa-home mr-2" />
-      Return home
+      {t("not-found.return-home")}
     </CenteredButton>
   </PageTemplate>
 )
 
-export default NotFoundPage
+export default translate("translations")(NotFoundPage)

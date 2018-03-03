@@ -53,3 +53,12 @@ members:
 
 join:
   title: Lid worden
+
+not-found:
+  title: 404 - Pagina Niet Gevonden
+  message: |
+    Die pagina konden we helaas niet vinden! We zijn deze website nog aan het bouwen, waardoor mogelijk nog pagina's
+    kunnen missen.
+
+    In de tussentijd kunt u ons altijd [hier bereiken](/contact) voor vragen.
+  return-home: Terug naar de hoofdpagina
