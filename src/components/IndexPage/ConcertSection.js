@@ -41,10 +41,12 @@ const ConcertSection = ({ concerts, t }) => {
                 {new Date(concert.date).toLocaleDateString('nl-NL')}
                 {' - '}
                 <span className="fa fa-map-marker mr-1" />
-                <a href={concert.locationLink}>{concert.location}</a>
+                <a href={concert.locationLink} className="mr-2">
+                  {concert.location}
+                </a>
                 {concert.tickets ? (
                   <a href={concert.tickets}>
-                    <span className="badge badge-info ml-2">
+                    <span className="badge badge-info">
                       <span className="fa fa-ticket mr-2" />
                       Tickets available
                     </span>
@@ -54,7 +56,7 @@ const ConcertSection = ({ concerts, t }) => {
                 )}
                 {concert.freeEntrance ? (
                   <a href={concert.tickets}>
-                    <span className="badge badge-light ml-2">
+                    <span className="badge badge-light">
                       <span className="fa fa-ticket mr-2" />
                       Free entrance
                     </span>
