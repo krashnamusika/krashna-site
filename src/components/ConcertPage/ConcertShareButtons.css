@@ -1,0 +1,9 @@
+.SocialMediaShareButton {
+  display: inline-block;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.SocialMediaShareButton:hover:not(:active) {
+  opacity: 0.75;
+}

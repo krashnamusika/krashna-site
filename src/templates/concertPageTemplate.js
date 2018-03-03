@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import {translate} from 'react-i18next'
+import ConcertShareButtons from "../components/ConcertPage/ConcertShareButtons";
 
 const ConcertPageTemplate = ({ pathContext, t }) => {
   const concert = pathContext.concert
@@ -39,6 +40,7 @@ const ConcertPageTemplate = ({ pathContext, t }) => {
       )}
       <hr />
       <p>{concertDescription}</p>
+      <ConcertShareButtons concertId={concert.id}/>
     </div>
   )
 }
