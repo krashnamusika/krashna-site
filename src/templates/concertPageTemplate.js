@@ -6,7 +6,6 @@ const ConcertPageTemplate = ({ pathContext, t }) => {
   const concert = pathContext.concert
   const concertTitle = t(`concerts.${concert.id}.title`)
   const concertDescription = t(`concerts.${concert.id}.description`)
-  console.log(concert)
 
   return (
     <div className="container text-page-container pb-2">
