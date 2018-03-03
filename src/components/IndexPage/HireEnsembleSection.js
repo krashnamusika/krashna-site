@@ -1,13 +1,14 @@
 import Link from 'gatsby-link'
 import React from 'react'
+import {translate} from "react-i18next";
 
-const HireEnsembleSection = () => {
+const HireEnsembleSection = ({t}) => {
   return (
     <div className="text-white bg-kamu">
       <div className="container pt-5 pb-5 text-center">
-        <h2>Want to hire a musical ensemble for your occasion?</h2>
+        <h2>{t("index.hire-ensemble.question")}</h2>
         <Link className="btn btn-light" to="/hire-ensemble">
-          Learn more
+          {t("index.hire-ensemble.learn-more")}
           <span className="fa fa-caret-right ml-2" />
         </Link>
       </div>
@@ -15,4 +16,4 @@ const HireEnsembleSection = () => {
   )
 }
 
-export default HireEnsembleSection
+export default translate("translations")(HireEnsembleSection)
