@@ -8,7 +8,7 @@ const OrchestraPage = ({ t }) => (
   <PageTemplate title={t('orchestra.title')}>
     <Markdown>{t('orchestra.text')}</Markdown>
     <CenteredButton url="/join">{t('orchestra.join-button')}</CenteredButton>
-    <div className="col-md-8 col-10 mx-auto p-2">
+    <div className="col-md-8 col-10 mx-auto p-2 text-center">
       <img
         src="https://farm1.staticflickr.com/489/32931063965_f773e1a5d4_z.jpg"
         className="img-fluid"

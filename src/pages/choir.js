@@ -8,7 +8,7 @@ const ChoirPage = ({ t }) => (
   <PageTemplate title={t('choir.title')}>
     <Markdown>{t('choir.text')}</Markdown>
     <CenteredButton url="/join">{t('choir.join-button')}</CenteredButton>
-    <div className="col-md-8 col-10 mx-auto p-2">
+    <div className="col-md-8 col-10 mx-auto p-2 text-center">
       <img
         src="https://farm3.staticflickr.com/2270/32550553690_8527a23072_z.jpg"
         className="img-fluid"
