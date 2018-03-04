@@ -110,12 +110,6 @@ hire-ensemble:
 
 contact:
   title: Contact
-
-members:
-  title: Voor leden
-
-join:
-  title: Lid worden
   text: |
     Voor vragen kunt u altijd mailen of bellen.
 
@@ -144,6 +138,12 @@ join:
     Koorcommissaris: Carel Reigersman ([koorcom@krashna.nl](mailto:koorcom@krashna.nl))
 
     Concertcommissaris: Imco de Gier ([concertcom@krashna.nl](mailto:concertcom@krashna.nl))
+
+members:
+  title: Voor leden
+
+join:
+  title: Lid worden
 
 not-found:
   title: 404 - Pagina Niet Gevonden
