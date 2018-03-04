@@ -1,5 +1,6 @@
 import React from 'react'
 import Markdown from 'react-remarkable'
+import CenteredImage from "../components/CenteredImage";
 import PageTemplate from '../templates/pageTemplate'
 import { translate } from 'react-i18next'
 import CenteredButton from '../components/CenteredButton'
@@ -8,13 +9,10 @@ const ChoirPage = ({ t }) => (
   <PageTemplate title={t('choir.title')}>
     <Markdown>{t('choir.text')}</Markdown>
     <CenteredButton url="/join">{t('choir.join-button')}</CenteredButton>
-    <div className="col-md-8 col-10 mx-auto p-2 text-center">
-      <img
-        src="https://farm3.staticflickr.com/2270/32550553690_8527a23072_z.jpg"
-        className="img-fluid"
-        alt={t('choir.title')}
-      />
-    </div>
+    <CenteredImage
+      url="https://farm3.staticflickr.com/2270/32550553690_8527a23072_z.jpg"
+      title={t('choir.title')}
+    />
   </PageTemplate>
 )
 

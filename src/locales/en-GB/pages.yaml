@@ -9,13 +9,13 @@ choir:
   title: Choir
   text: >
     The Krashna choir is a group of about 50 enthusiastic singers. We come together every Wednesday night in order to work a diverse repertoire of classical music and our own singing skills. There is no audition for the choir, so we are looking for both experienced and starting singers. Every year the choir does two or three big projects. By varying the repertoire as much as possible, there is always a new challenge both in studying new notes and mastering a new form of expression. Guided by our capable choir conductor, even the less-experienced singers will be able to sing comfortably, while the choir maintains a high quality of sound. The choir recently sang Fauré’s Requiem, Magnificat by Rutter, Kytice by Martinu, Messa di Gloria by Puccini. Additionally, the choir has performed beautiful a-Capella pieces like the Requiem of Daily.
-  join-button: Want to join us?
+  join-button: Want to join our orchestra?
 
 orchestra:
   title: Orchestra
   text: >
     The orchestra of 'Delfts Studenten Muziek Gezelschap' Krashna Musika currently has approximatly 60 members and is led by conductor Daan Admiraal. It has an occupation of a standard symphony orchestra with which high quality music is performed. The repertoire usually consists of great classical works, but there is room for more modern works. Recent examples are 'Tod und Verklärung' by R. Strauss, 'Isle of the dead' by Rachmaninoff, the 5th symphony by Shostakovich, and Mahler's 'Das Lied von der Erde'. Krashna gives two concert series every year where both the choir and the orchestra perform. The choir piece is then usually also accompanied by the orchestra (usually in a smaller setting). Pieces that have recently been performed with the choir are the Mozart Requiem, 'Kytice' by Martinu and 'Messa di Gloria' by Puccini.
-  join-button: Want to join us?
+  join-button: Want to join our choir?
 
 conductors:
   title: Conductors
@@ -33,6 +33,14 @@ conductors:
       Daan Admiraal was born in Eindhoven in 1949. After achieving his gymnasium-b degree he studied oboe from Cees van der Kraan at the conservatory in Amsterdam. He graduated with the following distinctions: de Zilveren Vriendenkrans (1974) and the Prix d'Excellence (1976). His first orchestra experience was during his study as a substitute for the Concertgebouworkest. Before completing his final exam at the conservatory, he became an oboe soloist at the Gelders orchestra in Arnhem, where he performed between 1971-1974. Afterwards he performed for years as a free-lance oboist at large Dutch symphony orchestras. He learned Orchestra and Choir conducting from Louis Stotijn and Frans Moonen at the royal conservatory in The Hague, and carried on to study at the Russian conductor Kirill Kondrasjin for quite some time. Daan Admiraal is the conductor of three university-orchestras, the VU-Orchestra and the VU-Chamber-orchestra in Amsterdam and Krashna Musika of the TU Delft. All three orchestras have a prominent position in the amateur orchestras in the Netherlands. Moreover, he conducts the Amsterdam symphony orchestra and the philharmonic and the symphony orchestra in Eindhoven. Daan Admiraal also made a name as a choir conductor. From 1993 to 2008 he was the conductor and artistic leader of Toonkunst Rotterdam. As of 2009 he is the conductor of the 'Haagse Toonkunst Koor' which Krashna has collaborated with in 2009 and 2010. Daan Admiraal was knighted in 2001 in the Order of the Oranje-Nassau. For his contributions to the VU-Orchestra he received the VU-erepenning in 2010, which is the most important non-academic honor of the VU.
 
       We are proud to say that Daan has been conducting the Krashna orchestra sinds 1981.
+
+chamber-music:
+  title: Chamber Music
+  text: |
+    Next to the choir and orchestra, Krashna knows a third department: the chamber music department. This department is unique for student music associations in the Netherlands. Chamber music members get the opportunity to form ensembles to perform their own chosen music on the chamber music concerts. The ensembles are diverse with respect to their level, repertoire and setting. Soloist are also allowed to perform.
+
+    There are about six chamber music concerts each year and they are open to all public. Furthermore, Krashna organises lunch concerts in some of the faculties of the TU Delft each year, where employees and students of that faculty are also invited to perform. Finally, there is a masterclass each year where Krashna ensembles are coached by professional chamber musicians. These masterclasses are also open to public.
+  join-button: Want to join our chamber music department?
 
 photos:
   title: Photos

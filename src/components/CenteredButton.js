@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const CenteredButton = ({ url, external, children }) => {
   return (
-    <center className="pt-3 pb-3">
+    <div className="text-center pt-3 pb-3">
       {external ? (
         <a className={`btn btn-secondary btn-lg`} href={url} target="blank">
           {children}
@@ -13,7 +13,7 @@ const CenteredButton = ({ url, external, children }) => {
           {children}
         </Link>
       )}
-    </center>
+    </div>
   )
 }
 
