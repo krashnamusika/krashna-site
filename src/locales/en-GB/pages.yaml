@@ -38,6 +38,10 @@ photos:
   title: Photos
   flickr: Our Flickr page
 
+videos:
+  title: Videos
+  youtube: Our YouTube channel
+
 hire-ensemble:
   title: Hire an ensemble
 
