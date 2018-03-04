@@ -1,6 +1,6 @@
 import Link from 'gatsby-link'
 import React from 'react'
-import {translate} from 'react-i18next'
+import { translate } from 'react-i18next'
 
 const HireEnsembleSection = ({ t }) => {
   return (

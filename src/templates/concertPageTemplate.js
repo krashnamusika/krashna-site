@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import {translate} from 'react-i18next'
+import { translate } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import ConcertShareButtons from '../components/ConcertPage/ConcertShareButtons'
 

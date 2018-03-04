@@ -1,5 +1,5 @@
 import React from 'react'
-import {translate} from 'react-i18next'
+import { translate } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import CenteredButton from '../components/CenteredButton'
 import PageTemplate from '../templates/pageTemplate'
