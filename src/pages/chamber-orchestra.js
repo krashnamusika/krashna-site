@@ -1,0 +1,17 @@
+import React from 'react'
+import Markdown from 'react-remarkable'
+import CenteredImage from '../components/CenteredImage'
+import PageTemplate from '../templates/pageTemplate'
+import { translate } from 'react-i18next'
+
+const ChamberOrchestraPage = ({ t }) => (
+  <PageTemplate title={t('chamber-orchestra.title')}>
+    <Markdown>{t('chamber-orchestra.text')}</Markdown>
+    <CenteredImage
+      url="https://farm1.staticflickr.com/570/33116082532_174fde9846_z.jpg"
+      title={t('chamber-orchestra.title')}
+    />
+  </PageTemplate>
+)
+
+export default translate('translations')(ChamberOrchestraPage)
