@@ -18,7 +18,7 @@ const ConcertSection = ({ concerts, t }) => {
   return (
     <div>
       <div className="container pt-5 pb-5">
-        <h2 className="text-center mb-3">{t("index.upcoming-concerts")}</h2>
+        <h2 className="text-center mb-3">{t('index.upcoming-concerts')}</h2>
         {sortedConcerts.map(concert => (
           <div key={concert.id} className="row mb-2">
             <div className="col-lg-1 col-sm-2 col-3">
