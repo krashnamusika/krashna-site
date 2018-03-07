@@ -153,6 +153,13 @@ rent-instrument:
 
     Are you looking to rent an instrument? Please [contact](/contact) the board and mention which instrument(s) you would like to rent and for which period. We will let you know as quickly as possible if the instrument is available and the price.
 
+hire-orchestra-choir:
+  title: Hire the orchestra / choir
+  text: |
+    Do you want to hire something bigger than a chamber music ensemble, for e.g. accompanying a choir or for a festival? The Krashna orchestra or choir can also be hired in its entirety, or in a smaller composition. Fore more information, please [contact us](/contact).
+
+    In the past, we have played with the Summer Festival in Delft. In 2017, we have played at the International Festival of Technology. Also, we have performed the Matthäus Passion in April of that year, for the 175th birthday of the TU Delft.
+
 join:
   title: Join us
   text: |
