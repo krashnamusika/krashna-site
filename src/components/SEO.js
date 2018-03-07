@@ -5,7 +5,7 @@ const SEO = ({ title, description, url }) => (
   <Helmet>
     {/* Generic meta tags */}
     <meta name="description" content={description}/>
-    <meta name="image" content={Favicon}/>
+    <meta name="image" content="https://www.krashna.nl/krashna-logo.jpg" />
 
     {/* OpenGraph tags */}
     <meta property="og:url" content={url} />
