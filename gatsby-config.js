@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Krashna Musika',
+    title: `Krashna Musika`,
+    siteUrl: `https://www.krashna.nl`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,5 +12,6 @@ module.exports = {
         path: `./src/data/`,
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 };
