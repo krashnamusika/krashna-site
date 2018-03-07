@@ -33,3 +33,7 @@ footer:
   feedback:
     question: Have feedback on this site?
     action: Let us know!
+
+translations:
+  tickets-available: Tickets available
+  free-entrance: Free entrance

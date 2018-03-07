@@ -48,7 +48,7 @@ const ConcertSection = ({ concerts, t }) => {
                   <a href={concert.tickets}>
                     <span className="badge badge-info">
                       <span className="fa fa-ticket mr-2" />
-                      Tickets available
+                      {t('translations.tickets-available')}
                     </span>
                   </a>
                 ) : (
@@ -58,7 +58,7 @@ const ConcertSection = ({ concerts, t }) => {
                   <a href={concert.tickets}>
                     <span className="badge badge-light">
                       <span className="fa fa-ticket mr-2" />
-                      Free entrance
+                      {t('translations.free-entrance')}
                     </span>
                   </a>
                 ) : (
