@@ -8,6 +8,7 @@
     "classnames": "^2.2.5",
     "gatsby": "^1.9.225",
     "gatsby-link": "^1.6.38",
+    "gatsby-plugin-catch-links": "^1.0.19",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "gatsby-plugin-sitemap": "^1.2.14",
     "gatsby-source-filesystem": "^1.5.25",
