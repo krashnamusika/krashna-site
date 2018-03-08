@@ -31,3 +31,7 @@
 /partners /partners
 /leden /members
 /lid-worden /join
+
+# Language subfolders
+/en/* /
+/nl/* /
