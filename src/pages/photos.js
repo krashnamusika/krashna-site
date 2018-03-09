@@ -10,7 +10,7 @@ const PhotoPage = ({ t }) => (
       <CenteredEmbed>
         <iframe
           align="center"
-          src="http://www.flickr.com/slideShow/index.gne?user_id=21327837@N03"
+          src="https://www.flickr.com/slideShow/index.gne?user_id=21327837@N03"
           frameBorder={0}
           width={500}
           scrolling="no"
