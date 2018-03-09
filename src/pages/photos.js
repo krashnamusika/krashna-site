@@ -1,28 +1,22 @@
 import React from 'react'
 import { translate } from 'react-i18next'
 import CenteredButton from '../components/CenteredButton'
+import CenteredEmbed from '../components/CenteredEmbed'
 import PageTemplate from '../templates/pageTemplate'
 
 const PhotoPage = ({ t }) => (
   <PageTemplate title={t('photos.title')}>
     <div className="text-center">
-      <a
-        data-flickr-embed="true"
-        href="https://www.flickr.com/photos/krashna/albums/72157681488568660"
-        title="Matthäus Passion 2017"
-      >
-        <img
-          src="https://farm5.staticflickr.com/4169/33613158453_0c1371e52b_z.jpg"
-          width="640"
-          height="427"
-          alt="Matthäus Passion 2017"
+      <CenteredEmbed>
+        <iframe
+          align="center"
+          src="http://www.flickr.com/slideShow/index.gne?user_id=21327837@N03"
+          frameBorder={0}
+          width={500}
+          scrolling="no"
+          height={600}
         />
-      </a>
-      <script
-        async
-        src="//embedr.flickr.com/assets/client-code.js"
-        charSet="utf-8"
-      />
+      </CenteredEmbed>
     </div>
     <CenteredButton
       url="https://www.flickr.com/photos/krashna/sets/"

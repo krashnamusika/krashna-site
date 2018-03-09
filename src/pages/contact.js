@@ -1,6 +1,6 @@
 import React from 'react'
-import Markdown from 'react-remarkable'
 import { translate } from 'react-i18next'
+import Markdown from 'react-remarkable'
 import PageTemplate from '../templates/pageTemplate'
 
 const ContactPage = ({ t }) => (

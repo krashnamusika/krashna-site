@@ -1,5 +1,5 @@
-import React from 'react'
 import Link from 'gatsby-link'
+import React from 'react'
 
 const CenteredButton = ({ url, external, children }) => {
   return (

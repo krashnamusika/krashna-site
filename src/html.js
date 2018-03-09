@@ -39,6 +39,16 @@ module.exports = class HTML extends React.Component {
             rel="stylesheet"
           />
 
+          {/* OpenGraph and Twitter images */}
+          <meta
+            property="og:image"
+            content="https://www.krashna.nl/krashna-logo.jpg"
+          />
+          <meta
+            name="twitter:image"
+            content="https://www.krashna.nl/krashna-logo.jpg"
+          />
+
           {this.props.headComponents}
           {css}
         </head>
