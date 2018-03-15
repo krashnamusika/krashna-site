@@ -35,6 +35,7 @@
 /lid-worden /join
 /tournee /tour
 
-# Language subfolders
+# Old site
+/upcoming /
 /en/* /
 /nl/* /
