@@ -1,7 +1,7 @@
-import React from 'react'
 import Link from 'gatsby-link'
-import krashnaEdge from './krashna-edge.png'
+import React from 'react'
 import { translate } from 'react-i18next'
+import krashnaEdge from './krashna-edge.png'
 import LanguageSwitcher from './LanguageSwitcher'
 
 const NavLink = ({ id, name }) => (

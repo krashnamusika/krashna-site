@@ -1,8 +1,8 @@
 import React from 'react'
+import { translate } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import CenteredImage from '../components/CenteredImage'
 import PageTemplate from '../templates/pageTemplate'
-import { translate } from 'react-i18next'
 
 const ChamberOrchestraPage = ({ t }) => (
   <PageTemplate title={t('chamber-orchestra.title')}>
