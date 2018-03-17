@@ -4,7 +4,7 @@
   Krashna Musika Website
 </h1>
 <p align="center">
-  Static site generator for the site of [Krashna Musika](https://www.krashna.nl/), built with React and Gatsby.js.
+  Static site generator for the site of <a href="https://www.krashna.nl/">Krashna Musika</a>, built with React and Gatsby.js.
 </p>
 
 <p align="center">
