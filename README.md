@@ -1,6 +1,17 @@
-# Krashna Musika Website
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/krashnamusika/krashna-site/master/src/layouts/favicon.png" width="100" alt="Krashna Musika">
+  <br>
+  Krashna Musika Website
+</h1>
+<p align="center">
+  Static site generator for the site of [Krashna Musika](https://www.krashna.nl/), built with React and Gatsby.js.
+</p>
 
-Static site generator for the Krashna Musika site, built with React and Gatsby.js.
+<p align="center">
+  <a href="https://www.netlify.com">
+    <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" width="80"/>
+  </a>
+</p>
 
 ## Installation
 
