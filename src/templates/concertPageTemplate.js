@@ -1,10 +1,10 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import {translate} from 'react-i18next'
 import Markdown from 'react-remarkable'
 import ConcertShareButtons from '../components/ConcertPage/ConcertShareButtons'
 import PageTemplate from './pageTemplate'
 
-const ConcertPageTemplate = ({ pathContext, t }) => {
+const ConcertPageTemplate = ({pathContext, t}) => {
   const concert = pathContext.concert
   const concertTitle = t(`concerts.${concert.id}.title`)
   const concertDescription = t(`concerts.${concert.id}.description`)
@@ -12,18 +12,20 @@ const ConcertPageTemplate = ({ pathContext, t }) => {
   return (
     <PageTemplate title={concertTitle}>
       <div>
-        <span className="fa fa-calendar mr-2" />
+        <span className="fa fa-calendar mr-2"/>
         {new Date(concert.date).toLocaleDateString('nl-NL')}
-        {', '}
-        {concert.time}
+        {concert.time ?
+          ', ' + concert.time :
+          undefined
+        }
       </div>
       <div>
-        <span className="fa fa-map-marker mr-2" />
+        <span className="fa fa-map-marker mr-2"/>
         <a href={concert.locationLink}>{concert.location}</a>
       </div>
       {concert.tickets ? (
         <div>
-          <span className="fa fa-ticket mr-2" />
+          <span className="fa fa-ticket mr-2"/>
           <a href={concert.tickets}>{t('translations.tickets-available')}!</a>
         </div>
       ) : (
@@ -31,7 +33,7 @@ const ConcertPageTemplate = ({ pathContext, t }) => {
       )}
       {concert.freeEntrance ? (
         <div>
-          <span className="fa fa-ticket mr-2" />
+          <span className="fa fa-ticket mr-2"/>
           {t('translations.free-entrance')}!
         </div>
       ) : (
