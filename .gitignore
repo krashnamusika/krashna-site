@@ -14,3 +14,5 @@ package-lock.json
 
 # NPM
 npm-debug.log
+
+.vs/
