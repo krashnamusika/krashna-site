@@ -4,7 +4,7 @@
   Krashna Musika Website
 </h1>
 <p align="center">
-  Static site generator for the site of <a href="https://www.krashna.nl/">Krashna Musika</a>, built with React and Gatsby.js.
+  Static site generator for the site of Delft's student music association <a href="https://www.krashna.nl/">Krashna Musika</a>, built with React and Gatsby.js.
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ To run a development server (with live-reloading), run:
 gatsby develop
 ```
 
-The server should now be listening now [localhost:8000](http://localhost:8000)!
+There should now be a server listening on [localhost:8000](http://localhost:8000)!
 
 ### Production
 
