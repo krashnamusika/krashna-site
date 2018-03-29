@@ -43,3 +43,9 @@ body {
 .bg-kamu {
   background-color: #db4c4c;
 }
+
+/* Centering for Markdown images */
+img[src$="center"] {
+  display: block;
+  margin: 0 auto;
+}
