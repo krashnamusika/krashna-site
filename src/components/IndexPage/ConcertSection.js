@@ -3,12 +3,14 @@ import React from 'react'
 import { translate } from 'react-i18next'
 import faunIcon from '../../layouts/favicon.png'
 
-const SHOW_PAST_CONCERTS_FOR_N_DAYS = 2;
-const MAX_NUM_CONCERTS = 3;
+const SHOW_PAST_CONCERTS_FOR_N_DAYS = 2
+const MAX_NUM_CONCERTS = 3
 
 const ConcertSection = ({ concerts, t }) => {
   const dateCheckpoint = new Date()
-  dateCheckpoint.setDate(dateCheckpoint.getDate() - SHOW_PAST_CONCERTS_FOR_N_DAYS)
+  dateCheckpoint.setDate(
+    dateCheckpoint.getDate() - SHOW_PAST_CONCERTS_FOR_N_DAYS
+  )
   const sortedConcerts = concerts
     .map(obj => obj.node)
     .filter(concert => new Date(concert.date) > dateCheckpoint)

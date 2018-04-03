@@ -8,7 +8,7 @@ const TourPage = ({ t }) => (
   <PageTemplate title={t('tour.title')}>
     <Markdown>{t('tour.text')}</Markdown>
     <div className="col-md-5 col-9 mx-auto mt-5 mb-5">
-      <img src={tourLogo} className="img-fluid" alt="Krashna Tour 2018"/>
+      <img src={tourLogo} className="img-fluid" alt="Krashna Tour 2018" />
     </div>
   </PageTemplate>
 )
