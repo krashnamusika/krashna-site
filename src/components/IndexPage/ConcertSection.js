@@ -22,7 +22,7 @@ const ConcertSection = ({ concerts, t }) => {
   }
 
   return (
-    <div>
+    <div className="bg-light">
       <div className="container pt-5 pb-5">
         <h2 className="text-center mb-3">{t('index.upcoming-concerts')}</h2>
         {sortedConcerts.map(concert => (
@@ -38,7 +38,7 @@ const ConcertSection = ({ concerts, t }) => {
             </div>
             <div className="col-lg-11 col-sm-10 col-9">
               <h5>
-                <Link to={`/concerts/${concert.id}`}>
+                <Link to={`/concerts/${concert.id}`} className="font-weight-bold">
                   {t(`concerts.${concert.id}.title`)}
                 </Link>
               </h5>
