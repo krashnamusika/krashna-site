@@ -45,8 +45,18 @@ body {
 }
 
 /* Centering for Markdown images */
-img[src$="center"] {
+img[src*="center"] {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+}
+
+img[src*="half"] {
+  max-width: 50%;
+}
+
+@media (max-width: 575px) {
+  img[src*="half"] {
+    max-width: 100%;
+  }
 }
