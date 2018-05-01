@@ -39,6 +39,22 @@
   type: kamu
   date: 2018-04-29
   time: "19:30"
-  location: Oud-Katholieke Kerk Bagijnhof, Delft 
+  location: Oud-Katholieke Kerk Bagijnhof, Delft
   locationLink: "https://www.google.nl/maps/place/Stichting+Vrienden+Schuilkerk+Bagijnhof/@52.0135637,4.3531404,15z/data=!4m5!3m4!1s0x0:0xc03075d334208f1b!8m2!3d52.0135637!4d4.3531404?sa=X&ved=0ahUKEwjLz5fj04DaAhVsDcAKHQXrBIMQ_BIIfDAK"
   freeEntrance: true
+
+- id: krashko-rotterdam-may-2018
+  type: krashko
+  date: 2018-05-12
+  time: "20:15"
+  location: Bergsingelkerk, Rotterdam
+  locationLink: "https://goo.gl/maps/1TQRfvvNsfy"
+  tickets: "https://www.theaterdeveste.nl/programma/6188/Krashna_Musika/Hemelse_muziek_Aards_Genieten_/"
+
+- id: krashko-delft-may-2018
+  type: krashko
+  date: 2018-05-13
+  time: "14:15"
+  location: Van der Mandelezaal, Delft
+  locationLink: "https://goo.gl/maps/u9EDypBxMK62"
+  tickets: "https://www.theaterdeveste.nl/programma/6190/Krashna_Musika/Hemelse_muziek_Aards_Genieten/"
