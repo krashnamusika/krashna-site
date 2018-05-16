@@ -8,7 +8,7 @@ const path = require('path');
 const fs = require("fs-extra");
 const yaml = require("js-yaml");
 
-const { createFilePath } = require(`gatsby-source-filesystem`);
+const {createFilePath} = require(`gatsby-source-filesystem`);
 
 exports.onPostBootstrap = () => {
   console.log("Copying locales");
@@ -45,8 +45,8 @@ exports.onPostBootstrap = () => {
 };
 
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators
+exports.createPages = ({graphql, boundActionCreators}) => {
+  const {createPage} = boundActionCreators
   return new Promise((resolve, reject) => {
     graphql(`
       {
@@ -66,7 +66,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
       }
     `).then(result => {
-      result.data.allConcertsYaml.edges.forEach(({ node }) => {
+      result.data.allConcertsYaml.edges.forEach(({node}) => {
         createPage({
           path: `/concerts/${node.id}/`,
           component: path.resolve(`./src/templates/concertPageTemplate.js`),
@@ -75,7 +75,30 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           },
         })
       })
-      resolve()
+    }).then((newsResolve, newsReject) => {
+      graphql(`
+      {
+        allNewsYaml {
+          edges {
+            node {
+              id
+              date
+            }
+          }
+        }
+      }
+    `).then(result => {
+        result.data.allNewsYaml.edges.forEach(({node}) => {
+          createPage({
+            path: `/news/${node.id}/`,
+            component: path.resolve(`./src/templates/newsPageTemplate.js`),
+            context: {
+              news: node
+            },
+          })
+        })
+        resolve()
+      })
     })
   })
 };
