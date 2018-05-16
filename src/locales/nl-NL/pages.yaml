@@ -1,9 +1,13 @@
 ---
 index:
   upcoming-concerts: Concerten
+  news: Nieuws
   hire-ensemble:
     question: Een muzikaal ensemble huren voor uw event?
     learn-more: Dat kan!
+  tour:
+    title: Krashna gaat dit jaar op tournee!
+    learn-more: Meer weten
 
 choir:
   title: Koor
@@ -114,7 +118,11 @@ hire-ensemble:
 
     De ensemblecommissie heeft veel ervaring in het verzorgen van achtergrondmuziek bij borrels, lunches, feesten en partijen. De muziek creëert een aangename sfeer zonder gesprekken te overstemmen en komt bovendien, door de aanwezigheid van een echt ensemble, de (eventueel) formele setting ten goede.
 
-    Door haar diverse aanbod beschikt Krashna Musika over een passend ensemble voor iedere gelegenheid. Wij verschaffen u met alle plezier meer informatie omtrent onze verschillende ensembles en hun repertoire, en beantwoorden ook graag al uw overige vragen. Neemt u vooral [contact](/contact) op!
+    Door haar diverse aanbod beschikt Krashna Musika over een passend ensemble voor iedere gelegenheid. Wij verschaffen u met alle plezier meer informatie omtrent onze verschillende ensembles en hun repertoire, en beantwoorden ook graag al uw overige vragen. Neemt u vooral contact op met [ensembles@krashna.nl](mailto:ensembles@krashna.nl)!
+
+    ![Een Krashna ensemble bij een bruiloft](/images/krashna-ensemble-wedding.jpg?style=centerme-75)
+
+    <center>Foto: Sarah Duif</center>
 
 donate:
   title: Donateurschap
@@ -176,7 +184,7 @@ contact:
 
     ### Locatie
 
-    Het bestuur bevindt zich momenteel in Cultuurlab, Gasthuissteeg 12. Als u langs wil komen, stuur dan even een belletje, dan doen wij de buitendeur open. Tijdens repetities zijn wij nog altijd te vinden op [Unit Cultuur](http://sc.tudelft.nl/cultuur) van de TU Delft (Mekelweg 10, 2628 CD Delft).
+    Het bestuur bevindt zich momenteel in [Theater de Veste](https://www.theaterdeveste.nl/), Delft. Als u langs wil komen, stuur dan even een belletje, dan doen wij de buitendeur open. Tijdens repetities zijn wij nog altijd te vinden op [Unit Cultuur](http://sc.tudelft.nl/cultuur) van de TU Delft (Mekelweg 10, 2628 CD Delft).
 
     ### Bestuur
 
@@ -186,6 +194,8 @@ contact:
     Orkestcommissaris: Hadewich de Meester ([orkestcom@krashna.nl](mailto:orkestcom@krashna.nl))\
     Koorcommissaris: Carel Reigersman ([koorcom@krashna.nl](mailto:koorcom@krashna.nl))\
     Concertcommissaris: Imco de Gier ([concertcom@krashna.nl](mailto:concertcom@krashna.nl))
+
+    ![Krashna Board](/images/krashna-board.jpg?style=centerme-75)
 
 committees:
   title: Commissies
@@ -286,3 +296,22 @@ not-found:
 
     In de tussentijd kunt u ons altijd [hier bereiken](/contact) voor vragen.
   return-home: Terug naar de hoofdpagina
+
+tour:
+  title: Lustrum Tournee 2018
+  text: |
+    Deze zomer gaat D.S.M.G. Krashna Musika een week lang op tournee naar Wenen, Bratislava en Brno. Op vrijdag 6 juli vertrekt het gehele koor en orkest met de bus naar Bratislava, waar we de eerste drie dagen verblijven. Vervolgens reizen we door naar Wenen en Brno. Het programma is klassiek, maar toegankelijk en licht voor iedereen. De tournee zal worden afgesloten met een concert in het Muziekgebouw aan ’t IJ in Amsterdam.
+
+    ### Concert programma
+    Maandag 9 juli: avond concert in Bratislava\
+    Dinsdag 10 juli: avond concert in de Schotten Kirche in Wenen\
+    Woensdag 11 juli: middag concert in Brno\
+    Donderdag 12 juli: avond concert in de Kuppel saal in Wenen\
+    Zondag 15 juli: middag concert in het Muziekgebouw aan ’t IJ, Amsterdam (zie [deze pagina](/concerts/summer-amsterdam-2018) voor meer informatie).
+
+    De concerten in Bratislava, Wenen en Brno zijn vrij toegankelijk!
+
+    ### Repertoire
+    *De tweede symfonie* van de Russische componist *Sergej Rachmaninov*, een van de belangrijkste componisten en pianisten van de 20e eeuw. In 1908 werd de symfonie voor het eerst uitgevoerd en is met grote lof ontvangen. Tien maanden na de première ontving hij hiervoor Glinka prijs. De symfonie is geschreven voor een compleet orkest en bestaat uit vier delen in lijn met de Russische symfonische traditie.
+
+    *Mis Op. 77 in Bes* van de Oostenrijkse componist *Johann Nepomuk Hummel*, hoewel hij geboren is in Bratislava. Hij was de laatste vertegenwoordiger van de Weense klassieke muziek en had veel invloed op jongere componisten van de romantische stijl. Gedurende zijn carrière heeft hij lessen gevolgd bij onder andere Mozart, Haydn en Salieri. Al deze invloeden van de Weense klassieken zijn terug te horen in zijn symfonie, wat geheel in lijn is met de bestemming van onze lustrum tournee.
