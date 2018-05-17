@@ -28,6 +28,7 @@
   date: 2018-05-25
   location: Lutherse kerk, Delft
   locationLink: "https://www.google.com/maps/place/Lutherse+kerk/@52.0154977,4.351111,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xc0f901a6850e2bf5!8m2!3d52.0154977!4d4.3532997?cid=13905147139191614453"
+  tickets: "https://www.theaterdeveste.nl/programma/6638/Krashna_Musika/Wereldmuziek_/"
 
 - id: summer-amsterdam-2018
   type: main
@@ -46,7 +47,7 @@
 - id: masterclass-day-june-2018
   type: masterclass&kamu
   date: 2018-06-02
-  location: Unit Culture, TU Delft 
+  location: Unit Culture, TU Delft
   locationLink: "https://www.google.com/maps/place/TU+Delft+Unit+Culture/@51.9954478,4.3744681,17z/data=!4m8!1m2!2m1!1sunit+culture!3m4!1s0x47c5b58f10c8176b:0x87c46f9383b7a8b2!8m2!3d51.9951969!4d4.3771742?hl=en"
   freeEntrance: true
 
