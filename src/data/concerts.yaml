@@ -33,8 +33,10 @@
 - id: summer-amsterdam-2018
   type: main
   date: 2018-07-15
+  time: "15:00"
   location: Muziekgebouw aan 't IJ, Amsterdam
   locationLink: "https://www.google.com/maps/place/Muziekgebouw+aan+'t+IJ/@52.3782504,4.9112467,17z/data=!3m1!4b1!4m5!3m4!1s0x47c609afa4643f6f:0x84b02f41a342e459!8m2!3d52.3782504!4d4.9134354?hl=en"
+  tickets: "https://www.muziekgebouw.nl/agenda/Concerten/7904/Krashna_Musika/o_l_v_Daan_Admiraal_en_Ruben_de_Grauw/"
 
 - id: external-kamu-april-2018
   type: kamu
