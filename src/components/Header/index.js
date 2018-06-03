@@ -4,11 +4,15 @@ import { translate } from 'react-i18next'
 import krashnaEdge from './krashna-edge.png'
 import LanguageSwitcher from './LanguageSwitcher'
 
-const NavLink = ({ id, name }) => (
-  <Link className="nav-item nav-link" to={'/' + id}>
+const NavLink = ({ id, name, additionalClasses }) => (
+  <Link className={`nav-item nav-link ${additionalClasses}`} to={'/' + id}>
     {name}
   </Link>
 )
+
+NavLink.defaultProps = {
+  additionalClasses: ""
+}
 
 const DropdownLink = ({ id, name }) => (
   <Link className="dropdown-item" to={'/' + id}>
@@ -79,7 +83,7 @@ class Header extends React.Component {
               <Dropdown id="business" t={t} />
               <NavLink id="members" name={t('header.members')} />
               <NavLink id="join" name={t('header.join')} />
-              <NavLink id="tour" name={t('header.tour')} />
+              <NavLink id="tour" additionalClasses="text-warning font-weight-bold" name={t('header.tour')} />
               <LanguageSwitcher />
             </div>
           </div>
