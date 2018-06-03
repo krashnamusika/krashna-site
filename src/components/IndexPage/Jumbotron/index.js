@@ -9,11 +9,11 @@ const Jumbotron = () => (
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       overflow: 'hidden',
-      paddingTop: 200,
-      paddingBottom: 200,
+      paddingTop: 180,
+      paddingBottom: 180,
     }}
   >
-    <div style={{ background: 'rgba(204, 0, 0, 0.6)', padding: '25px 0' }}>
+    <div style={{ background: 'rgba(204, 0, 0, 0.6)', padding: '25px 0 20px 0' }}>
       <h1 style={{ fontSize: '3.5rem', marginBottom: -5 }}>
         <strong>KRASHNA MUSIKA</strong>
       </h1>
