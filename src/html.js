@@ -75,7 +75,7 @@ module.exports = class HTML extends React.Component {
                   function gtag(){dataLayer.push(arguments);}
                   gtag("js", new Date());
 
-                  gtag("config", "UA-84285092-1");
+                  gtag("config", "UA-84285092-1", { "anonymize_ip": true });
                 `,
                 }}
               />
