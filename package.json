@@ -19,6 +19,7 @@
     "i18next-xhr-backend": "^1.5.1",
     "is-svg": "^3.0.0",
     "js-yaml": "^3.11.0",
+    "qrcode.react": "^0.8.0",
     "react-helmet": "^5.2.0",
     "react-i18next": "^7.6.1",
     "react-remarkable": "^1.1.3",
