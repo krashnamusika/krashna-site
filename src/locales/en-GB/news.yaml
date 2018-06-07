@@ -5,7 +5,7 @@ news:
     description: |
       We're proud to present a makeover of Krashna's website! Featuring a new design, faster load times, and full internationalization.
 
-      We'd appreciate if you could fill in [a short survey](https://www.krashna.nl/feedback) and tell us what you think of the new site!
+      We'd appreciate if you could fill in [a short survey](/feedback) and tell us what you think of the new site!
 
       If you want to take a look inside, the source code of our new system can be found on [our GitHub repository](https://www.github.com/krashnamusika/krashna-site). Feel free to open issues or pull-requests with feedback or suggestions.
 
