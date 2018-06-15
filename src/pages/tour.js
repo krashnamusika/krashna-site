@@ -5,38 +5,26 @@ import Markdown from 'react-remarkable'
 import tourLogo from '../components/IndexPage/TourSection/krashna-tour-2018-logo.jpg'
 import PageTemplate from '../templates/pageTemplate'
 
+const DonationComponent = ({euros, url, buttonColor}) => (
+  <div className="col-md-4 col-12 text-center">
+    <h4>{euros},00 €</h4>
+    <div>
+      <QRCode value={url}/>
+    </div>
+    <a className={`btn btn-${buttonColor} mt-2`} href={url}>
+      Pay via iDeal (Tikkie)
+    </a>
+  </div>
+);
+
 const TourPage = ({t}) => (
   <PageTemplate title={t('tour.title')}>
     <Markdown>{t('tour.text')}</Markdown>
 
     <div className="row mb-5">
-      <div className="col-md-4 col-12 text-center">
-        <h4>5,00 €</h4>
-        <div>
-          <QRCode value="https://tikkie.me/pay/dulv1ufdj9atn41ur7a3"/>
-        </div>
-        <a className="btn btn-info mt-2" href="https://tikkie.me/pay/dulv1ufdj9atn41ur7a3">
-          Pay via iDeal (Tikkie)
-        </a>
-      </div>
-      <div className="col-md-4 col-12 text-center">
-        <h4>10,00 €</h4>
-        <div>
-          <QRCode value="https://tikkie.me/pay/meivu45c7bvpsuhujbf2"/>
-        </div>
-        <a className="btn btn-success mt-2" href="https://tikkie.me/pay/meivu45c7bvpsuhujbf2">
-          Pay via iDeal (Tikkie)
-        </a>
-      </div>
-      <div className="col-md-4 col-12 text-center">
-        <h4>15,00 €</h4>
-        <div>
-          <QRCode value="https://tikkie.me/pay/hhhuutsq3dnt7isr4jhf"/>
-        </div>
-        <a className="btn btn-warning mt-2" href="https://tikkie.me/pay/hhhuutsq3dnt7isr4jhf">
-          Pay via iDeal (Tikkie)
-        </a>
-      </div>
+      <DonationComponent euros={5} url="https://tikkie.me/pay/f9ul88sbnk7ahssm45a1" buttonColor="info"/>
+      <DonationComponent euros={10} url="https://tikkie.me/pay/tfjopc7lgc67hap1q73a" buttonColor="success"/>
+      <DonationComponent euros={15} url="https://tikkie.me/pay/qhkgohgo4l349bc011nn" buttonColor="warning"/>
     </div>
 
     <div className="col-md-5 col-9 mx-auto mb-5" style={{marginTop: "5rem"}}>
