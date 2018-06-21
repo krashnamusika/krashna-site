@@ -20,6 +20,14 @@ const ConcertPageTemplate = ({ pathContext, t }) => {
         <span className="fa fa-map-marker mr-2" />
         <a href={concert.locationLink}>{concert.location}</a>
       </div>
+      {concert.facebookEvent ? (
+        <div>
+          <span className="fa fa-facebook mr-2" />
+          <a href={concert.facebookEvent}>{t('translations.facebook-event')}</a>
+        </div>
+      ) : (
+        undefined
+      )}
       {concert.tickets ? (
         <div>
           <span className="fa fa-ticket mr-2" />
