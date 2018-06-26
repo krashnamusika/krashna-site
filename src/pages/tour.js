@@ -22,9 +22,9 @@ const TourPage = ({t}) => (
     <Markdown>{t('tour.text')}</Markdown>
 
     <div className="row mb-5">
-      <DonationComponent euros={5} url="https://tikkie.me/pay/f9ul88sbnk7ahssm45a1" buttonColor="info"/>
-      <DonationComponent euros={10} url="https://tikkie.me/pay/tfjopc7lgc67hap1q73a" buttonColor="success"/>
-      <DonationComponent euros={15} url="https://tikkie.me/pay/qhkgohgo4l349bc011nn" buttonColor="warning"/>
+      <DonationComponent euros={5} url="https://tikkie.me/pay/70d5qtrjou4a5uojcf67" buttonColor="info"/>
+      <DonationComponent euros={10} url="https://tikkie.me/pay/5cq7lq3ksnft3ap1btst" buttonColor="success"/>
+      <DonationComponent euros={15} url="https://tikkie.me/pay/ebpf9dudcs4dibnfn6jo" buttonColor="warning"/>
     </div>
 
     <div className="col-md-5 col-9 mx-auto mb-5" style={{marginTop: "5rem"}}>
