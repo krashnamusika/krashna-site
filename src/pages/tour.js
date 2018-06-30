@@ -28,7 +28,7 @@ const SectionContainer = ({backgroundClass, children}) => (
 const TourPage = ({t}) => (
   <PageTemplate title={t('tour.title')} useCustomStructure={true}>
     <SectionContainer backgroundClass="bg-krashna">
-      <h1 className="text-center text-white font-weight-bold">{t('tour.title')}</h1>
+      <h1 className="text-center text-white font-weight-bold pb-4 pt-4">{t('tour.title')}</h1>
     </SectionContainer>
     <SectionContainer backgroundClass="">
       <div className="lead">
