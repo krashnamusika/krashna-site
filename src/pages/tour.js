@@ -19,7 +19,7 @@ const DonationComponent = ({euros, url, buttonColor}) => (
 
 const SectionContainer = ({backgroundClass, children}) => (
   <div className={backgroundClass}>
-    <div className="container" style={{padding: "3.5em 0"}}>
+    <div className="container" style={{paddingTop: "3.5em", paddingBottom: "3.5em"}}>
       {children}
     </div>
   </div>
