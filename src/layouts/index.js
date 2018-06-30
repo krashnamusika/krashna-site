@@ -42,7 +42,7 @@ class TemplateWrapper extends React.Component {
         <div className="d-flex flex-column fill-page">
           <div
             style={{
-              paddingTop: '50px',
+              paddingTop: '60px',
               flex: 'auto',
             }}
           >
