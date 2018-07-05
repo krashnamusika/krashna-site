@@ -49,9 +49,9 @@ const TourPage = ({t}) => (
       <Markdown>{t('tour.adoption')}</Markdown>
 
       <div className="row mb-5">
-        <DonationComponent euros={5} url="https://tikkie.me/pay/70d5qtrjou4a5uojcf67" buttonColor="info"/>
-        <DonationComponent euros={10} url="https://tikkie.me/pay/5cq7lq3ksnft3ap1btst" buttonColor="success"/>
-        <DonationComponent euros={15} url="https://tikkie.me/pay/ebpf9dudcs4dibnfn6jo" buttonColor="warning"/>
+        <DonationComponent euros={5} url="https://tikkie.me/pay/e2vqb2b3n942mpjvga9v" buttonColor="info"/>
+        <DonationComponent euros={10} url="https://tikkie.me/pay/15ic4mdfpk5jfnc0eaj5" buttonColor="success"/>
+        <DonationComponent euros={15} url="https://tikkie.me/pay/ou6bfns34td9pjehnj40" buttonColor="warning"/>
       </div>
     </SectionContainer>
   </PageTemplate>
