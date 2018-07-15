@@ -69,3 +69,17 @@
   location: Van der Mandelezaal, Delft
   locationLink: "https://goo.gl/maps/u9EDypBxMK62"
   tickets: "https://www.theaterdeveste.nl/programma/6190/Krashna_Musika/Hemelse_muziek_Aards_Genieten/"
+
+- id: messiah-2018
+  type: main
+  date: 2018-12-08
+  time: "19:00"
+  location: Maria van Jesse kerk, Delft
+  locationLink: "https://goo.gl/maps/8tuf7pMqLiR2"
+
+- id: spring-amsterdam-2019
+  type: main
+  date: 2019-03-09
+  time: "20:15"
+  location: Dominicus kerk, Amsterdam
+  locationLink: "https://goo.gl/maps/GJaSobDEpDk"
