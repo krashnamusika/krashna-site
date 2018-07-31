@@ -18,7 +18,11 @@ class TemplateWrapper extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {showPopup: !sessionStorage.getItem('shownInMemoriam')};
+    this.state = {showPopup: true};
+  }
+
+  componentDidMount() {
+    this.setState({showPopup: !sessionStorage.getItem('shownInMemoriam')});
   }
 
   render() {
