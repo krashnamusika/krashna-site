@@ -9,6 +9,12 @@ body,
 }
 
 body {
+  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+body {
   font-family: 'Raleway', 'Helvetica', 'Arial', 'sans-serif' !important;
 }
 
