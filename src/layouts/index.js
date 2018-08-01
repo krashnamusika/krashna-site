@@ -7,12 +7,22 @@ import Footer from '../components/Footer'
 
 import Header from '../components/Header'
 import '../utils/i18n.js'
+import InMemoriamPopup from "../components/IndexPage/InMemoriamPopup";
 import favicon from './favicon.png'
 import './index.css'
 
 class TemplateWrapper extends React.Component {
   static propTypes = {
     children: PropTypes.func,
+  }
+
+  constructor(props) {
+    super(props);
+    this.state = {showPopup: true};
+  }
+
+  componentDidMount() {
+    this.setState({showPopup: !sessionStorage.getItem('shownInMemoriam')});
   }
 
   render() {
@@ -38,18 +48,26 @@ class TemplateWrapper extends React.Component {
           />
           <link rel="shortcut icon" type="image/png" href={favicon} />
         </Helmet>
-        <Header />
-        <div className="d-flex flex-column fill-page">
-          <div
-            style={{
-              paddingTop: '60px',
-              flex: 'auto',
-            }}
-          >
-            {this.props.children()}
+        {this.state.showPopup ?
+          <InMemoriamPopup onPopupHide={() => {
+            this.setState({showPopup: false});
+            sessionStorage.setItem("shownInMemoriam", "true");
+          }}/> :
+          <div>
+            <Header />
+            <div className="d-flex flex-column fill-page">
+              <div
+                style={{
+                  paddingTop: '60px',
+                  flex: 'auto',
+                }}
+              >
+                {this.props.children()}
+              </div>
+              <Footer />
+            </div>
           </div>
-          <Footer />
-        </div>
+        }
       </div>
     )
   }

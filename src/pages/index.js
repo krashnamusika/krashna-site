@@ -1,15 +1,17 @@
 import React from 'react'
 import ConcertSection from '../components/IndexPage/ConcertSection'
-import HireEnsembleSection from '../components/IndexPage/HireEnsembleSection'
-import NewsSection from "../components/IndexPage/NewsSection";
+// import HireEnsembleSection from '../components/IndexPage/HireEnsembleSection'
+import InMemoriamSection from "../components/IndexPage/InMemoriamSection";
 import Jumbotron from '../components/IndexPage/Jumbotron'
+import NewsSection from "../components/IndexPage/NewsSection";
 
 const IndexPage = ({ data }) => (
   <div>
-    <Jumbotron />
-    <ConcertSection concerts={data.allConcertsYaml.edges} />
-    <NewsSection news={data.allNewsYaml.edges} />
-    <HireEnsembleSection />
+    <InMemoriamSection/>
+    <Jumbotron/>
+    <ConcertSection concerts={ data.allConcertsYaml.edges }/>
+    <NewsSection news={ data.allNewsYaml.edges }/>
+    { /*<HireEnsembleSection />*/ }
   </div>
 )
 
