@@ -13,10 +13,6 @@ const ConductorsPage = ({ t }) => (
     <Markdown>{t('conductors.choir.text')}</Markdown>
 
     <h5 className="mt-5">{t('conductors.orchestra.title')}</h5>
-    <ConductorPicture
-      title="Daan Admiraal"
-      url="https://farm4.staticflickr.com/3813/32777572582_b52cf06e78_z.jpg"
-    />
     <Markdown>{t('conductors.orchestra.text')}</Markdown>
   </PageTemplate>
 )
