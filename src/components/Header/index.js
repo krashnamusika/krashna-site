@@ -81,7 +81,6 @@ class Header extends React.Component {
               <Dropdown id="association" t={t} />
               <Dropdown id="impressions" t={t} />
               <Dropdown id="business" t={t} />
-              <NavLink id="members" name={t('header.members')} />
               <NavLink id="join" name={t('header.join')} />
               <LanguageSwitcher />
             </div>
