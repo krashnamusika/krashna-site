@@ -64,3 +64,27 @@ img[src*="centerme-50"] {
     max-width: 100%;
   }
 }
+
+blockquote {
+  margin: 10px auto;
+  font-style: italic;
+  color: #555555;
+  padding: 1.2em 30px 0.6em 75px;
+  border-left: 8px solid #cc0000;
+  line-height: 1.6;
+  position: relative;
+  background: #EDEDED;
+}
+
+blockquote::before {
+  content: "\201C";
+  color: #cc0000;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}
+
+blockquote::after {
+  content: '';
+}
