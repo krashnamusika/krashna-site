@@ -1,5 +1,6 @@
 import React from 'react'
 import ConcertSection from '../components/IndexPage/ConcertSection'
+import ConductorPositionSection from "../components/IndexPage/ConductorPositionSection";
 import HireEnsembleSection from "../components/IndexPage/HireEnsembleSection";
 import InMemoriamSection from "../components/IndexPage/InMemoriamSection";
 import Jumbotron from '../components/IndexPage/Jumbotron'
@@ -11,6 +12,7 @@ const IndexPage = ({ data }) => (
     <Jumbotron/>
     <ConcertSection concerts={ data.allConcertsYaml.edges }/>
     <NewsSection news={ data.allNewsYaml.edges }/>
+    <ConductorPositionSection/>
     <HireEnsembleSection/>
   </div>
 )
