@@ -11,8 +11,8 @@ const IndexPage = ({ data }) => (
     <InMemoriamSection/>
     <Jumbotron/>
     <ConcertSection concerts={ data.allConcertsYaml.edges }/>
-    <ConductorPositionSection/>
     <NewsSection news={ data.allNewsYaml.edges }/>
+    <ConductorPositionSection/>
     <HireEnsembleSection/>
   </div>
 )

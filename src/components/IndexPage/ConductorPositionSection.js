@@ -4,10 +4,10 @@ import { translate } from 'react-i18next'
 
 const ConductorPositionSection = ({ t }) => {
   return (
-    <div className="text-white bg-slagwerk-grijs">
+    <div className="bg-white">
       <div className="container pt-5 pb-5 text-center">
         <h2>{t('index.conductor-position.title')}</h2>
-        <Link className="btn btn-light" to="/conductor-position">
+        <Link className="btn btn-danger" to="/vacature">
           {t('index.conductor-position.learn-more')}
           <span className="fa fa-caret-right ml-2" />
         </Link>

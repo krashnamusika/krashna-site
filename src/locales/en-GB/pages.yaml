@@ -3,16 +3,11 @@ index:
   upcoming-concerts: Upcoming Concerts
   news: News
   conductor-position:
-    title: Open Position Orchestra Conductor
+    title: Open Position: Orchestra Conductor
     learn-more: Learn more
   hire-ensemble:
     question: Want to hire a musical ensemble for your occasion?
     learn-more: Learn more
-
-conductor-position:
-  title: Open Position Orchestra Conductor
-  text: |
-    Text.
 
 choir:
   title: Choir
