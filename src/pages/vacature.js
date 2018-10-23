@@ -37,13 +37,13 @@ De functie is beschikbaar vanaf 11 maart wanneer we ons nieuwe project voor conc
 
 ## Sollicitatieproces
 ### In te zenden documenten
-- Een motivatiebrief\
+- Een motivatiebrief\\
 *In pdf formaat*
-- Curriculum Vitae\
+- Curriculum Vitae\\
 *In pdf formaat*
-- Als mogelijk recent filmmateriaal van geleide repetities en concerten\
+- Als mogelijk recent filmmateriaal van geleide repetities en concerten\\
 *Link naar online video of mp4 formaat*
-- Referenties\
+- Referenties\\
 *In pdf formaat, met contactgegevens*
 
 ### Verloop van het sollicitatieproces
