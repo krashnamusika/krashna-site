@@ -23,6 +23,11 @@ const SocialLinkList = () => (
       target="blank"
     />
     <SocialLink
+      iconName="linkedin"
+      url="https://www.linkedin.com/in/krashna-musika/"
+      target="blank"
+    />
+    <SocialLink
       iconName="youtube"
       url="https://www.youtube.com/dsmgkrashnamusika"
       target="blank"
