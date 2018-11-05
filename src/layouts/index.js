@@ -1,14 +1,14 @@
-import PropTypes from "prop-types";
-import React from "react";
-import Helmet from "react-helmet";
+import PropTypes from 'prop-types'
+import React from 'react'
+import Helmet from 'react-helmet'
 
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Footer from "../components/Footer";
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Footer from '../components/Footer'
 
-import Header from "../components/Header";
-import "../utils/i18n.js";
-import favicon from "./favicon.png";
-import "./index.css";
+import Header from '../components/Header'
+import '../utils/i18n.js'
+import favicon from './favicon.png'
+import './index.css'
 
 class TemplateWrapper extends React.Component {
   static propTypes = {
@@ -16,7 +16,7 @@ class TemplateWrapper extends React.Component {
   }
 
   constructor(props) {
-    super(props);
+    super(props)
   }
 
   render() {
@@ -40,25 +40,25 @@ class TemplateWrapper extends React.Component {
             href="https://fonts.googleapis.com/css?family=Raleway:400,700"
             rel="stylesheet"
           />
-          <link rel="shortcut icon" type="image/png" href={favicon}/>
+          <link rel="shortcut icon" type="image/png" href={favicon} />
         </Helmet>
         <div>
-          <Header/>
+          <Header />
           <div className="d-flex flex-column fill-page">
             <div
               style={{
-                paddingTop: "60px",
-                flex: "auto"
+                paddingTop: '60px',
+                flex: 'auto',
               }}
             >
               {this.props.children()}
             </div>
-            <Footer/>
+            <Footer />
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default TemplateWrapper;
+export default TemplateWrapper

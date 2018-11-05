@@ -6,22 +6,25 @@ export default function PageTemplate({ title, children, useCustomStructure }) {
   const pageTitle = `${title} - Krashna Musika`
 
   return (
-    <div className={useCustomStructure ? "" : "container text-page-container pb-2"}>
+    <div
+      className={useCustomStructure ? '' : 'container text-page-container pb-2'}
+    >
       <SEO
         title={pageTitle}
         description={pageTitle}
         url={window.location.href}
       />
       <Helmet title={pageTitle} />
-      {useCustomStructure ?
-        undefined :
+      {useCustomStructure ? (
+        undefined
+      ) : (
         <h1 className="border-bottom text-center mb-4">{title}</h1>
-      }
+      )}
       {children}
     </div>
   )
 }
 
 PageTemplate.defaultProps = {
-  useCustomStructure: false
+  useCustomStructure: false,
 }

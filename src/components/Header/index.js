@@ -11,7 +11,7 @@ const NavLink = ({ id, name, additionalClasses }) => (
 )
 
 NavLink.defaultProps = {
-  additionalClasses: ""
+  additionalClasses: '',
 }
 
 const DropdownLink = ({ id, name }) => (
