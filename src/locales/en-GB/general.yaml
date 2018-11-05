@@ -8,6 +8,7 @@ header:
     chamber-music: Chamber Music
     chamber-choir: Chamber Choir
     chamber-orchestra: Chamber Orchestra
+    all-concerts: Upcoming Concerts
   association:
     name: Association
     about: About Us
