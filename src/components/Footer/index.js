@@ -60,11 +60,11 @@ const Footer = ({ t }) => (
             <li>
               <a
                 className="text-muted"
-                href="https://www.google.com/maps/place/TU+Delft+Unit+Sports/@51.9954478,4.3744681,17z/data=!4m8!1m2!2m1!1sunit+culture+delft!3m4!1s0x47c5b58f0de76185:0x32c3849096264124!8m2!3d51.9956988!4d4.3761394?hl=en"
+                href="https://goo.gl/maps/DWfLxxuHb4t"
                 target="blank"
               >
                 <i className="fa fa-map-marker mr-2" />
-                Unit Culture - TU Delft
+                X - TU Delft
               </a>
             </li>
             <li>
