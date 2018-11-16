@@ -2,20 +2,16 @@ import Link from 'gatsby-link'
 import React from 'react'
 import { translate } from 'react-i18next'
 import faunIcon from '../../layouts/favicon.png'
+import ConcertElement from '../ConcertElement'
+import { filterAndSortConcerts } from '../ConcertListOperations'
 
-const SHOW_PAST_CONCERTS_FOR_N_DAYS = 2
 const MAX_NUM_CONCERTS = 3
 
 const ConcertSection = ({ concerts, t }) => {
-  const dateCheckpoint = new Date()
-  dateCheckpoint.setDate(
-    dateCheckpoint.getDate() - SHOW_PAST_CONCERTS_FOR_N_DAYS
+  const sortedConcerts = filterAndSortConcerts(concerts).slice(
+    0,
+    MAX_NUM_CONCERTS
   )
-  const sortedConcerts = concerts
-    .map(obj => obj.node)
-    .filter(concert => new Date(concert.date) > dateCheckpoint)
-    .sort((a, b) => (a.date > b.date ? 1 : b.date > a.date ? -1 : 0))
-    .slice(0, MAX_NUM_CONCERTS)
 
   if (sortedConcerts.length === 0) {
     return <div />
@@ -24,56 +20,18 @@ const ConcertSection = ({ concerts, t }) => {
   return (
     <div className="bg-light">
       <div className="container pt-5 pb-5">
-        <h2 className="text-center mb-3">{t('index.upcoming-concerts')}</h2>
+        <h2 className="text-center mb-3">
+          {t('index.upcoming-concerts.title')}
+        </h2>
         {sortedConcerts.map(concert => (
-          <div key={concert.id} className="row mb-2">
-            <div className="col-lg-1 col-sm-2 col-3">
-              <div className="pl-2 pr-2 pb-2">
-                <img
-                  src={faunIcon}
-                  alt="Krashna Musika"
-                  className="img-fluid"
-                />
-              </div>
-            </div>
-            <div className="col-lg-11 col-sm-10 col-9">
-              <h5>
-                <Link to={`/concerts/${concert.id}`} className="font-weight-bold">
-                  {t(`concerts.${concert.id}.title`)}
-                </Link>
-              </h5>
-              <p>
-                <span className="fa fa-calendar mr-2" />
-                {new Date(concert.date).toLocaleDateString('nl-NL')}
-                {' - '}
-                <span className="fa fa-map-marker mr-1" />
-                <a href={concert.locationLink} className="mr-2">
-                  {concert.location}
-                </a>
-                {concert.tickets ? (
-                  <a href={concert.tickets}>
-                    <span className="badge badge-info">
-                      <span className="fa fa-ticket mr-2" />
-                      {t('translations.tickets-available')}
-                    </span>
-                  </a>
-                ) : (
-                  undefined
-                )}
-                {concert.freeEntrance ? (
-                  <a href={concert.tickets}>
-                    <span className="badge badge-light">
-                      <span className="fa fa-ticket mr-2" />
-                      {t('translations.free-entrance')}
-                    </span>
-                  </a>
-                ) : (
-                  undefined
-                )}
-              </p>
-            </div>
-          </div>
+          <ConcertElement concert={concert} key={concert.id} />
         ))}
+        <div className="text-center">
+          <Link className="btn btn-danger" to="/all-concerts">
+            {t('index.upcoming-concerts.more')}
+            <span className="fa fa-caret-right ml-2" />
+          </Link>
+        </div>
       </div>
     </div>
   )

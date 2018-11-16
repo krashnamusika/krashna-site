@@ -21,12 +21,14 @@ const NewsSection = ({ news, t }) => {
         {sortedNews.map(news => (
           <div key={news.id} className="row mb-2">
             <div className="col-lg-1 col-sm-2 col-3">
-              <div className="pl-2 pr-2 pb-2 fa fa-newspaper-o fa-3x">
-              </div>
+              <div className="pl-2 pr-2 pb-2 fa fa-newspaper-o fa-3x" />
             </div>
             <div className="col-lg-11 col-sm-10 col-9">
               <h5>
-                <Link to={`/news/${news.id}`} className="text-dark font-weight-bold">
+                <Link
+                  to={`/news/${news.id}`}
+                  className="text-dark font-weight-bold"
+                >
                   {t(`news.${news.id}.title`)}
                 </Link>
               </h5>

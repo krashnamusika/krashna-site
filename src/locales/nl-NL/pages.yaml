@@ -1,6 +1,8 @@
 ---
 index:
-  upcoming-concerts: Concerten
+  upcoming-concerts:
+    title: Concerten
+    more: Alle concerten
   news: Nieuws
   conductor-position:
     title: >
@@ -69,6 +71,9 @@ chamber-orchestra:
     Regelmatig organiseren orkestleden ook kamerorkestprojecten. Met KrashKO (Krashna KamerOrkest) spelen leden in een kleinere bezetting onder leiding van wisselende (jonge) dirigenten. Met uitdagende programma's (van Beethoven tot Poulenc), speciale kinderconcerten (Peter en de wolf) en een compacte repetitietijd zijn het altijd bijzonder leuke projecten.
 
     Het laatste project was in februari 2017 onder leiding van Arndt Auhagen, lid van het concertgebouworkest. Het programma bevatte onder andere Beethoven 5. Houd het nieuws op de website in de gaten voor meer informatie over een nieuwe editie van KrashKO!
+
+all-concerts:
+  title: Concerten
 
 about:
   title: Over ons

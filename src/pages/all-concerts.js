@@ -5,22 +5,27 @@ import HireEnsembleSection from '../components/IndexPage/HireEnsembleSection'
 import InMemoriamSection from '../components/IndexPage/InMemoriamSection'
 import Jumbotron from '../components/IndexPage/Jumbotron'
 import NewsSection from '../components/IndexPage/NewsSection'
+import PageTemplate from '../templates/pageTemplate'
+import { filterAndSortConcerts } from '../components/ConcertListOperations'
+import { translate } from 'react-i18next'
+import ConcertElement from '../components/ConcertElement'
 
-const IndexPage = ({ data }) => (
-  <div>
-    <InMemoriamSection />
-    <Jumbotron />
-    <ConcertSection concerts={data.allConcertsYaml.edges} />
-    <NewsSection news={data.allNewsYaml.edges} />
-    <ConductorPositionSection />
-    <HireEnsembleSection />
-  </div>
-)
+const ConcertsPage = ({ data, t }) => {
+  const sortedConcerts = filterAndSortConcerts(data.allConcertsYaml.edges)
 
-export default IndexPage
+  return (
+    <PageTemplate title={t('all-concerts.title')}>
+      {sortedConcerts.map(concert => (
+        <ConcertElement concert={concert} t={t} />
+      ))}
+    </PageTemplate>
+  )
+}
+
+export default translate('translations')(ConcertsPage)
 
 export const query = graphql`
-  query PageQuery {
+  query ConcertsPageQuery {
     allConcertsYaml {
       edges {
         node {
@@ -32,14 +37,6 @@ export const query = graphql`
           locationLink
           tickets
           freeEntrance
-        }
-      }
-    }
-    allNewsYaml {
-      edges {
-        node {
-          id
-          date
         }
       }
     }
