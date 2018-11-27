@@ -1,19 +1,21 @@
-import Link from 'gatsby-link'
-import React from 'react'
-import { translate } from 'react-i18next'
+import Link from "gatsby-link";
+import React from "react";
+import { translate } from "react-i18next";
+import TwoPartLayout from "./TwoPartLayout";
 
 const HireEnsembleSection = ({ t }) => {
   return (
-    <div className="text-white bg-kamu">
+    <div className="bg-light-red">
       <div className="container pt-5 pb-5 text-center">
-        <h2>{t('index.hire-ensemble.question')}</h2>
-        <Link className="btn btn-light" to="/hire-ensemble">
-          {t('index.hire-ensemble.learn-more')}
-          <span className="fa fa-caret-right ml-2" />
-        </Link>
+        <TwoPartLayout title={t("index.hire-ensemble.question")}>
+          <Link className="btn btn-light" to="/hire-ensemble">
+            {t("index.hire-ensemble.learn-more")}
+            <span className="fa fa-caret-right ml-2"/>
+          </Link>
+        </TwoPartLayout>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default translate('translations')(HireEnsembleSection)
+export default translate("translations")(HireEnsembleSection);

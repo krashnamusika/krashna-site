@@ -5,6 +5,7 @@ import HireEnsembleSection from '../components/IndexPage/HireEnsembleSection'
 import InMemoriamSection from '../components/IndexPage/InMemoriamSection'
 import Jumbotron from '../components/IndexPage/Jumbotron'
 import NewsSection from '../components/IndexPage/NewsSection'
+import SponsorKliksSection from "../components/IndexPage/SponsorKliksSection";
 
 const IndexPage = ({ data }) => (
   <div>
@@ -14,6 +15,7 @@ const IndexPage = ({ data }) => (
     <NewsSection news={data.allNewsYaml.edges} />
     <ConductorPositionSection />
     <HireEnsembleSection />
+    <SponsorKliksSection />
   </div>
 )
 

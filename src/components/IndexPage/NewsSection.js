@@ -15,7 +15,7 @@ const NewsSection = ({ news, t }) => {
   }
 
   return (
-    <div className="bg-hout-groen">
+    <div className="bg-light-red">
       <div className="container pt-5 pb-5">
         <h2 className="text-center mb-3">{t('index.news')}</h2>
         {sortedNews.map(news => (
