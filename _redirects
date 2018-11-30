@@ -37,6 +37,9 @@
 /lid-worden /join
 /tournee /tour
 
+# Concerts
+/concerts /all-concerts
+
 # Old site
 /upcoming /
 /en/* /
