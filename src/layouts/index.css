@@ -45,7 +45,7 @@ body {
 }
 
 .bg-light-red {
-  background-color: #cc000077;
+  background-color: rgba(204, 0, 0, 0.6);
 }
 
 /* Centering for Markdown images */
