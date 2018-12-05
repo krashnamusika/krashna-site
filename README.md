@@ -28,13 +28,13 @@ yarn global add gatsby-cli
 
 ### Development
 
-To run a development server (with live-reloading), run:
+To start a development server (with live-reloading), run:
 
 ```bash
 gatsby develop
 ```
 
-There should now be a server listening on [localhost:8000](http://localhost:8000)!
+There will now be a server listening on [localhost:8000](http://localhost:8000)!
 
 ### Production
 
@@ -53,7 +53,7 @@ Changes to the `master` branch are automatically deployed to the live site (at [
 
 In general, this project follows the common [Gatsby.js](https://www.gatsbyjs.org/docs/) folder structure:
 
-- Pages are defined in `/src/pages`. The file name of each JS file is used as the URL of the corresponding page.
+- Pages are defined in `/src/pages`. The file name base of each JS file (excluding the `.js` extension) is used as the URL of the corresponding page.
 - Page templates (boilerplate structures for how different types of pages should look) are located in `/src/templates`.
 - The main page layout is defined in `/src/layouts`.
 - Components which these pages and templates use are contained in the `/src/components` folder.
