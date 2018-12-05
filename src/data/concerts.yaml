@@ -101,3 +101,12 @@
   location: X, TU Delft
   locationLink: "https://www.google.com/maps/place/TU+Delft+Unit+Culture/@51.9954478,4.3744681,17z/data=!4m8!1m2!2m1!1sunit+culture!3m4!1s0x47c5b58f10c8176b:0x87c46f9383b7a8b2!8m2!3d51.9951969!4d4.3771742?hl=en"
   freeEntrance: true
+
+- id: fdz-christmas-concert-2018
+  type: main
+  date: 2018-12-15
+  time: "14:00"
+  location: Maria van Jesse kerk, Delft
+  locationLink: "https://goo.gl/maps/8tuf7pMqLiR2"
+  freeEntrance: true
+  facebookEvent: "https://www.facebook.com/events/196924367896087/"
