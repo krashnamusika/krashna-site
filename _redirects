@@ -39,16 +39,12 @@
 
 # Concerts
 /concerts /all-concerts
-/messiah-programma https://drive.google.com/open?id=1hDz7JVj-x_hJANf2_LDUeFQdEwcJM0dF
+/messiah-programma https://drive.google.com/file/d/1nkGhpL86sGn2F1pEkuZmLJl2WLeuUM-q/view
 
 # Old site
 /upcoming /
 /en/* /
 /nl/* /
-
-# OWee
-/interest https://docs.google.com/forms/d/e/1FAIpQLScMMo5AGZmCdfhQwOx7DRz91ZfRc8WnYR1qG_OLuuxBq-IEDg/viewform
-/interesse https://docs.google.com/forms/d/e/1FAIpQLScMMo5AGZmCdfhQwOx7DRz91ZfRc8WnYR1qG_OLuuxBq-IEDg/viewform
 
 # Sponsoring through SponsorKliks affiliate links
 /sponsorkliks https://www.sponsorkliks.com/products/shops.php?club=9493
