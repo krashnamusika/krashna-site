@@ -166,10 +166,31 @@ concerts:
     title: City Christmas Concert (in collaboration with FDZ Delft)
     description: |
 
-
   kamu-january-2019:
     title: Chamber Music Concert
     description: |
       On Saturday (!) the 19th of January (and not the 20th as was mistakenly mentioned at some sources), there will be another chamber music concert in the usual great hall of 'X' TU Delft (previously Unit Culture; Mekelweg 8-10, Delft). 
       
+      A special highlight of the program is going to be the 2nd movement of Rachmaninoff's famous 2nd piano concerto, arranged for a chamber music setting.
+
       You are warmly invited to come and listen. The concert will start at 19:30, entrance is free. 
+
+  kamu-march-2019:
+    title: Lunch concerts at faculties and chamber music concert
+    description: |
+      In the week of 24-29 March, lunch concerts will be organised at several faculties around the TU Delft. Students and employees of those faculties are warmly invited to play here. More information will follow.
+
+      On the Sunday that week, 31 March, there will be a final chamber music concert at X, starting at 19:30. Entrance will be free. 
+  
+  masterclass-day-may-2019:
+    title: Masterclass day & informal concert
+    description: |
+      On Saturday 11 May, Krashna organises a masterclass day in collaboration with the Delft Chamber Music Festival and Sports & Culture from the TU Delft. During the day, we welcome a few professional musicians with experience in chamber music to give masterclasses between 10:00 and 17:00 at X (Mekelweg 10).
+
+      At the end of the day, we will hold an informal concert where participants can show each other what they have learned (although others are also welcome to come and listen). The next day, there will be a formal concert with audience at an external location - see [this event](https://www.krashna.nl/concerts/kamu-may-2019). More information follows.
+
+  kamu-may-2019:
+    title: Kamermuziekconcert op externe locatie
+    description: |
+      On Sunday 12 May, the day after our [masterclass day](https://www.krashna.nl/concerts/masterclass-day-may-2019), Krashna will hold a great chamber music concert with all masterclass participants at an external location. More information follows.
+      
