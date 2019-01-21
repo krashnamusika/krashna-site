@@ -1,5 +1,11 @@
 ---
 index:
+  open-rehearsals:
+    title: Open Repetities
+    text-choir: Er komen weer open repetities aan bij het koor! Bekijk alle info door op het linkje te klikken.
+    text-orchestra: Er komen weer open repetities aan bij het orkest! Bekijk alle info door op het linkje te klikken.
+    text-both: Er komen weer open repetities aan bij het koor en orkest! Bekijk alle info door op het linkje te klikken.
+    more: Alle data
   upcoming-concerts:
     title: Concerten
     more: Alle concerten

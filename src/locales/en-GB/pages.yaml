@@ -1,5 +1,14 @@
 ---
 index:
+  open-rehearsals:
+    title: Open Rehearsals
+    text-choir: |
+      There are upcoming open rehearsals for the choir! Click the button below to see all the details.
+    text-orchestra: |
+      There are upcoming open rehearsals for the orchestra! Click the button below to see all the details.
+    text-both: |
+      There are upcoming open rehearsals for the choir and orchestra! Click the button below to see all the details.
+    more: View all dates
   upcoming-concerts:
     title: Upcoming Concerts
     more: All upcoming concerts
