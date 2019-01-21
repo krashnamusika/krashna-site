@@ -283,6 +283,11 @@ join:
 
     The chamber music department is always looking for new members. This part of the association is a 'by members for members' department. Here, you can be as active as you'd like and you can perform together with acquaintances at our chamber music concerts. If you'd like to perform, you can organize your performance yourself and gather a group of fun and enthusiastic people to make beautiful and inspiring music.
 
+open-rehearsals:
+  title: Open Rehearsals and Auditions
+  text: |
+    Text!! Should come here. I guess.
+
 not-found:
   title: 404 - Page Not Found
   message: |

@@ -294,6 +294,11 @@ join:
 
     De kamermuziekafdeling staat altijd open voor nieuwe leden. Dit deel van de vereniging is een 'van de leden voor de leden' afdeling. Je kan hier net zo actief worden als je zelf wilt, en met bekenden spelen op onze kamermuziekconcerten. Als je wil mee spelen op een kamermuziekconcert, dan kun je zelf de touwtjes in handen nemen en een gezellige groep mensen bij elkaar verzamelen om een mooi stuk te spelen.
 
+open-rehearsals:
+  title: Open Repetities en Audities
+  text: |
+    Er moet hier nog. Eigenlijk wel. Een beetje tekst bij enzo.
+
 not-found:
   title: 404 - Pagina Niet Gevonden
   message: |
