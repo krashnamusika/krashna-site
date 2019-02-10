@@ -14,7 +14,6 @@ header:
     about: Over ons
     committees: Commissies
     recommendation: Comité van Aanbeveling
-    contact: Contact
   impressions:
     name: Impressies
     photos: Foto's
@@ -27,7 +26,7 @@ header:
     donate: Donateurschap
     partners: Partners
   join: Lid worden
-  tour: Tournee 2018
+  contact: Contact
 
 footer:
   partners: Onze partners

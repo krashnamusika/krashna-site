@@ -14,7 +14,6 @@ header:
     about: About Us
     committees: Committees
     recommendation: Committee of Recommendation
-    contact: Contact
   impressions:
     name: Impressions
     photos: Photos
@@ -27,7 +26,7 @@ header:
     donate: Donate
     partners: Partners
   join: Join us
-  tour: Tour 2018
+  contact: Contact us
 
 footer:
   partners: Our partners
