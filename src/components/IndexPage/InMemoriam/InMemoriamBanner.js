@@ -8,7 +8,7 @@ export default () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-4 col-10">
-            <img src={DaanAdmiraalImage} className="img-fluid" style={{ height: "450px" }} />
+            <img src={DaanAdmiraalImage} className="img-fluid" />
           </div>
           <div className="col-md-8 col-12">
             <div className="my-auto text-center">
