@@ -4,7 +4,7 @@ import HireEnsembleSection from "../components/IndexPage/HireEnsembleSection";
 import Jumbotron from "../components/IndexPage/Jumbotron";
 import NewsSection from "../components/IndexPage/NewsSection";
 import SponsorKliksSection from "../components/IndexPage/SponsorKliksSection";
-import InMemoriamBanner from "../components/IndexPage/InMemoriamBanner";
+import InMemoriamBanner from "../components/IndexPage/InMemoriam/InMemoriamBanner";
 
 const IndexPage = ({ data }) => (
   <div>

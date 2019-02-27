@@ -1,5 +1,5 @@
 import React from "react";
-import DaanAdmiraalImage from "./daan-admiraal.jpg";
+import DaanAdmiraalImage from "../daan-admiraal.jpg";
 import { Link } from "react-router-dom";
 
 export default () => {
