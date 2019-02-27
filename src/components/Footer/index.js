@@ -73,6 +73,12 @@ const Footer = ({ t }) => (
                 krashna@tudelft.nl
               </a>
             </li>
+            <li>
+              <a className="text-muted" href="tel:+31643253221">
+                <i className="fa fa-phone mr-2" />
+                06-43253221
+              </a>
+            </li>
             <SocialLinkList />
           </ul>
           <small className="d-block mt-3 mb-3">
