@@ -2,6 +2,7 @@ import React from 'react'
 import expansion from './expansion-widget.png'
 import topdesk from './topdesk-widget.png'
 import tudelft from './tudelft-widget.png'
+import tdv from './tdv-widget.png';
 
 const SponsorSection = ({ title }) => {
   return (
@@ -14,7 +15,10 @@ const SponsorSection = ({ title }) => {
         <img src={topdesk} width="75px" className="mr-3" />
       </a>
       <a href="https://www.expansion.nl/en/" title="Expansion">
-        <img src={expansion} width="75px" />
+        <img src={expansion} width="75px" className="mr-3" />
+      </a>
+      <a href="https://www.theaterdeveste.nl/" title="Theater de Veste">
+        <img src={tdv} width="75px" />
       </a>
     </div>
   )
