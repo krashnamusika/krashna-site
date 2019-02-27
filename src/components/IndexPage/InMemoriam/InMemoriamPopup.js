@@ -1,5 +1,5 @@
 import React from 'react'
-import DaanAdmiraalImage from './daan-admiraal.jpg'
+import DaanAdmiraalImage from '../daan-admiraal.jpg'
 
 const InMemoriamPopup = ({ onPopupHide }) => {
   return (
