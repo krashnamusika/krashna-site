@@ -4,7 +4,7 @@ import { translate } from 'react-i18next'
 
 const OpenRehearsalsSection = ({ rehearsals, t }) => {
   return (
-    <div className="bg-light-red">
+    <div className="bg-light">
       <div className="container pt-5 pb-5">
         <h2 className="text-center mb-3">
           {t('open-rehearsals.banner.title')}
