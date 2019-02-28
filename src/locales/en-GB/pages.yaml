@@ -1,5 +1,14 @@
 ---
 index:
+  open-rehearsals:
+    title: Open Rehearsals
+    text-choir: |
+      There are upcoming open rehearsals for the choir! Click the button below to see all the details.
+    text-orchestra: |
+      There are upcoming open rehearsals for the orchestra! Click the button below to see all the details.
+    text-both: |
+      There are upcoming open rehearsals for the choir and orchestra! Click the button below to see all the details.
+    more: View all dates
   upcoming-concerts:
     title: Upcoming Concerts
     more: All upcoming concerts
@@ -275,6 +284,19 @@ join:
     **Want to join the [Krashna Chamber Music Department](/chamber-music)?**
 
     The chamber music department is always looking for new members. This part of the association is a 'by members for members' department. Here, you can be as active as you'd like and you can perform together with acquaintances at our chamber music concerts. If you'd like to perform, you can organize your performance yourself and gather a group of fun and enthusiastic people to make beautiful and inspiring music.
+
+open-rehearsals:
+  banner:
+    title: Open Rehearsals and Auditions
+    more: More info
+    text: |
+      The orchestra will start with a new programme in March, which means there will be a new round of open rehearsals and auditions. For all info, click on the button below.
+  page:
+    title: Open Rehearsals and Auditions
+    text: |
+      The orchestra will give their next concert on March 9 during which an overwhelming Russian programme will be played (for more info and tickets, see our [concerts](concerts/spring-amsterdam-2019/) page). After this concert the orchestra will start their new programm with open rehearsals, followed by a round of auditions. Have you always wanted to play music on a high level in an awesome student orchestra? This is your chance!
+
+      The open rehearsals will take place on March 11, 18 and 25 in the theatre hall of the cultural centre on the TU Delft campus: X TU Delft, Mekelweg 10. We will start at 19:30 and everyone is welcome to play along or just come take a look. Will we see you there? For any questions you can always send us an [email](mailto:orkestcom@krashna.nl).
 
 not-found:
   title: 404 - Page Not Found
