@@ -2,6 +2,7 @@ import React from 'react'
 import { translate } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import PageTemplate from '../templates/pageTemplate'
+import stijn from "../../public/images/stijn-berkouwer.jpg";
 
 const ConductorsPage = ({ t }) => (
   <PageTemplate title={t('conductors.title')}>
@@ -13,6 +14,10 @@ const ConductorsPage = ({ t }) => (
     <Markdown>{t('conductors.choir.text')}</Markdown>
 
     <h5 className="mt-5">{t('conductors.orchestra.title')}</h5>
+    <ConductorPicture
+      title="Stijn Berkouwer"
+      url={stijn}
+    />
     <Markdown>{t('conductors.orchestra.text')}</Markdown>
   </PageTemplate>
 )
