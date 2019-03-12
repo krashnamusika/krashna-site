@@ -140,3 +140,10 @@
   date: 2019-05-12
   time: "19:30"
   location: TBA
+
+- id: evensong-march-2019
+  type: choir
+  date: 2019-03-24
+  location: Oude Kerk, Delft
+  locationLink: "https://goo.gl/maps/GU5Py9tuFwB2"
+  freeEntrance: true
