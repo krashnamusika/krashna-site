@@ -138,8 +138,11 @@
 - id: kamu-may-2019
   type: kamu
   date: 2019-05-12
-  time: "19:30"
-  location: TBA
+  time: "15:00"
+  location: Lutherse kerk, Delft
+  locationLink: "https://www.google.nl/maps/place/Lutherse+kerk/@52.015501,4.351111,17z/data=!3m1!4b1!4m5!3m4!1s0x47c5b5db2b377e4b:0xc0f901a6850e2bf5!8m2!3d52.0154977!4d4.3532997"
+  freeEntrance: true
+
 
 - id: evensong-march-2019
   type: choir
