@@ -150,3 +150,17 @@
   location: Oude Kerk, Delft
   locationLink: "https://goo.gl/maps/GU5Py9tuFwB2"
   freeEntrance: true
+
+- id: german-delft-2019
+  type: main
+  date: 2019-06-21
+  time: "20:15"
+  location: Aula, TU Delft
+  locationLink: "https://goo.gl/maps/bqdbLYs9T952"
+
+- id: german-rotterdam-2019
+  type: main
+  date: 2019-06-22
+  time: "20:15"
+  location: Aula, TU Delft
+  locationLink: "https://goo.gl/maps/m6rY1cN2sHq"
