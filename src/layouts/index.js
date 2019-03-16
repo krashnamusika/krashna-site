@@ -42,7 +42,7 @@ class TemplateWrapper extends React.Component {
           />
           <link rel="shortcut icon" type="image/png" href={favicon} />
         </Helmet>
-        <div>
+        <div className="fill-page">
           <Header />
           <div className="d-flex flex-column fill-page">
             <div
