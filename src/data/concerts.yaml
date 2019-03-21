@@ -150,6 +150,7 @@
   time: "19:00"
   location: Oude Kerk, Delft
   locationLink: "https://goo.gl/maps/GU5Py9tuFwB2"
+  facebookEvent: "https://www.facebook.com/events/336714213857111/"
   freeEntrance: true
 
 - id: german-delft-2019
