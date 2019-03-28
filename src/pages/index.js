@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => (
     <Jumbotron />
     <OpenRehearsalsSection />
     <ConcertSection concerts={data.allConcertsYaml.edges} />
-    <NewsSection news={data.allNewsYaml.edges} />
+    {/*<NewsSection news={data.allNewsYaml.edges} />*/}
     <HireEnsembleSection />
     <SponsorKliksSection />
     <InMemoriamBanner />
