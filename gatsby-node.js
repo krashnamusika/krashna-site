@@ -84,6 +84,7 @@ exports.createPages = ({graphql, boundActionCreators}) => {
             node {
               id
               date
+              author
             }
           }
         }
