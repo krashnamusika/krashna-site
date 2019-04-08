@@ -11,7 +11,9 @@ const NewsPageTemplate = ({ pathContext, t }) => {
   return (
     <PageTemplate title={newsTitle}>
       <div className="text-center mb-4">
-        <span className="fa fa-calendar mr-2" />
+        <span className="fa fa-pencil mr-2" />
+        {news.author}
+        <span className="fa fa-calendar ml-4 mr-2" />
         {new Date(news.date).toLocaleDateString('nl-NL')}
       </div>
       <Markdown>{newsDescription}</Markdown>

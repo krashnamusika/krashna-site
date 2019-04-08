@@ -1,6 +1,12 @@
 ---
 - id: new-site-launched
   date: 2018-03-01
+  author: WebCie
 
 - id: reunion-day-2018
   date: 2018-04-04
+  author: LustrumCie
+
+- id: kamu-march-2019
+  date: 2019-04-03
+  author: Nomi Leeuwerik

@@ -2,7 +2,7 @@ import React from 'react'
 import { translate } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import PageTemplate from '../templates/pageTemplate'
-import stijn from "../../public/images/stijn-berkouwer.jpg";
+import stijn from "../../static/images/stijn-berkouwer.jpg";
 
 const ConductorsPage = ({ t }) => (
   <PageTemplate title={t('conductors.title')}>
