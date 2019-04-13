@@ -2,7 +2,7 @@ import React from 'react'
 import expansion from './expansion-widget.png'
 import topdesk from './topdesk-widget.png'
 import tudelft from './tudelft-widget.png'
-import tdv from './tdv-widget.png';
+import tdv from './tdv-widget.png'
 
 const SponsorSection = ({ title }) => {
   return (

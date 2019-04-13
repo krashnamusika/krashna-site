@@ -29,7 +29,11 @@ const InMemoriamPopup = ({ onPopupHide }) => {
           <p>Nu is er stilte</p>
           <div className="row justify-content-center">
             <div className="col-md-3 col-10">
-              <img src={DaanAdmiraalImage} className="img-fluid not-gray" alt="Daan Admiraal" />
+              <img
+                src={DaanAdmiraalImage}
+                className="img-fluid not-gray"
+                alt="Daan Admiraal"
+              />
             </div>
           </div>
 

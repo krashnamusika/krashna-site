@@ -1,6 +1,5 @@
-import { Link } from 'gatsby'
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl, Link } from 'gatsby-plugin-intl'
 import krashnaEdge from './krashna-edge.png'
 import LanguageSwitcher from './LanguageSwitcher'
 
@@ -14,43 +13,68 @@ NavLink.defaultProps = {
   additionalClasses: '',
 }
 
+const nestedMenuItems = {
+  krashna: [
+    'choir',
+    'orchestra',
+    'conductors',
+    'chamber-music',
+    'chamber-choir',
+    'chamber-orchestra',
+    'all-concerts',
+  ],
+  association: ['about', 'committees', 'recommendation'],
+  impressions: ['photos', 'videos'],
+  business: [
+    'rent-instrument',
+    'hire-ensemble',
+    'hire-orchestra-choir',
+    'donate',
+    'partners',
+  ],
+}
+
 const DropdownLink = ({ id, name }) => (
   <Link className="dropdown-item" to={'/' + id}>
     {name}
   </Link>
 )
 
-const Dropdown = ({ id, t }) => (
+const Dropdown = ({ id, intl }) => (
   <li className="nav-item dropdown">
-    <a
-      className="nav-link dropdown-toggle"
-      href="#"
+    <button
+      className="nav-link dropdown-toggle link-button"
       id={id + 'Dropdown'}
       data-toggle="dropdown"
       aria-haspopup="true"
       aria-expanded="false"
     >
-      {t('header.' + id).name}
-    </a>
+      {intl.formatMessage({ id: `header.${id}.name` })}
+    </button>
     <div className="dropdown-menu" aria-labelledby={id + 'Dropdown'}>
-      {Object.keys(t('header.' + id))
-        .filter(it => it !== 'name')
-        .map(key => (
-          <DropdownLink id={key} key={key} name={t('header.' + id)[key]} />
-        ))}
+      {nestedMenuItems[id].map(item => (
+        <DropdownLink
+          id={item}
+          key={item}
+          name={intl.formatMessage({ id: `header.${id}.${item}` })}
+        />
+      ))}
     </div>
   </li>
 )
 
 class Header extends React.Component {
   componentDidMount() {
-    window["$"]('.navbar-nav .dropdown-menu a, .navbar-nav>a').on('click', function() {
-      window["$"]('.navbar-collapse').collapse('hide')
-    })
+    window['$']('.navbar-nav .dropdown-menu a, .navbar-nav>a').on(
+      'click',
+      function() {
+        window['$']('.navbar-collapse').collapse('hide')
+      }
+    )
   }
 
   render() {
-    let t = this.props.t
+    let intl = this.props.intl
 
     return (
       <nav
@@ -77,12 +101,18 @@ class Header extends React.Component {
           </button>
           <div className="collapse navbar-collapse" id="krashnaNavbar">
             <div className="navbar-nav ml-auto">
-              <Dropdown id="krashna" t={t} />
-              <Dropdown id="association" t={t} />
-              <Dropdown id="impressions" t={t} />
-              <Dropdown id="business" t={t} />
-              <NavLink id="join" name={t('header.join')} />
-              <NavLink id="contact" name={t('header.contact')} />
+              <Dropdown id="krashna" intl={intl} />
+              <Dropdown id="association" intl={intl} />
+              <Dropdown id="impressions" intl={intl} />
+              <Dropdown id="business" intl={intl} />
+              <NavLink
+                id="join"
+                name={intl.formatMessage({ id: 'header.join' })}
+              />
+              <NavLink
+                id="contact"
+                name={intl.formatMessage({ id: 'header.contact' })}
+              />
               <LanguageSwitcher />
             </div>
           </div>
@@ -92,4 +122,4 @@ class Header extends React.Component {
   }
 }
 
-export default withTranslation()(Header)
+export default injectIntl(Header)

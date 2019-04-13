@@ -1,12 +1,12 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '../templates/pageTemplate'
 
-const AboutPage = ({ t }) => (
-  <PageTemplate title={t('about.title')}>
-    <Markdown>{t('about.text')}</Markdown>
+const AboutPage = ({ intl }) => (
+  <PageTemplate title={intl.formatMessage({ id: 'about.title' })}>
+    <Markdown>{intl.formatMessage({ id: 'about.text' })}</Markdown>
   </PageTemplate>
 )
 
-export default withTranslation()(AboutPage)
+export default injectIntl(AboutPage)

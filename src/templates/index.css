@@ -92,3 +92,21 @@ blockquote::before {
 blockquote::after {
   content: '';
 }
+
+/*
+For buttons that look like links, but aren't.
+Primarily to avoid having to give an href="#" (not accessibility-friendly).
+ */
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  outline: 0;
+}
+
+.link-button:hover,
+.link-button:focus {
+  text-decoration: none;
+  outline: 0;
+}

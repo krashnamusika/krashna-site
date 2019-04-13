@@ -1,40 +1,26 @@
 import classNames from 'classnames'
+import {
+  changeLocale,
+  injectIntl,
+  IntlContextConsumer,
+} from 'gatsby-plugin-intl'
 import React, { Component } from 'react'
-import { withTranslation } from 'react-i18next'
 import enFlag from './en-flag.svg'
 import nlFlag from './nl-flag.svg'
 
 class LanguageSwitcher extends Component {
-  constructor(props) {
-    super(props)
-    const { i18n } = this.props
-    this.state = { language: i18n.language }
-
-    this.handleChangeLanguage = this.handleChangeLanguage.bind(this)
-  }
-
   getImageByCode(code) {
-    return code === 'en-GB' ? enFlag : nlFlag
+    return code === 'en' ? enFlag : nlFlag
   }
 
-  componentWillReceiveProps(nextProps) {
-    this.setState({ language: nextProps.i18n.language })
-  }
-
-  handleChangeLanguage(lng) {
-    const { i18n } = this.props
-    i18n.changeLanguage(lng)
-  }
-
-  renderLanguageChoice({ code, label }) {
+  renderLanguageChoice(code, label, currentLocale) {
     return (
-      <a
+      <button
         key={code}
-        className={classNames('dropdown-item', {
-          active: this.state.language === code,
+        className={classNames('dropdown-item', 'link-button', {
+          active: currentLocale === code,
         })}
-        href="#"
-        onClick={() => this.handleChangeLanguage(code)}
+        onClick={() => changeLocale(code)}
       >
         <img
           src={this.getImageByCode(code)}
@@ -43,38 +29,43 @@ class LanguageSwitcher extends Component {
           width="24px"
         />
         {label}
-      </a>
+      </button>
     )
   }
 
   render() {
-    const languages = [
-      { code: 'en-GB', label: 'English' },
-      { code: 'nl-NL', label: 'Nederlands' },
+    const languageNames = [
+      { code: 'en', label: 'English' },
+      { code: 'nl', label: 'Nederlands' },
     ]
 
     return (
-      <li className="nav-item dropdown ml-lg-2">
-        <a
-          className="nav-link dropdown-toggle"
-          href="#"
-          id="langDropdown"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          <img
-            src={this.getImageByCode(this.state.language)}
-            alt="Language"
-            width="24px"
-          />
-        </a>
-        <div className="dropdown-menu" aria-labelledby="langDropdown">
-          {languages.map(language => this.renderLanguageChoice(language))}
-        </div>
-      </li>
+      <IntlContextConsumer>
+        {({ languages, language: currentLocale }) => (
+          <li className="nav-item dropdown ml-lg-2">
+            <button
+              className="nav-link dropdown-toggle link-button"
+              id="langDropdown"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <img
+                src={this.getImageByCode(currentLocale)}
+                alt="Language"
+                width="24px"
+              />
+            </button>
+            <div className="dropdown-menu" aria-labelledby="langDropdown">
+              {languageNames.map(l =>
+                this.renderLanguageChoice(l.code, l.label, currentLocale)
+              )}
+            </div>
+          </li>
+        )}
+      </IntlContextConsumer>
     )
   }
 }
 
-export default withTranslation()(LanguageSwitcher)
+export default injectIntl(LanguageSwitcher)

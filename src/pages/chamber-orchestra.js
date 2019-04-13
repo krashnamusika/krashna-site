@@ -1,17 +1,17 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import CenteredImage from '../components/CenteredImage'
 import PageTemplate from '../templates/pageTemplate'
 
-const ChamberOrchestraPage = ({ t }) => (
-  <PageTemplate title={t('chamber-orchestra.title')}>
-    <Markdown>{t('chamber-orchestra.text')}</Markdown>
+const ChamberOrchestraPage = ({ intl }) => (
+  <PageTemplate title={intl.formatMessage({ id: 'chamber-orchestra.title' })}>
+    <Markdown>{intl.formatMessage({ id: 'chamber-orchestra.text' })}</Markdown>
     <CenteredImage
       url="https://farm1.staticflickr.com/570/33116082532_174fde9846_z.jpg"
-      title={t('chamber-orchestra.title')}
+      title={intl.formatMessage({ id: 'chamber-orchestra.title' })}
     />
   </PageTemplate>
 )
 
-export default withTranslation()(ChamberOrchestraPage)
+export default injectIntl(ChamberOrchestraPage)

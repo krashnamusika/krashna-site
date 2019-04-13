@@ -1,5 +1,5 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import {
   EmailIcon,
   EmailShareButton,
@@ -14,10 +14,10 @@ import {
 } from 'react-share'
 import './ConcertShareButtons.css'
 
-const ConcertShareButtons = ({ concertId, t }) => {
+const ConcertShareButtons = ({ concertId, intl }) => {
   const iconSize = 40
   const url = `https://krashna.nl/concerts/${concertId}/`
-  const title = t(`concerts.${concertId}.title`)
+  const title = intl.formatMessage({ id: `concerts.${concertId}.title` })
 
   return (
     <div className="text-center mb-3">
@@ -40,4 +40,4 @@ const ConcertShareButtons = ({ concertId, t }) => {
   )
 }
 
-export default withTranslation()(ConcertShareButtons)
+export default injectIntl(ConcertShareButtons)

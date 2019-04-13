@@ -1,11 +1,11 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import CenteredButton from '../components/CenteredButton'
 import CenteredEmbed from '../components/CenteredEmbed'
 import PageTemplate from '../templates/pageTemplate'
 
-const PhotoPage = ({ t }) => (
-  <PageTemplate title={t('photos.title')}>
+const PhotoPage = ({ intl }) => (
+  <PageTemplate title={intl.formatMessage({ id: 'photos.title' })}>
     <div className="text-center">
       <CenteredEmbed>
         <iframe
@@ -24,9 +24,9 @@ const PhotoPage = ({ t }) => (
       external={true}
     >
       <span className="fa fa-camera mr-2" />
-      {t('photos.flickr')}
+      {intl.formatMessage({ id: 'photos.flickr' })}
     </CenteredButton>
   </PageTemplate>
 )
 
-export default withTranslation()(PhotoPage)
+export default injectIntl(PhotoPage)

@@ -1,11 +1,11 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import CenteredButton from '../components/CenteredButton'
 import CenteredEmbed from '../components/CenteredEmbed'
 import PageTemplate from '../templates/pageTemplate'
 
-const VideoPage = ({ t }) => (
-  <PageTemplate title={t('videos.title')}>
+const VideoPage = ({ intl }) => (
+  <PageTemplate title={intl.formatMessage({ id: 'videos.title' })}>
     <div className="text-center">
       <CenteredEmbed>
         <iframe
@@ -22,9 +22,9 @@ const VideoPage = ({ t }) => (
       external={true}
     >
       <span className="fa fa-film mr-2" />
-      {t('videos.youtube')}
+      {intl.formatMessage({ id: 'videos.youtube' })}
     </CenteredButton>
   </PageTemplate>
 )
 
-export default withTranslation()(VideoPage)
+export default injectIntl(VideoPage)

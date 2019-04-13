@@ -1,12 +1,12 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '../templates/pageTemplate'
 
-const DonatePage = ({ t }) => (
-  <PageTemplate title={t('donate.title')}>
-    <Markdown>{t('donate.text')}</Markdown>
+const DonatePage = ({ intl }) => (
+  <PageTemplate title={intl.formatMessage({ id: 'donate.title' })}>
+    <Markdown>{intl.formatMessage({ id: 'donate.text' })}</Markdown>
   </PageTemplate>
 )
 
-export default withTranslation()(DonatePage)
+export default injectIntl(DonatePage)

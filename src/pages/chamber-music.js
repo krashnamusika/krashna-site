@@ -1,21 +1,21 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import CenteredButton from '../components/CenteredButton'
 import CenteredImage from '../components/CenteredImage'
 import PageTemplate from '../templates/pageTemplate'
 
-const ChamberMusicPage = ({ t }) => (
-  <PageTemplate title={t('chamber-music.title')}>
-    <Markdown>{t('chamber-music.text')}</Markdown>
+const ChamberMusicPage = ({ intl }) => (
+  <PageTemplate title={intl.formatMessage({ id: 'chamber-music.title' })}>
+    <Markdown>{intl.formatMessage({ id: 'chamber-music.text' })}</Markdown>
     <CenteredButton url="/join">
-      {t('chamber-music.join-button')}
+      {intl.formatMessage({ id: 'chamber-music.join-button' })}
     </CenteredButton>
     <CenteredImage
       url="https://farm4.staticflickr.com/3725/32902117140_96b54906ac_z.jpg"
-      title={t('chamber-music.title')}
+      title={intl.formatMessage({ id: 'chamber-music.title' })}
     />
   </PageTemplate>
 )
 
-export default withTranslation()(ChamberMusicPage)
+export default injectIntl(ChamberMusicPage)

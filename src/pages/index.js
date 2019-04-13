@@ -5,9 +5,9 @@ import HireEnsembleSection from '../components/IndexPage/HireEnsembleSection'
 import Jumbotron from '../components/IndexPage/Jumbotron'
 import NewsSection from '../components/IndexPage/NewsSection'
 import SponsorKliksSection from '../components/IndexPage/SponsorKliksSection'
-import OpenRehearsalsSection from "../components/IndexPage/OpenRehearsalsSection";
-import InMemoriamBanner from "../components/IndexPage/InMemoriam/InMemoriamBanner";
-import PageTemplate from "../templates/pageTemplate";
+import OpenRehearsalsSection from '../components/IndexPage/OpenRehearsalsSection'
+import InMemoriamBanner from '../components/IndexPage/InMemoriam/InMemoriamBanner'
+import PageTemplate from '../templates/pageTemplate'
 
 const IndexPage = ({ data }) => (
   <PageTemplate useCustomStructure={true}>

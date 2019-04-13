@@ -1,12 +1,14 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '../templates/pageTemplate'
 
-const HireEnsemblePage = ({ t }) => (
-  <PageTemplate title={t('hire-ensemble.title')}>
-    <Markdown options={{ html: true }}>{t('hire-ensemble.text')}</Markdown>
+const HireEnsemblePage = ({ intl }) => (
+  <PageTemplate title={intl.formatMessage({ id: 'hire-ensemble.title' })}>
+    <Markdown options={{ html: true }}>
+      {intl.formatMessage({ id: 'hire-ensemble.text' })}
+    </Markdown>
   </PageTemplate>
 )
 
-export default withTranslation()(HireEnsemblePage)
+export default injectIntl(HireEnsemblePage)

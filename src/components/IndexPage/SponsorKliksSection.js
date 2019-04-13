@@ -1,12 +1,14 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import TwoPartLayout from './TwoPartLayout'
 
-const SponsorKliksSection = ({ t }) => {
+const SponsorKliksSection = ({ intl }) => {
   return (
     <div>
       <div className="container pt-5 pb-5 text-center">
-        <TwoPartLayout title={t('index.sponsor-kliks.question')}>
+        <TwoPartLayout
+          title={intl.formatMessage({ id: 'index.sponsor-kliks.question' })}
+        >
           <a
             href="https://www.sponsorkliks.com/products/shops.php?club=9493"
             target="_blank"
@@ -27,4 +29,4 @@ const SponsorKliksSection = ({ t }) => {
   )
 }
 
-export default withTranslation()(SponsorKliksSection)
+export default injectIntl(SponsorKliksSection)

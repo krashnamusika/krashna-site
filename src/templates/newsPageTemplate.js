@@ -1,12 +1,14 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from './pageTemplate'
 
-const NewsPageTemplate = ({ pageContext, t }) => {
+const NewsPageTemplate = ({ pageContext, intl }) => {
   const news = pageContext.news
-  const newsTitle = t(`news.${news.id}.title`)
-  const newsDescription = t(`news.${news.id}.description`)
+  const newsTitle = intl.formatMessage({ id: `news.${news.id}.title` })
+  const newsDescription = intl.formatMessage({
+    id: `news.${news.id}.description`,
+  })
 
   return (
     <PageTemplate title={newsTitle}>
@@ -21,4 +23,4 @@ const NewsPageTemplate = ({ pageContext, t }) => {
   )
 }
 
-export default withTranslation()(NewsPageTemplate)
+export default injectIntl(NewsPageTemplate)

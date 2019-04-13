@@ -16,7 +16,11 @@ const InMemoriamSection = () => {
           <h2 className="text-center mb-3">In Memoriam: Daan Admiraal</h2>
           <div className="row justify-content-center">
             <div className="col-md-4 col-10">
-              <img src={DaanAdmiraalImage} className="img-fluid mb-4" alt="Daan Admiraal" />
+              <img
+                src={DaanAdmiraalImage}
+                className="img-fluid mb-4"
+                alt="Daan Admiraal"
+              />
             </div>
             <div className="col-md-8 col-12">
               <p>

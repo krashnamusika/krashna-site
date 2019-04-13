@@ -1,10 +1,9 @@
-import { Link } from 'gatsby'
 import React from 'react'
-import { withTranslation } from 'react-i18next'
+import { injectIntl, Link } from 'gatsby-plugin-intl'
 
 const MAX_NUM_NEWS = 3
 
-const NewsSection = ({ news, t }) => {
+const NewsSection = ({ news, intl }) => {
   const sortedNews = news
     .map(obj => obj.node)
     .sort((a, b) => (a.date > b.date ? -1 : b.date > a.date ? 1 : 0))
@@ -17,7 +16,9 @@ const NewsSection = ({ news, t }) => {
   return (
     <div className="bg-light-red">
       <div className="container pt-5 pb-5">
-        <h2 className="text-center mb-3">{t('index.news')}</h2>
+        <h2 className="text-center mb-3">
+          {intl.formatMessage({ id: 'index.news' })}
+        </h2>
         {sortedNews.map(news => (
           <div key={news.id} className="row mb-2">
             <div className="col-lg-1 col-sm-2 col-3">
@@ -29,7 +30,7 @@ const NewsSection = ({ news, t }) => {
                   to={`/news/${news.id}`}
                   className="text-dark font-weight-bold"
                 >
-                  {t(`news.${news.id}.title`)}
+                  {intl.formatMessage({ id: `news.${news.id}.title` })}
                 </Link>
               </h5>
               <p>
@@ -44,4 +45,4 @@ const NewsSection = ({ news, t }) => {
   )
 }
 
-export default withTranslation()(NewsSection)
+export default injectIntl(NewsSection)
