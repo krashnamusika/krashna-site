@@ -1,6 +1,6 @@
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 
 const MAX_NUM_NEWS = 3
 
@@ -44,4 +44,4 @@ const NewsSection = ({ news, t }) => {
   )
 }
 
-export default translate('translations')(NewsSection)
+export default withTranslation()(NewsSection)

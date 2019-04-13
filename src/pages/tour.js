@@ -1,6 +1,6 @@
 import QRCode from 'qrcode.react'
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import tourLogo from '../components/IndexPage/TourSection/krashna-tour-2018-logo.jpg'
 import PageTemplate from '../templates/pageTemplate'
@@ -80,4 +80,4 @@ const TourPage = ({ t }) => (
   </PageTemplate>
 )
 
-export default translate('translations')(TourPage)
+export default withTranslation()(TourPage)

@@ -1,7 +1,6 @@
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import React from 'react'
-import { translate } from 'react-i18next'
-import faunIcon from '../../layouts/favicon.png'
+import { withTranslation } from 'react-i18next'
 import ConcertElement from '../ConcertElement'
 import { filterAndSortConcerts } from '../ConcertListOperations'
 
@@ -37,4 +36,4 @@ const ConcertSection = ({ concerts, t }) => {
   )
 }
 
-export default translate('translations')(ConcertSection)
+export default withTranslation()(ConcertSection)

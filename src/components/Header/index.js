@@ -1,6 +1,6 @@
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import krashnaEdge from './krashna-edge.png'
 import LanguageSwitcher from './LanguageSwitcher'
 
@@ -44,8 +44,8 @@ const Dropdown = ({ id, t }) => (
 
 class Header extends React.Component {
   componentDidMount() {
-    $('.navbar-nav .dropdown-menu a, .navbar-nav>a').on('click', function() {
-      $('.navbar-collapse').collapse('hide')
+    window["$"]('.navbar-nav .dropdown-menu a, .navbar-nav>a').on('click', function() {
+      window["$"]('.navbar-collapse').collapse('hide')
     })
   }
 
@@ -92,4 +92,4 @@ class Header extends React.Component {
   }
 }
 
-export default translate('translations')(Header)
+export default withTranslation()(Header)

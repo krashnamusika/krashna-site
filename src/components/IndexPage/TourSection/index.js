@@ -1,6 +1,6 @@
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import tourLogo from './krashna-tour-2018-logo.jpg'
 
 const TourSection = ({ t }) => {
@@ -20,4 +20,4 @@ const TourSection = ({ t }) => {
   )
 }
 
-export default translate('translations')(TourSection)
+export default withTranslation()(TourSection)

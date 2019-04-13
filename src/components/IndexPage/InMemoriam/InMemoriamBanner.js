@@ -1,6 +1,6 @@
 import React from "react";
 import DaanAdmiraalImage from "../daan-admiraal.jpg";
-import { Link } from "react-router-dom";
+import { Link } from 'gatsby'
 
 export default () => {
   return (
@@ -8,7 +8,7 @@ export default () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-4 col-10">
-            <img src={DaanAdmiraalImage} className="img-fluid" />
+            <img src={DaanAdmiraalImage} className="img-fluid" alt="Daan Admiraal" />
           </div>
           <div className="col-md-8 col-12">
             <div className="my-auto text-center">

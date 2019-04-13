@@ -1,5 +1,5 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import krashnaSharp from './krashna-sharp.png'
 import SponsorSection from './SponsorSection'
 
@@ -108,4 +108,4 @@ const Footer = ({ t }) => (
   </footer>
 )
 
-export default translate('translations')(Footer)
+export default withTranslation()(Footer)

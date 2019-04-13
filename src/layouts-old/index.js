@@ -7,8 +7,8 @@ import Footer from '../components/Footer'
 
 import Header from '../components/Header'
 import '../utils/i18n.js'
-import favicon from './favicon.png'
-import './index.css'
+import favicon from '../favicon.png'
+import '../templates/index.css'
 
 class TemplateWrapper extends React.Component {
   static propTypes = {
@@ -51,7 +51,7 @@ class TemplateWrapper extends React.Component {
                 flex: 'auto',
               }}
             >
-              {this.props.children()}
+              {this.props.children}
             </div>
             <Footer />
           </div>

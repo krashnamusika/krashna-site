@@ -1,7 +1,7 @@
-import faunIcon from '../layouts/favicon.png'
-import Link from 'gatsby-link'
+import faunIcon from '../favicon.png'
+import { Link } from 'gatsby'
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 
 const ConcertElement = ({ concert, t }) => (
   <div key={concert.id} className="row mb-2">
@@ -49,4 +49,4 @@ const ConcertElement = ({ concert, t }) => (
   </div>
 )
 
-export default translate('translations')(ConcertElement)
+export default withTranslation()(ConcertElement)

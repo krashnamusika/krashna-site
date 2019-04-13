@@ -1,11 +1,11 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import ConcertShareButtons from '../components/ConcertPage/ConcertShareButtons'
 import PageTemplate from './pageTemplate'
 
-const ConcertPageTemplate = ({ pathContext, t }) => {
-  const concert = pathContext.concert
+const ConcertPageTemplate = ({ pageContext, t }) => {
+  const concert = pageContext.concert
   const concertTitle = t(`concerts.${concert.id}.title`)
   const concertDescription = t(`concerts.${concert.id}.description`)
 
@@ -51,4 +51,4 @@ const ConcertPageTemplate = ({ pathContext, t }) => {
   )
 }
 
-export default translate('translations')(ConcertPageTemplate)
+export default withTranslation()(ConcertPageTemplate)

@@ -1,5 +1,5 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import PageTemplate from '../templates/pageTemplate'
 
@@ -9,4 +9,4 @@ const DonatePage = ({ t }) => (
   </PageTemplate>
 )
 
-export default translate('translations')(DonatePage)
+export default withTranslation()(DonatePage)

@@ -1,10 +1,10 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import PageTemplate from './pageTemplate'
 
-const NewsPageTemplate = ({ pathContext, t }) => {
-  const news = pathContext.news
+const NewsPageTemplate = ({ pageContext, t }) => {
+  const news = pageContext.news
   const newsTitle = t(`news.${news.id}.title`)
   const newsDescription = t(`news.${news.id}.description`)
 
@@ -21,4 +21,4 @@ const NewsPageTemplate = ({ pathContext, t }) => {
   )
 }
 
-export default translate('translations')(NewsPageTemplate)
+export default withTranslation()(NewsPageTemplate)

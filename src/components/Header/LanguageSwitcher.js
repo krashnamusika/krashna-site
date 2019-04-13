@@ -1,6 +1,6 @@
 import classNames from 'classnames'
 import React, { Component } from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import enFlag from './en-flag.svg'
 import nlFlag from './nl-flag.svg'
 
@@ -77,4 +77,4 @@ class LanguageSwitcher extends Component {
   }
 }
 
-export default translate('translations')(LanguageSwitcher)
+export default withTranslation()(LanguageSwitcher)

@@ -1,5 +1,5 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import CenteredButton from '../components/CenteredButton'
 import CenteredEmbed from '../components/CenteredEmbed'
 import PageTemplate from '../templates/pageTemplate'
@@ -9,6 +9,7 @@ const PhotoPage = ({ t }) => (
     <div className="text-center">
       <CenteredEmbed>
         <iframe
+          title="Flickr Slideshow"
           align="center"
           src="https://www.flickr.com/slideShow/index.gne?user_id=21327837@N03"
           frameBorder={0}
@@ -28,4 +29,4 @@ const PhotoPage = ({ t }) => (
   </PageTemplate>
 )
 
-export default translate('translations')(PhotoPage)
+export default withTranslation()(PhotoPage)

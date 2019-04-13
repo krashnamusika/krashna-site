@@ -1,5 +1,5 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import CenteredButton from '../components/CenteredButton'
 import PageTemplate from '../templates/pageTemplate'
@@ -16,4 +16,4 @@ const NotFoundPage = ({ t }) => (
   </PageTemplate>
 )
 
-export default translate('translations')(NotFoundPage)
+export default withTranslation()(NotFoundPage)

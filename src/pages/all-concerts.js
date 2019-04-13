@@ -1,7 +1,8 @@
 import React from 'react'
 import PageTemplate from '../templates/pageTemplate'
 import { filterAndSortConcerts } from '../components/ConcertListOperations'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
+import { graphql } from 'gatsby'
 import ConcertElement from '../components/ConcertElement'
 
 const ConcertsPage = ({ data, t }) => {
@@ -16,10 +17,10 @@ const ConcertsPage = ({ data, t }) => {
   )
 }
 
-export default translate('translations')(ConcertsPage)
+export default withTranslation()(ConcertsPage)
 
 export const query = graphql`
-  query ConcertsPageQuery {
+  query {
     allConcertsYaml {
       edges {
         node {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import CenteredButton from '../components/CenteredButton'
 import CenteredEmbed from '../components/CenteredEmbed'
 import PageTemplate from '../templates/pageTemplate'
@@ -9,6 +9,7 @@ const VideoPage = ({ t }) => (
     <div className="text-center">
       <CenteredEmbed>
         <iframe
+          title="Krashna Video Fragments"
           width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/videoseries?list=PLcXer1PunEIPYEDHdwNpU6CzKH6J2oTEK"
@@ -26,4 +27,4 @@ const VideoPage = ({ t }) => (
   </PageTemplate>
 )
 
-export default translate('translations')(VideoPage)
+export default withTranslation()(VideoPage)

@@ -1,5 +1,5 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import {
   EmailIcon,
   EmailShareButton,
@@ -40,4 +40,4 @@ const ConcertShareButtons = ({ concertId, t }) => {
   )
 }
 
-export default translate('translations')(ConcertShareButtons)
+export default withTranslation()(ConcertShareButtons)

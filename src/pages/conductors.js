@@ -1,5 +1,5 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import PageTemplate from '../templates/pageTemplate'
 import stijn from "../../static/images/stijn-berkouwer.jpg";
@@ -22,7 +22,7 @@ const ConductorsPage = ({ t }) => (
   </PageTemplate>
 )
 
-export default translate('translations')(ConductorsPage)
+export default withTranslation()(ConductorsPage)
 
 const ConductorPicture = ({ url, title }) => (
   <div className="col-lg-4 col-8 float-lg-right mx-lg-1 mx-auto p-2">

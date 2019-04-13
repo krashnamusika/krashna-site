@@ -1,5 +1,5 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import Markdown from 'react-remarkable'
 import CenteredImage from '../components/CenteredImage'
 import PageTemplate from '../templates/pageTemplate'
@@ -14,4 +14,4 @@ const ChamberChoirPage = ({ t }) => (
   </PageTemplate>
 )
 
-export default translate('translations')(ChamberChoirPage)
+export default withTranslation()(ChamberChoirPage)

@@ -1,6 +1,6 @@
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import React from 'react'
-import { translate } from 'react-i18next'
+import { withTranslation } from 'react-i18next'
 import TwoPartLayout from './TwoPartLayout'
 
 const HireEnsembleSection = ({ t }) => {
@@ -18,4 +18,4 @@ const HireEnsembleSection = ({ t }) => {
   )
 }
 
-export default translate('translations')(HireEnsembleSection)
+export default withTranslation()(HireEnsembleSection)
