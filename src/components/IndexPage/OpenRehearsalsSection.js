@@ -4,7 +4,6 @@ import { injectIntl, Link } from 'gatsby-plugin-intl'
 const OpenRehearsalsSection = ({ rehearsals, intl }) => {
   return (
     <div className="bg-light">
-      {console.log(intl)}
       <div className="container pt-5 pb-5">
         <h2 className="text-center mb-3">
           {intl.formatMessage({ id: 'open-rehearsals.banner.title' })}

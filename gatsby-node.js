@@ -23,7 +23,6 @@ exports.onPreBootstrap = () => {
   // Save bundled translation files
   fs.writeFileSync(path.join(__dirname, "/public/intl/nl.json"), JSON.stringify(flatten(nlTranslation)));
   fs.writeFileSync(path.join(__dirname, "/public/intl/en.json"), JSON.stringify(flatten(enTranslation)));
-  console.log(`${__dirname}`);
 
   // Copy redirects
   fs.copySync(
