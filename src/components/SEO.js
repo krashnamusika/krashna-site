@@ -8,7 +8,7 @@ const SEO = ({ title, description, url }) => (
     <meta name="image" content="https://www.krashna.nl/krashna-logo.jpg" />
 
     {/* OpenGraph tags */}
-    <meta property="og:url" content={url} />
+    <meta property="og:url" content={`https://www.krashna.nl${url}`} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
 

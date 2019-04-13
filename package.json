@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Krashna WebCie <webcie@krashna.nl>",
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "flat": "^4.1.0",
