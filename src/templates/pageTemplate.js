@@ -30,7 +30,7 @@ export default function PageTemplate({ title, children, useCustomStructure, loca
     );
   }
   return (
-    <div className="d-flex flex-column h-100">
+    <div className="d-flex flex-column" style={{minHeight: "100%"}}>
       <Location>
         {({ navigate, location }) => (
           <>
