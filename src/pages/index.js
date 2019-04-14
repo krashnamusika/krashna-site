@@ -12,7 +12,7 @@ import PageTemplate from '../templates/pageTemplate'
 const IndexPage = ({ data }) => (
   <PageTemplate useCustomStructure={true}>
     <Jumbotron />
-    <OpenRehearsalsSection />
+    {/*<OpenRehearsalsSection />*/}
     <ConcertSection concerts={data.allConcertsYaml.edges} />
     <NewsSection news={data.allNewsYaml.edges} />
     <HireEnsembleSection />
