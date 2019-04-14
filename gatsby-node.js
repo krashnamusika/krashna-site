@@ -7,35 +7,22 @@
 const path = require('path');
 const fs = require("fs-extra");
 const yaml = require("js-yaml");
+const flatten = require('flat')
 
 const {createFilePath} = require(`gatsby-source-filesystem`);
 
-exports.onPostBootstrap = () => {
+exports.onPreBootstrap = () => {
   console.log("Copying locales");
 
-  const nlTranslation = loadTranslationObject("nl-NL");
-  const enTranslation = loadTranslationObject("en-GB");
+  const nlTranslation = loadTranslationObject("nl");
+  const enTranslation = loadTranslationObject("en");
 
   // Create directory structure
-  fs.existsSync(path.join(__dirname, "/public/locales")) || fs.mkdirSync(path.join(__dirname, "/public/locales"));
-  fs.existsSync(path.join(__dirname, "/public/locales/nl-NL")) ||
-  fs.mkdirSync(path.join(__dirname, "/public/locales/nl-NL"));
-  fs.existsSync(path.join(__dirname, "/public/locales/en-GB")) ||
-  fs.mkdirSync(path.join(__dirname, "/public/locales/en-GB"));
+  fs.existsSync(path.join(__dirname, "/public/intl")) || fs.mkdirSync(path.join(__dirname, "/public/intl"));
 
   // Save bundled translation files
-  fs.writeFileSync(path.join(__dirname, "/public/locales/nl-NL/translations.json"), JSON.stringify(nlTranslation));
-  fs.writeFileSync(path.join(__dirname, "/public/locales/en-GB/translations.json"), JSON.stringify(enTranslation));
-
-  // Create fallbacks for country-specific codes
-  fs.copySync(
-    path.join(__dirname, "/public/locales/en-GB"),
-    path.join(__dirname, "/public/locales/en")
-  );
-  fs.copySync(
-    path.join(__dirname, "/public/locales/nl-NL"),
-    path.join(__dirname, "/public/locales/nl")
-  );
+  fs.writeFileSync(path.join(__dirname, "/public/intl/nl.json"), JSON.stringify(flatten(nlTranslation)));
+  fs.writeFileSync(path.join(__dirname, "/public/intl/en.json"), JSON.stringify(flatten(enTranslation)));
 
   // Copy redirects
   fs.copySync(
@@ -45,8 +32,8 @@ exports.onPostBootstrap = () => {
 };
 
 
-exports.createPages = ({graphql, boundActionCreators}) => {
-  const {createPage} = boundActionCreators
+exports.createPages = ({graphql, actions}) => {
+  const {createPage} = actions
   return new Promise((resolve, reject) => {
     graphql(`
       {

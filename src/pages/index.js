@@ -1,14 +1,16 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import ConcertSection from '../components/IndexPage/ConcertSection'
 import HireEnsembleSection from '../components/IndexPage/HireEnsembleSection'
 import Jumbotron from '../components/IndexPage/Jumbotron'
 import NewsSection from '../components/IndexPage/NewsSection'
 import SponsorKliksSection from '../components/IndexPage/SponsorKliksSection'
-import OpenRehearsalsSection from "../components/IndexPage/OpenRehearsalsSection";
-import InMemoriamBanner from "../components/IndexPage/InMemoriam/InMemoriamBanner";
+import OpenRehearsalsSection from '../components/IndexPage/OpenRehearsalsSection'
+import InMemoriamBanner from '../components/IndexPage/InMemoriam/InMemoriamBanner'
+import PageTemplate from '../templates/pageTemplate'
 
 const IndexPage = ({ data }) => (
-  <div>
+  <PageTemplate useCustomStructure={true}>
     <Jumbotron />
     <OpenRehearsalsSection />
     <ConcertSection concerts={data.allConcertsYaml.edges} />
@@ -16,13 +18,13 @@ const IndexPage = ({ data }) => (
     <HireEnsembleSection />
     <SponsorKliksSection />
     <InMemoriamBanner />
-  </div>
+  </PageTemplate>
 )
 
 export default IndexPage
 
 export const query = graphql`
-  query PageQuery {
+  query {
     allConcertsYaml {
       edges {
         node {

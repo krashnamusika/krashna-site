@@ -1,6 +1,6 @@
 import QRCode from 'qrcode.react'
 import React from 'react'
-import { translate } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import tourLogo from '../components/IndexPage/TourSection/krashna-tour-2018-logo.jpg'
 import PageTemplate from '../templates/pageTemplate'
@@ -31,16 +31,19 @@ const SectionContainer = ({ backgroundClass, children }) => (
   </div>
 )
 
-const TourPage = ({ t }) => (
-  <PageTemplate title={t('tour.title')} useCustomStructure={true}>
+const TourPage = ({ intl }) => (
+  <PageTemplate
+    title={intl.formatMessage({ id: 'tour.title' })}
+    useCustomStructure={true}
+  >
     <SectionContainer backgroundClass="bg-krashna">
       <h1 className="text-center text-white font-weight-bold pb-4 pt-4">
-        {t('tour.title')}
+        {intl.formatMessage({ id: 'tour.title' })}
       </h1>
     </SectionContainer>
     <SectionContainer backgroundClass="">
       <div className="lead">
-        <Markdown>{t('tour.intro')}</Markdown>
+        <Markdown>{intl.formatMessage({ id: 'tour.intro' })}</Markdown>
 
         <div
           className="col-md-5 col-9 mx-auto mb-5"
@@ -51,13 +54,13 @@ const TourPage = ({ t }) => (
       </div>
     </SectionContainer>
     <SectionContainer backgroundClass="bg-koper-goud">
-      <Markdown>{t('tour.programme')}</Markdown>
+      <Markdown>{intl.formatMessage({ id: 'tour.programme' })}</Markdown>
     </SectionContainer>
     <SectionContainer backgroundClass="bg-hout-groen">
-      <Markdown>{t('tour.repertoire')}</Markdown>
+      <Markdown>{intl.formatMessage({ id: 'tour.repertoire' })}</Markdown>
     </SectionContainer>
     <SectionContainer backgroundClass="">
-      <Markdown>{t('tour.adoption')}</Markdown>
+      <Markdown>{intl.formatMessage({ id: 'tour.adoption' })}</Markdown>
 
       <div className="row mb-5">
         <DonationComponent
@@ -80,4 +83,4 @@ const TourPage = ({ t }) => (
   </PageTemplate>
 )
 
-export default translate('translations')(TourPage)
+export default injectIntl(TourPage)

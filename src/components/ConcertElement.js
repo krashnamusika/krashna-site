@@ -1,9 +1,8 @@
-import faunIcon from '../layouts/favicon.png'
-import Link from 'gatsby-link'
+import faunIcon from '../favicon.png'
 import React from 'react'
-import { translate } from 'react-i18next'
+import { injectIntl, Link } from 'gatsby-plugin-intl'
 
-const ConcertElement = ({ concert, t }) => (
+const ConcertElement = ({ concert, intl }) => (
   <div key={concert.id} className="row mb-2">
     <div className="col-lg-1 col-sm-2 col-3">
       <div className="pl-2 pr-2 pb-2">
@@ -13,7 +12,7 @@ const ConcertElement = ({ concert, t }) => (
     <div className="col-lg-11 col-sm-10 col-9">
       <h5>
         <Link to={`/concerts/${concert.id}`} className="font-weight-bold">
-          {t(`concerts.${concert.id}.title`)}
+          {intl.formatMessage({ id: `concerts.${concert.id}.title` })}
         </Link>
       </h5>
       <p>
@@ -28,7 +27,7 @@ const ConcertElement = ({ concert, t }) => (
           <a href={concert.tickets}>
             <span className="badge badge-info">
               <span className="fa fa-ticket mr-2" />
-              {t('translations.tickets-available')}
+              {intl.formatMessage({ id: 'translations.tickets-available' })}
             </span>
           </a>
         ) : (
@@ -38,7 +37,7 @@ const ConcertElement = ({ concert, t }) => (
           <a href={concert.tickets}>
             <span className="badge badge-light">
               <span className="fa fa-ticket mr-2" />
-              {t('translations.free-entrance')}
+              {intl.formatMessage({ id: 'translations.free-entrance' })}
             </span>
           </a>
         ) : (
@@ -49,4 +48,4 @@ const ConcertElement = ({ concert, t }) => (
   </div>
 )
 
-export default translate('translations')(ConcertElement)
+export default injectIntl(ConcertElement)

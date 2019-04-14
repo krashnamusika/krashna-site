@@ -1,13 +1,17 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import ConcertShareButtons from '../components/ConcertPage/ConcertShareButtons'
 import PageTemplate from './pageTemplate'
 
-const ConcertPageTemplate = ({ pathContext, t }) => {
-  const concert = pathContext.concert
-  const concertTitle = t(`concerts.${concert.id}.title`)
-  const concertDescription = t(`concerts.${concert.id}.description`)
+const ConcertPageTemplate = ({ pageContext, intl }) => {
+  const concert = pageContext.concert
+  const concertTitle = intl.formatMessage({
+    id: `concerts.${concert.id}.title`,
+  })
+  const concertDescription = intl.formatMessage({
+    id: `concerts.${concert.id}.description`,
+  })
 
   return (
     <PageTemplate title={concertTitle}>
@@ -23,7 +27,9 @@ const ConcertPageTemplate = ({ pathContext, t }) => {
       {concert.facebookEvent ? (
         <div>
           <span className="fa fa-facebook mr-2" />
-          <a href={concert.facebookEvent}>{t('translations.facebook-event')}</a>
+          <a href={concert.facebookEvent}>
+            {intl.formatMessage({ id: 'translations.facebook-event' })}
+          </a>
         </div>
       ) : (
         undefined
@@ -31,7 +37,9 @@ const ConcertPageTemplate = ({ pathContext, t }) => {
       {concert.tickets ? (
         <div>
           <span className="fa fa-ticket mr-2" />
-          <a href={concert.tickets}>{t('translations.tickets-available')}!</a>
+          <a href={concert.tickets}>
+            {intl.formatMessage({ id: 'translations.tickets-available' })}!
+          </a>
         </div>
       ) : (
         undefined
@@ -39,7 +47,7 @@ const ConcertPageTemplate = ({ pathContext, t }) => {
       {concert.freeEntrance ? (
         <div>
           <span className="fa fa-ticket mr-2" />
-          {t('translations.free-entrance')}!
+          {intl.formatMessage({ id: 'translations.free-entrance' })}!
         </div>
       ) : (
         undefined
@@ -51,4 +59,4 @@ const ConcertPageTemplate = ({ pathContext, t }) => {
   )
 }
 
-export default translate('translations')(ConcertPageTemplate)
+export default injectIntl(ConcertPageTemplate)

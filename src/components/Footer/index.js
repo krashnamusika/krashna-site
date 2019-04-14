@@ -1,5 +1,5 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 import krashnaSharp from './krashna-sharp.png'
 import SponsorSection from './SponsorSection'
 
@@ -45,7 +45,7 @@ const SocialLinkList = () => (
   </li>
 )
 
-const Footer = ({ t }) => (
+const Footer = ({ intl }) => (
   <footer
     className="pt-4 pb-2 pt-md-4 border-top"
     style={{
@@ -63,8 +63,7 @@ const Footer = ({ t }) => (
                 href="https://goo.gl/maps/DWfLxxuHb4t"
                 target="blank"
               >
-                <i className="fa fa-map-marker mr-2" />
-                X - TU Delft
+                <i className="fa fa-map-marker mr-2" />X - TU Delft
               </a>
             </li>
             <li>
@@ -89,9 +88,11 @@ const Footer = ({ t }) => (
           <img src={krashnaSharp} alt="Krashna Musika" width="220px" />
         </div>
         <div className="col-12 col-md text-md-right text-center text-muted mt-md-0 mt-4">
-          <SponsorSection title={t('footer.partners')} />
+          <SponsorSection
+            title={intl.formatMessage({ id: 'footer.partners' })}
+          />
           <div className="pt-3">
-            {t('footer.feedback').question}
+            {intl.formatMessage({ id: 'footer.feedback.question' })}
             <br />
             <a
               className="text-muted"
@@ -99,7 +100,7 @@ const Footer = ({ t }) => (
               target="blank"
             >
               <i className="fa fa-bullhorn mr-2" />
-              {t('footer.feedback').action}
+              {intl.formatMessage({ id: 'footer.feedback.action' })}
             </a>
           </div>
         </div>
@@ -108,4 +109,4 @@ const Footer = ({ t }) => (
   </footer>
 )
 
-export default translate('translations')(Footer)
+export default injectIntl(Footer)

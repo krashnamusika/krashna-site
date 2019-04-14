@@ -14,5 +14,14 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-catch-links`,
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/public/intl`,
+        languages: [`en`, `nl`],
+        defaultLanguage: `en`,
+        redirect: true,
+      },
+    },
   ],
 };

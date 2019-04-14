@@ -1,5 +1,5 @@
 import React from 'react'
-import { translate } from 'react-i18next'
+import { injectIntl } from 'gatsby-plugin-intl'
 
 const TowPartLayout = ({ title, children }) => {
   return (
@@ -10,4 +10,4 @@ const TowPartLayout = ({ title, children }) => {
   )
 }
 
-export default translate('translations')(TowPartLayout)
+export default injectIntl(TowPartLayout)
