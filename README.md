@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/krashnamusika/krashna-site/master/src/layouts/favicon.png" width="100" alt="Krashna Musika">
+  <img src="https://raw.githubusercontent.com/krashnamusika/krashna-site/master/src/favicon.png" width="100" alt="Krashna Musika">
   <br>
   Krashna Musika Website
 </h1>
@@ -31,7 +31,7 @@ yarn global add gatsby-cli
 To start a development server (with live-reloading), run:
 
 ```bash
-gatsby develop
+yarn develop
 ```
 
 There will now be a server listening on [localhost:8000](http://localhost:8000)!
@@ -41,7 +41,7 @@ There will now be a server listening on [localhost:8000](http://localhost:8000)!
 To build a production bundle, run:
 
 ```bash
-gatsby build
+yarn build
 ```
 
 Changes to the `master` branch are automatically deployed to the live site (at [krashna.nl](https://www.krashna.nl/)), through the [Netlify](https://netlify.com) build service.
@@ -55,12 +55,11 @@ In general, this project follows the common [Gatsby.js](https://www.gatsbyjs.org
 
 - Pages are defined in `/src/pages`. The file name base of each JS file (excluding the `.js` extension) is used as the URL of the corresponding page.
 - Page templates (boilerplate structures for how different types of pages should look) are located in `/src/templates`.
-- The main page layout is defined in `/src/layouts`.
 - Components which these pages and templates use are contained in the `/src/components` folder.
 
 However, there are some ways in which it differs, to offer internationalization and other features:
 
-- All translations are contained in the [YAML](http://yaml.org/) files of the `/src/locales` folder. Each sub-folder contains a copy of each translation definition file, in a specific language. These translation files are compiled down to JSON, which is served alongside the rest of the content and dynamically inserted into the page at runtime.
+- All translations are contained in the [YAML](http://yaml.org/) files of the `/src/locales` folder. Each sub-folder contains a copy of each translation definition file, in a specific language. These translation files are compiled down to JSON, which is served alongside the rest of the content and dynamically inserted into the page at runtime. We use the `react-intl` library, integrated by `gatsby-plugin-intl`, for translation.
 - All data on which page generation is based, such as the list of concerts, is contained in `/src/data`.
 
 ### Adding a Page
