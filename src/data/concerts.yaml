@@ -159,13 +159,15 @@
   time: "20:15"
   location: Aula, TU Delft
   locationLink: "https://goo.gl/maps/bqdbLYs9T952"
+  tickets: "https://www.theaterdeveste.nl/programma/6708/Krashna_Musika/Duitse_Meesters_/"
 
 - id: german-rotterdam-2019
   type: main
   date: 2019-06-22
   time: "20:15"
-  location: Aula, TU Delft
+  location: Prinsekerk, Rotterdam
   locationLink: "https://goo.gl/maps/m6rY1cN2sHq"
+  tickets: "https://www.theaterdeveste.nl/programma/6710/Krashna_Musika/Duitse_Meesters/"
 
 - id: chamber-choir-spring-2019
   type: chamber-choir
