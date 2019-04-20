@@ -9,6 +9,9 @@ index:
     text-both: |
       There are upcoming open rehearsals for the choir and orchestra! Click the button below to see all the details.
     more: View all dates
+  monument-donation:
+    title: Help us create a monument to our late conductor, Daan Admiraal
+    more: More information
   upcoming-concerts:
     title: Upcoming Concerts
     more: All upcoming concerts
@@ -397,3 +400,9 @@ vacature:
 
     ## Contact
     Applications and further questions can be sent to [sollicitaties@krashna.nl](mailto:sollicitaties@krashna.nl). For more information about the association, please refer to our website [https://www.krashna.nl](https://www.krashna.nl).
+
+daan-monument:
+  title: A monument to Daan Admiraal
+  text: |
+    Still needs to come
+  button: Make a donation

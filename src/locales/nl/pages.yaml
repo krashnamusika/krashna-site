@@ -6,6 +6,9 @@ index:
     text-orchestra: Er komen weer open repetities aan bij het orkest! Bekijk alle info door op het linkje te klikken.
     text-both: Er komen weer open repetities aan bij het koor en orkest! Bekijk alle info door op het linkje te klikken.
     more: Alle data
+  monument-donation:
+    title: Help ons Daan Admiraal te herdenken met een monument
+    more: Meer informatie
   upcoming-concerts:
     title: Concerten
     more: Alle concerten
@@ -408,3 +411,9 @@ vacature:
 
     ## Contact
     Voor solliciteren en verdere vragen over de sollicitatieprocedure kunt u mailen naar [sollicitaties@krashna.nl](mailto:sollicitaties@krashna.nl). Meer informatie over de vereniging is te vinden op onze website [https://www.krashna.nl](https://www.krashna.nl).
+
+daan-monument:
+  title: Een monument voor Daan Admiraal
+  text: |
+    Moet nog komen
+  button: Maak een financiële bijdrage
