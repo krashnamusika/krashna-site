@@ -7,7 +7,6 @@ index:
     text-both: Er komen weer open repetities aan bij het koor en orkest! Bekijk alle info door op het linkje te klikken.
     more: Alle data
   monument-donation:
-    title: Help ons Daan Admiraal te herdenken met een monument
     more: Meer informatie
   upcoming-concerts:
     title: Concerten
@@ -412,8 +411,9 @@ vacature:
     ## Contact
     Voor solliciteren en verdere vragen over de sollicitatieprocedure kunt u mailen naar [sollicitaties@krashna.nl](mailto:sollicitaties@krashna.nl). Meer informatie over de vereniging is te vinden op onze website [https://www.krashna.nl](https://www.krashna.nl).
 
-daan-monument:
+daan:
   title: Een monument voor Daan Admiraal
   text: |
-    Moet nog komen
-  button: Maak een financiële bijdrage
+    Ter nagedachtenis aan onze dirigent Daan Admiraal, die, na 37 jaar bevlogen dirgentschap, afgelopen zomer onverwachts overleed, wil DSMG Krashna Musika een standbeeld plaatsen en een opdrachtscompositie uitschrijven. Daarbij kunnen we uw hulp gebruiken! Doneer nu via een van de onderstaande links of maak uw donatie over naar `NL55 RABO 0313 4648 47` tnv. DSMG Krashna Musika onder vermelding van "Daan Admiraal".
+  email-text: |
+    Voor vragen over dit iniatief kunt u mailen naar [contact@krashna.nl](mailto:contact@krashna.nl).

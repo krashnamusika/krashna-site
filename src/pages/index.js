@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import ConcertSection from '../components/IndexPage/ConcertSection'
 import HireEnsembleSection from '../components/IndexPage/HireEnsembleSection'
 import Jumbotron from '../components/IndexPage/Jumbotron'
-import MonumentDonationSection from "../components/IndexPage/MonumentDonationSection";
+import MonumentDonationSection from '../components/IndexPage/MonumentDonationSection'
 import NewsSection from '../components/IndexPage/NewsSection'
 import SponsorKliksSection from '../components/IndexPage/SponsorKliksSection'
 import InMemoriamBanner from '../components/IndexPage/InMemoriam/InMemoriamBanner'
@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
   <PageTemplate useCustomStructure={true}>
     <Jumbotron />
     {/*<OpenRehearsalsSection />*/}
-    <MonumentDonationSection/>
+    <MonumentDonationSection />
     <ConcertSection concerts={data.allConcertsYaml.edges} />
     <NewsSection news={data.allNewsYaml.edges} />
     <HireEnsembleSection />

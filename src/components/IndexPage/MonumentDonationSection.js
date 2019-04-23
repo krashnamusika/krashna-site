@@ -1,22 +1,14 @@
 import React from 'react'
-import { injectIntl, Link } from 'gatsby-plugin-intl'
-import TwoPartLayout from './TwoPartLayout'
+import DaanDonationModule from '../DaanDonationModule'
 
-const MonumentDonationSection = ({ intl }) => {
+const MonumentDonationSection = () => {
   return (
     <div className="bg-dark text-white">
       <div className="container pt-5 pb-5 text-center">
-        <TwoPartLayout
-          title={intl.formatMessage({ id: 'index.monument-donation.title' })}
-        >
-          <Link className="btn btn-light" to="/daan-monument">
-            {intl.formatMessage({ id: 'index.monument-donation.more' })}
-            <span className="fa fa-caret-right ml-2" />
-          </Link>
-        </TwoPartLayout>
+        <DaanDonationModule moreInformation={true} buttonDark={false} />
       </div>
     </div>
   )
 }
 
-export default injectIntl(MonumentDonationSection)
+export default MonumentDonationSection
