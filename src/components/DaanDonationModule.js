@@ -7,25 +7,25 @@ const DaanDonationModule = ({ intl, moreInformation, buttonDark }) => (
     <Markdown>{intl.formatMessage({ id: 'daan.text' })}</Markdown>
     <div className="text-center">
       <a
-        href="https://tikkie.me/pay/bgmgv59eogr4ml9711e1"
+        href="https://tikkie.me/pay/upk53ldop30idhsgjfqf"
         className={`btn btn-outline-${buttonDark ? 'dark' : 'light'} mr-2`}
       >
         10€
       </a>
       <a
-        href="https://tikkie.me/pay/vsog4a3sndk570eb8iau"
+        href="https://tikkie.me/pay/d5c3584n11b69btkuinh"
         className={`btn btn-outline-${buttonDark ? 'dark' : 'light'} mr-2`}
       >
         25€
       </a>
       <a
-        href="https://tikkie.me/pay/gm8hgukp4opoukevck0i"
+        href="https://tikkie.me/pay/t2ff12u826769rv207k2"
         className={`btn btn-outline-${buttonDark ? 'dark' : 'light'} mr-2`}
       >
         50€
       </a>
       <a
-        href="https://tikkie.me/pay/tkr1jovt0ob5mddp72qg"
+        href="https://tikkie.me/pay/9qprqhqgh0h32tlq0fii"
         className={`btn btn-outline-${buttonDark ? 'dark' : 'light'}`}
       >
         100€
