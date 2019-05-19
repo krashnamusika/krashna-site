@@ -5,6 +5,7 @@ import {
   IntlContextConsumer,
 } from 'gatsby-plugin-intl'
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
 import enFlag from './en-flag.svg'
 import nlFlag from './nl-flag.svg'
 
@@ -43,6 +44,9 @@ class LanguageSwitcher extends Component {
       <IntlContextConsumer>
         {({ languages, language: currentLocale }) => (
           <li className="nav-item dropdown ml-lg-2">
+            <Helmet>
+              <html lang={currentLocale} />
+            </Helmet>
             <button
               className="nav-link dropdown-toggle link-button"
               id="langDropdown"

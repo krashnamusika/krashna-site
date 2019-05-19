@@ -12,7 +12,6 @@ import {
   WhatsappIcon,
   WhatsappShareButton,
 } from 'react-share'
-import './ConcertShareButtons.css'
 
 const ConcertShareButtons = ({ concertId, intl }) => {
   const iconSize = 40
