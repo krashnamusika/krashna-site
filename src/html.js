@@ -14,16 +14,31 @@ export default function HTML(props) {
         />
 
         {/* CDN dependencies */}
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" />
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" />
+        <script defer src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
+        <script
+          defer
+          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        />
+        <script
+          defer
+          src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        />
         <link
           href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
           rel="stylesheet"
         />
-        <link
-          href="https://fonts.googleapis.com/css?family=Raleway:400,700"
-          rel="stylesheet"
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          WebFont.load({
+            google: {
+              families: ["Raleway:400,700"]
+            }
+          });
+        `,
+          }}
         />
 
         {/* Favicon */}
