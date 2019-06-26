@@ -303,7 +303,7 @@ open-rehearsals:
 not-found:
   title: 404 - Page Not Found
   message: |
-    We couldn't find that page! We're still adding content to this website, so please check back later.
+    We couldn't find that page!
 
     In the meantime, don't hesitate to [contact us](/contact) if you have any questions.
   return-home: Return home
