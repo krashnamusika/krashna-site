@@ -1,5 +1,5 @@
 import React from 'react'
-import { injectIntl, Link } from 'gatsby-plugin-intl'
+import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '../templates/pageTemplate'
 import DaanDonationModule from '../components/DaanDonationModule'
