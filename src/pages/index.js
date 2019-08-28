@@ -13,11 +13,11 @@ const IndexPage = ({ data }) => (
   <PageTemplate useCustomStructure={true}>
     <Jumbotron />
     {/*<OpenRehearsalsSection />*/}
-    <MonumentDonationSection />
     <ConcertSection concerts={data.allConcertsYaml.edges} />
     <NewsSection news={data.allNewsYaml.edges} />
     <HireEnsembleSection />
     <SponsorKliksSection />
+    <MonumentDonationSection />
     <InMemoriamBanner />
   </PageTemplate>
 )
