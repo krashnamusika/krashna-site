@@ -9,7 +9,7 @@ const OpenRehearsalsSection = ({ rehearsals, intl }) => {
           {intl.formatMessage({ id: 'open-rehearsals.banner.title' })}
         </h2>
         <div className="row mb-2">
-          <div className="col-lg-11 col-sm-10 col-9">
+          <div className="col-lg-11">
             <h5 className="font-weight-bold">
               {intl.formatMessage({ id: 'open-rehearsals.banner.text' })}
             </h5>

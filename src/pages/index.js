@@ -8,11 +8,12 @@ import NewsSection from '../components/IndexPage/NewsSection'
 import SponsorKliksSection from '../components/IndexPage/SponsorKliksSection'
 import InMemoriamBanner from '../components/IndexPage/InMemoriam/InMemoriamBanner'
 import PageTemplate from '../templates/pageTemplate'
+import OpenRehearsalsSection from "../components/IndexPage/OpenRehearsalsSection";
 
 const IndexPage = ({ data }) => (
   <PageTemplate useCustomStructure={true}>
     <Jumbotron />
-    {/*<OpenRehearsalsSection />*/}
+    <OpenRehearsalsSection />
     <ConcertSection concerts={data.allConcertsYaml.edges} />
     <NewsSection news={data.allNewsYaml.edges} />
     <HireEnsembleSection />
