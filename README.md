@@ -67,11 +67,11 @@ However, there are some ways in which it differs, to offer internationalization 
 To add a page...
 
 1. Add a JS file in `/src/pages` with as name the URL you want to put that page on. When in doubt on how to structure this file, have a look at the other existing pages in that folder.
-2. Add the needed translations for any translation keys you use, in `/src/locales`. Refer to existing pages and translations for examples of how one can access such a translation key in the page file, and how this can be defined in the translation file.
+2. Add the needed translations for any translation keys you use, in `/src/locales`. Refer to existing pages and translations for examples of how one can access such a translation key in the page file and how this can be defined in the translation file.
 
 ### Adding a Concert
 
 To add a concert...
 
-1. Add an entry to the `/src/data/concerts.yaml` list, following the same format as the other entries.
+1. Add an entry to the `/src/data/concerts.yaml` list following the same format as the other entries.
 2. Add language-dependent texts to the `concerts.yaml` files in the `/src/locales` folder, in both languages.
