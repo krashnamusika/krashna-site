@@ -53,7 +53,7 @@ Changes to the `master` branch are automatically deployed to the live site (at [
 
 In general, this project follows the common [Gatsby.js](https://www.gatsbyjs.org/docs/) folder structure:
 
-- Pages are defined in `/src/pages`. The file name base of each JS file (excluding the `.js` extension) is used as the URL of the corresponding page.
+- Pages are defined in `/src/pages`. The file name of each JS file (excluding the `.js` extension) is used as the URL of the corresponding page.
 - Page templates (boilerplate structures for how different types of pages should look) are located in `/src/templates`.
 - Components which these pages and templates use are contained in the `/src/components` folder.
 
