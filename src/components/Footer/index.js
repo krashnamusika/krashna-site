@@ -47,7 +47,7 @@ const SocialLinkList = () => (
 
 const Footer = ({ intl }) => (
   <footer
-    className="pt-4 pb-2 pt-md-4 border-top"
+    className="pt-4 pb-4 pt-md-4 border-top"
     style={{
       borderBottom: '3px solid #c00',
     }}
