@@ -143,7 +143,6 @@
   locationLink: "https://www.google.nl/maps/place/Lutherse+kerk/@52.015501,4.351111,17z/data=!3m1!4b1!4m5!3m4!1s0x47c5b5db2b377e4b:0xc0f901a6850e2bf5!8m2!3d52.0154977!4d4.3532997"
   freeEntrance: true
 
-
 - id: evensong-march-2019
   type: choir
   date: 2019-03-24
@@ -177,3 +176,11 @@
   locationLink: "https://goo.gl/maps/tKreJaPpkJ72"
   tickets: "https://www.theaterdeveste.nl/programma/6696/Krashna_Musika/De_Profundis_England_039_s_Ales/"
   facebookEvent: "https://www.facebook.com/events/1110638495806368/"
+
+- id: kamu-september-2019
+  type: kamu
+  date: 2019-09-22
+  time: "19:30"
+  location: X, TU Delft
+  locationLink: "https://www.google.com/maps/place/TU+Delft+Unit+Culture/@51.9954478,4.3744681,17z/data=!4m8!1m2!2m1!1sunit+culture!3m4!1s0x47c5b58f10c8176b:0x87c46f9383b7a8b2!8m2!3d51.9951969!4d4.3771742?hl=en"
+  freeEntrance: true
