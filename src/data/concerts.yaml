@@ -184,3 +184,17 @@
   location: X, TU Delft
   locationLink: "https://www.google.com/maps/place/TU+Delft+Unit+Culture/@51.9954478,4.3744681,17z/data=!4m8!1m2!2m1!1sunit+culture!3m4!1s0x47c5b58f10c8176b:0x87c46f9383b7a8b2!8m2!3d51.9951969!4d4.3771742?hl=en"
   freeEntrance: true
+
+- id: dutch-rotterdam-2019
+  type: main
+  date: 2019-12-20
+  time: "20:15"
+  location: Prinsekerk, Rotterdam
+  locationLink: "https://goo.gl/maps/m6rY1cN2sHq"
+
+- id: dutch-delft-2019
+  type: main
+  date: 2019-12-21
+  time: "20:15"
+  location: Aula, TU Delft
+  locationLink: "https://goo.gl/maps/bqdbLYs9T952"
