@@ -19,7 +19,7 @@ const ConcertShareButtons = ({ concertId, intl }) => {
   const title = intl.formatMessage({ id: `concerts.${concertId}.title` })
 
   return (
-    <div className="text-center mb-3">
+    <div className="text-center mb-3 share-buttons">
       <FacebookShareButton url={url} quote={title}>
         <FacebookIcon size={iconSize} round />
       </FacebookShareButton>

@@ -110,3 +110,8 @@ Primarily to avoid having to give an href="#" (not accessibility-friendly).
   text-decoration: none;
   outline: 0;
 }
+
+
+.share-buttons > div {
+  display: inline-block;
+}
