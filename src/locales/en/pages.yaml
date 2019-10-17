@@ -145,13 +145,15 @@ contact:
 
     ### Board
 
-    Chairman: Taeke van Kuijk ([voorzitter@krashna.nl](mailto:voorzitter@krashna.nl))\
-    Secretary: Bregje Walkate ([secretaris@krashna.nl](mailto:secretaris@krashna.nl))\
-    Treasurer: Mathias Meuleman ([penningmeester@krashna.nl](mailto:penningmeester@krashna.nl))\
-    Acquisition Commissioner: Janneke Kortsmit ([acquisiteur@krashna.nl](mailto:acquisiteur@krashna.nl))\
-    Orchestra Commissioner: Hugo Loopik ([orkestcom@krashna.nl](mailto:orkestcom@krashna.nl))\
-    Choir Commissioner: Thomas van der Schaft ([koorcom@krashna.nl](mailto:koorcom@krashna.nl))\
-    Promotion and Concert Commissioner: Tijs Hol ([publicom@krashna.nl](mailto:publicom@krashna.nl) and [concertcom@krashna.nl](mailto:concertcom@krashna.nl))
+    **Board 52 "Klaver"**
+
+    Chairman: Kate McDonnell ([voorzitter@krashna.nl](mailto:voorzitter@krashna.nl))\
+    Secretary: Sean Camps ([secretaris@krashna.nl](mailto:secretaris@krashna.nl))\
+    Treasurer: Bram van Diemen ([penningmeester@krashna.nl](mailto:penningmeester@krashna.nl))\
+    Acquisition Commissioner: Wouter Schuitemaker ([acquisiteur@krashna.nl](mailto:acquisiteur@krashna.nl))\
+    Orchestra Commissioner: Vera Koster ([orkestcom@krashna.nl](mailto:orkestcom@krashna.nl))\
+    Choir Commissioner: Tom van der Linden ([koorcom@krashna.nl](mailto:koorcom@krashna.nl))\
+    Promotion and Concert Commissioner: Nomi Leeuwerik ([publicom@krashna.nl](mailto:publicom@krashna.nl) and [concertcom@krashna.nl](mailto:concertcom@krashna.nl))
 
 donate:
   title: Donate
@@ -198,8 +200,8 @@ recommendation:
     * ir. B. Vuijk (Sr. Business Developer Mobility &amp; Smart Cities at TNO)
     * Mevr. L. Merkx (previous alderman culture Delft)
     * prof. ir. W. Dik (professor information- and communication technology, ex-CEO KPN)
-    * Dhr. A. Bijlsma (cellist and Bach-specialist)
-    * F. Förster (Alderman  of economy, culture and spacial planning at the City of Delft)
+    * F. Förster (Alderman of economy, culture and spacial planning at the City of Delft)
+    * L. Vis (professional conductor, former director of the Conservatory of Amsterdam)
 
 committees:
   title: Committees
@@ -412,6 +414,10 @@ daan:
 
 concertmeester-vacature:
   title: Concertmaster Vacancy
-
   text: |
     Vacancy only available in Dutch.
+
+privacy:
+  title: Privacy Policy
+  text: |
+    Read Krashna Musika's privacy policy [here](/privacy-krashna-en.pdf).
