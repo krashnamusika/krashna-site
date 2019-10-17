@@ -177,3 +177,41 @@
   locationLink: "https://goo.gl/maps/tKreJaPpkJ72"
   tickets: "https://www.theaterdeveste.nl/programma/6696/Krashna_Musika/De_Profundis_England_039_s_Ales/"
   facebookEvent: "https://www.facebook.com/events/1110638495806368/"
+
+- id: kamu-nov-2019
+  type: kamu
+  date: 2019-11-17
+  time: "20:15"
+  location: X, TU Delft
+  locationLink: "https://goo.gl/maps/nNZAvgT13rYvEUV27"
+  freeEntrance: true
+
+- id: kamu-jan-2020
+  type: kamu
+  date: 2020-01-19
+  time: "19:30"
+  location: X, TU Delft
+  locationLink: "https://goo.gl/maps/nNZAvgT13rYvEUV27"
+  freeEntrance: true
+
+- id: kamu-mar-2020
+  type: kamu
+  date: 2020-03-22
+  time: "19:30"
+  location: X, TU Delft
+  locationLink: "https://goo.gl/maps/nNZAvgT13rYvEUV27"
+  freeEntrance: true
+
+- id: kamu-may-2020
+  type: kamu
+  date: 2020-05-03
+  time: "19:30"
+  freeEntrance: true
+
+- id: kamu-jun-2020
+  type: kamu
+  date: 2020-06-06
+  time: "19:30"
+  location: X, TU Delft
+  locationLink: "https://goo.gl/maps/nNZAvgT13rYvEUV27"
+  freeEntrance: true
