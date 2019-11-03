@@ -190,6 +190,7 @@
   date: 2019-12-20
   time: "20:15"
   location: Prinsekerk, Rotterdam
+  tickets: "https://www.theaterdeveste.nl/programma/7205/Krashna_Musika/Nederlandse_compositiestukken_in_Prinsekerk_Rotterdam/"
   locationLink: "https://goo.gl/maps/m6rY1cN2sHq"
 
 - id: dutch-delft-2019
@@ -197,6 +198,7 @@
   date: 2019-12-21
   time: "20:15"
   location: Aula, TU Delft
+  tickets: "https://www.theaterdeveste.nl/programma/7207/Krashna_Musika/Nederlandse_compositiestukken_in_Aula_TU_Delft_/"
   locationLink: "https://goo.gl/maps/bqdbLYs9T952"
 
 - id: kamu-nov-2019
@@ -206,6 +208,7 @@
   location: X, TU Delft
   locationLink: "https://goo.gl/maps/nNZAvgT13rYvEUV27"
   freeEntrance: true
+  facebookEvent: "https://www.facebook.com/events/456170994993210/"
 
 - id: kamu-jan-2020
   type: kamu
