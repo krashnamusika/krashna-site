@@ -1,5 +1,9 @@
 ---
 index:
+  jumbotron:
+    choir: student choir
+    orchestra: student orchestra
+    chamber-music: chamber music
   open-rehearsals:
     title: Open Rehearsals
     text-choir: |

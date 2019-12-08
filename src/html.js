@@ -34,7 +34,7 @@ export default function HTML(props) {
             __html: `
           WebFont.load({
             google: {
-              families: ["Raleway:400,700"]
+              families: ["Raleway:400,700,900"]
             }
           });
         `,

@@ -1,5 +1,9 @@
 ---
 index:
+  jumbotron:
+    choir: studentenkoor
+    orchestra: studentenorkest
+    chamber-music: kamermuziek
   open-rehearsals:
     title: Open Repetities
     text-choir: Er komen weer open repetities aan bij het koor! Bekijk alle info door op het linkje te klikken.
