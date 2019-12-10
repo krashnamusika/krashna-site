@@ -21,6 +21,16 @@ const Jumbotron = ({intl}) => (
         KRASHNA MUSIKA
       </h1>
       <p className="lead">delfts studenten muziekgezelschap</p>
+      <div className="d-lg-none">
+      <p style={{ fontSize: '1.5rem', fontWeight: 700 }}>
+        <Link to="/choir" className="text-white">{intl.formatMessage({ id: 'index.jumbotron.choir' })}</Link>
+        <br/>
+        <Link to="/orchestra" className="text-white">{intl.formatMessage({ id: 'index.jumbotron.orchestra' })}</Link>
+        <br/>
+        <Link to="/chamber-music" className="text-white">{intl.formatMessage({ id: 'index.jumbotron.chamber-music' })}</Link>
+      </p>
+      </div>
+      <div className="d-none d-lg-block">
       <p style={{ fontSize: '1.5rem', fontWeight: 700 }}>
         <Link to="/choir" className="text-white">{intl.formatMessage({ id: 'index.jumbotron.choir' })}</Link>
         <span style={{ marginLeft: 20, marginRight: 20}}>|</span>
@@ -28,6 +38,7 @@ const Jumbotron = ({intl}) => (
         <span style={{ marginLeft: 20, marginRight: 20}}>|</span>
         <Link to="/chamber-music" className="text-white">{intl.formatMessage({ id: 'index.jumbotron.chamber-music' })}</Link>
       </p>
+      </div>
     </div>
   </div>
 )
