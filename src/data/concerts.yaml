@@ -239,3 +239,10 @@
   location: X, TU Delft
   locationLink: "https://goo.gl/maps/nNZAvgT13rYvEUV27"
   freeEntrance: true
+
+- id: krashko-2020
+  type: krashko
+  date: 2020-03-14
+  time: "20:15"
+  location: Lutherse Kerk, Delft
+  locationLink: "https://goo.gl/maps/aD5KNUSybRMccJeb9"
