@@ -20,11 +20,16 @@ const TourPage = ({ intl }) => (
     title={intl.formatMessage({ id: 'tour.title' })}
     useCustomStructure={true}
   >
-    <SectionContainer backgroundClass="bg-krashna">
-      <h1 className="text-center text-white font-weight-bold pb-4 pt-4">
-        {intl.formatMessage({ id: 'tour.title' })}
-      </h1>
-    </SectionContainer>
+    <div style={{
+              paddingTop: '60px',
+              flex: 'auto',
+            }}>
+      <SectionContainer backgroundClass="bg-krashna">
+        <h1 className="text-center text-white font-weight-bold pb-4 pt-4">
+          {intl.formatMessage({ id: 'tour.title' })}
+        </h1>
+      </SectionContainer>
+    </div>
     <SectionContainer backgroundClass="">
       <div className="lead">
         <Markdown>{intl.formatMessage({ id: 'tour.intro' })}</Markdown>
