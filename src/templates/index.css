@@ -48,6 +48,10 @@ body {
   background-color: rgba(204, 0, 0, 0.6);
 }
 
+.bg-scotland-blauw {
+  background-color: #0065bd;
+}
+
 /* Centering for Markdown images */
 img[src*="centerme"] {
   display: block;

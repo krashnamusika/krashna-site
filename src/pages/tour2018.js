@@ -1,8 +1,24 @@
+import QRCode from 'qrcode.react'
 import React from 'react'
 import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
-import tourLogo from '../components/IndexPage/TourSection/krashna-tour-2020-logo.jpg'
+import tourLogo from '../components/IndexPage/TourSection/krashna-tour-2018-logo.jpg'
 import PageTemplate from '../templates/pageTemplate'
+
+const DonationComponent = ({ euros, url, buttonColor }) => (
+  <div className="col-md-4 col-12 text-center">
+    <h4>
+      {euros}
+      ,00 €
+    </h4>
+    <div>
+      <QRCode value={url} />
+    </div>
+    <a className={`btn btn-${buttonColor} mt-2`} href={url}>
+      Pay via iDeal (Tikkie)
+    </a>
+  </div>
+)
 
 const SectionContainer = ({ backgroundClass, children }) => (
   <div className={backgroundClass}>
@@ -36,21 +52,35 @@ const TourPage = ({ intl }) => (
           <img src={tourLogo} className="img-fluid" alt="Krashna Tour 2018" />
         </div>
       </div>
-      <Markdown>{intl.formatMessage({ id: 'tour.socialMedia' })}</Markdown>
     </SectionContainer>
-
-    <div className="text-white">
-      <SectionContainer backgroundClass="bg-scotland-blauw">
-        <Markdown>{intl.formatMessage({ id: 'tour.concerts' })}</Markdown>
-      </SectionContainer>
-    </div>
-    <SectionContainer>
-      <Markdown>{intl.formatMessage({ id: 'tour.repertoire' })}</Markdown>
-    </SectionContainer>
-    <SectionContainer>
+    <SectionContainer backgroundClass="bg-koper-goud">
       <Markdown>{intl.formatMessage({ id: 'tour.programme' })}</Markdown>
     </SectionContainer>
-   </PageTemplate>
+    <SectionContainer backgroundClass="bg-hout-groen">
+      <Markdown>{intl.formatMessage({ id: 'tour.repertoire' })}</Markdown>
+    </SectionContainer>
+    <SectionContainer backgroundClass="">
+      <Markdown>{intl.formatMessage({ id: 'tour.adoption' })}</Markdown>
+
+      <div className="row mb-5">
+        <DonationComponent
+          euros={5}
+          url="https://tikkie.me/pay/e2vqb2b3n942mpjvga9v"
+          buttonColor="info"
+        />
+        <DonationComponent
+          euros={10}
+          url="https://tikkie.me/pay/15ic4mdfpk5jfnc0eaj5"
+          buttonColor="success"
+        />
+        <DonationComponent
+          euros={15}
+          url="https://tikkie.me/pay/ou6bfns34td9pjehnj40"
+          buttonColor="warning"
+        />
+      </div>
+    </SectionContainer>
+  </PageTemplate>
 )
 
 export default injectIntl(TourPage)
