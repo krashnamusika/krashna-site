@@ -43,8 +43,6 @@
 
 # Old site
 /upcoming / 301!
-/en/* / 301!
-/nl/* / 301!
 
 # Sponsoring through SponsorKliks affiliate links
 /sponsorkliks https://www.sponsorkliks.com/products/shops.php?club=9493 301!
