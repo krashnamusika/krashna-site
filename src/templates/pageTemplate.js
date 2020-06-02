@@ -1,5 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from "react-helmet";
 import { Location } from '@reach/router'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Footer from '../components/Footer'
@@ -11,7 +11,6 @@ export default function PageTemplate({
   title,
   children,
   useCustomStructure,
-  location,
 }) {
   const pageTitle = title ? `${title} - Krashna Musika` : 'Krashna Musika'
 
@@ -19,7 +18,7 @@ export default function PageTemplate({
     return (
       <>
         <Location>
-          {({ navigate, location }) => (
+          {({ location }) => (
             <SEO
               title={pageTitle}
               description={pageTitle}
@@ -37,7 +36,7 @@ export default function PageTemplate({
   return (
     <div className="d-flex flex-column" style={{ minHeight: '100%' }}>
       <Location>
-        {({ navigate, location }) => (
+        {({ location }) => (
           <>
             <SEO
               title={pageTitle}

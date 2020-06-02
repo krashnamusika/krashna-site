@@ -1,4 +1,9 @@
 User-agent: *
-Disallow:
+Disallow: /lustrum-50-addendum.pdf
+Disallow: /addendum-50
+Disallow: /awesome
+Disallow: /gcal
+Disallow: /muziekgebouw-2018-download
+Disallow: /krashnatv
 
 Sitemap: https://www.krashna.nl/sitemap.xml
