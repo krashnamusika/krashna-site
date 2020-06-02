@@ -43,19 +43,7 @@ const TourPage = ({ intl }) => (
       </div>
       <Markdown>{intl.formatMessage({ id: 'tour.socialMedia' })}</Markdown>
     </SectionContainer>
-
-    <div className="text-white">
-      <SectionContainer backgroundClass="bg-scotland-blauw">
-        <Markdown>{intl.formatMessage({ id: 'tour.concerts' })}</Markdown>
-      </SectionContainer>
-    </div>
-    <SectionContainer>
-      <Markdown>{intl.formatMessage({ id: 'tour.repertoire' })}</Markdown>
-    </SectionContainer>
-    <SectionContainer>
-      <Markdown>{intl.formatMessage({ id: 'tour.programme' })}</Markdown>
-    </SectionContainer>
-   </PageTemplate>
+  </PageTemplate>
 )
 
 export default injectIntl(TourPage)
