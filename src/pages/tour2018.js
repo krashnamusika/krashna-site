@@ -33,17 +33,17 @@ const SectionContainer = ({ backgroundClass, children }) => (
 
 const TourPage = ({ intl }) => (
   <PageTemplate
-    title={intl.formatMessage({ id: 'tour.title' })}
+    title={intl.formatMessage({ id: 'tour2018.title' })}
     useCustomStructure={true}
   >
     <SectionContainer backgroundClass="bg-krashna">
       <h1 className="text-center text-white font-weight-bold pb-4 pt-4">
-        {intl.formatMessage({ id: 'tour.title' })}
+        {intl.formatMessage({ id: 'tour2018.title' })}
       </h1>
     </SectionContainer>
     <SectionContainer backgroundClass="">
       <div className="lead">
-        <Markdown>{intl.formatMessage({ id: 'tour.intro' })}</Markdown>
+        <Markdown>{intl.formatMessage({ id: 'tour2018.intro' })}</Markdown>
 
         <div
           className="col-md-5 col-9 mx-auto mb-5"
@@ -54,13 +54,13 @@ const TourPage = ({ intl }) => (
       </div>
     </SectionContainer>
     <SectionContainer backgroundClass="bg-koper-goud">
-      <Markdown>{intl.formatMessage({ id: 'tour.programme' })}</Markdown>
+      <Markdown>{intl.formatMessage({ id: 'tour2018.programme' })}</Markdown>
     </SectionContainer>
     <SectionContainer backgroundClass="bg-hout-groen">
-      <Markdown>{intl.formatMessage({ id: 'tour.repertoire' })}</Markdown>
+      <Markdown>{intl.formatMessage({ id: 'tour2018.repertoire' })}</Markdown>
     </SectionContainer>
     <SectionContainer backgroundClass="">
-      <Markdown>{intl.formatMessage({ id: 'tour.adoption' })}</Markdown>
+      <Markdown>{intl.formatMessage({ id: 'tour2018.adoption' })}</Markdown>
 
       <div className="row mb-5">
         <DonationComponent
