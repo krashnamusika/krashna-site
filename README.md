@@ -75,3 +75,10 @@ To add a concert...
 
 1. Add an entry to the `/src/data/concerts.yaml` list following the same format as the other entries.
 2. Add language-dependent texts to the `concerts.yaml` files in the `/src/locales` folder, in both languages.
+
+### Adding a News Post
+
+To add a news post...
+
+1. Add an entry to the `/src/data/news.yaml` list following the same format as the other entries.
+2. Add language-dependent texts to the `news.yaml` files in the `/src/locales` folder, in both languages.
