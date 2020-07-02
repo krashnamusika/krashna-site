@@ -23,7 +23,7 @@ const nestedMenuItems = {
     'chamber-orchestra',
     'all-concerts',
   ],
-  association: ['about', 'committees', 'recommendation'],
+  association: ['about', 'committees', 'recommendation', 'honorary-members'],
   impressions: ['photos', 'videos'],
   business: [
     'rent-instrument',
