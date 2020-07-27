@@ -247,3 +247,9 @@
   location: Lutherse Kerk, Delft
   locationLink: "https://goo.gl/maps/aD5KNUSybRMccJeb9"
   facebookEvent: "https://www.facebook.com/events/2502796256627852/"
+
+- id: livestream-kamu-august-2020
+  type: kamu
+  date: 2020-08-02
+  time: "14:30"
+  facebookEvent: "https://www.facebook.com/events/591078945163025"
