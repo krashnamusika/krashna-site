@@ -62,21 +62,25 @@ However, there are some ways in which it differs, to offer internationalization 
 - All translations are contained in the [YAML](http://yaml.org/) files of the `/src/locales` folder. Each sub-folder contains a copy of each translation definition file, in a specific language. These translation files are compiled down to JSON, which is served alongside the rest of the content and dynamically inserted into the page at runtime. We use the `react-intl` library, integrated by `gatsby-plugin-intl`, for translation.
 - All data on which page generation is based, such as the list of concerts, is contained in `/src/data`.
 
-### Adding a Page
+### Adding Content
+
+Adding content can be done easily by adding text or some other data to predefined files, some examples are given below. All content is written in Markdown. If you are not familiar with Markdown, or need some help, check out [this handy link](https://www.markdownguide.org/basic-syntax/)
+
+#### Adding a Page
 
 To add a page...
 
 1. Add a JS file in `/src/pages` with as name the URL you want to put that page on. When in doubt on how to structure this file, have a look at the other existing pages in that folder.
 2. Add the needed translations for any translation keys you use, in `/src/locales`. Refer to existing pages and translations for examples of how one can access such a translation key in the page file and how this can be defined in the translation file.
 
-### Adding a Concert
+#### Adding a Concert
 
 To add a concert...
 
 1. Add an entry to the `/src/data/concerts.yaml` list following the same format as the other entries.
 2. Add language-dependent texts to the `concerts.yaml` files in the `/src/locales` folder, in both languages.
 
-### Adding a News Post
+#### Adding a News Post
 
 To add a news post...
 
