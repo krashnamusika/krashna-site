@@ -8,6 +8,7 @@ import NewsSection from '../components/IndexPage/NewsSection'
 import SponsorKliksSection from '../components/IndexPage/SponsorKliksSection'
 import InMemoriamBanner from '../components/IndexPage/InMemoriam/InMemoriamBanner'
 import PageTemplate from '../templates/pageTemplate'
+import OWeeSection from "../components/IndexPage/OWeeSection";
 
 const IndexPage = ({ data }) => (
   <PageTemplate useCustomStructure={true}>
@@ -15,6 +16,7 @@ const IndexPage = ({ data }) => (
      {/*<OpenRehearsalsSection />*/}
     <ConcertSection concerts={data.allConcertsYaml.edges} />
     <NewsSection news={data.allNewsYaml.edges} />
+    <OWeeSection />
     <HireEnsembleSection />
     <SponsorKliksSection />
     <MonumentDonationSection />

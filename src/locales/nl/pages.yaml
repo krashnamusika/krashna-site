@@ -23,6 +23,9 @@ index:
   hire-ensemble:
     question: Een muzikaal ensemble huren voor uw event?
     learn-more: Dat kan!
+  owee:
+    question: We zijn op de OWee aanwezig!
+    learn-more: Inschrijven
   sponsor-kliks:
     question: Krashna gratis sponsoren?
 
@@ -513,3 +516,10 @@ addendum-50:
   title: Addendum lustrumboek Krashna Musika 50 jaar
   text: |
     Ter ere van de 50ste verjaardag van de vereniging is een lustrumboek gemaakt. Het addendum van dit lustrumboek is achter [deze link](/lustrum-50-addendum.pdf) te vinden.
+
+owee:
+  title: Krashna bij de OWee 2020
+  form: |
+    Geef je op voor de interesselijst!
+  form-detail: |
+    Dan krijg je binnenkort een mail met meer info! Je schrijft je hiermee verder nog nergens voor in.
