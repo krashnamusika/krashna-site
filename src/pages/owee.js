@@ -15,11 +15,11 @@ const VideoPage = ({ intl }) => (
       {intl.formatMessage({ id: 'owee.form-detail' })}
     </p>
     <div className="text-center pb-5">
-      {/* <CenteredEmbed>
+      <CenteredEmbed>
         <iframe title="OWee" width="560" height="315" src="https://www.youtube.com/embed/2Cnrvnb4IY4" frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen/>
-      </CenteredEmbed> */}
+      </CenteredEmbed>
     </div>
   </PageTemplate>
 )
