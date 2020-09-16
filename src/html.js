@@ -66,28 +66,6 @@ export default function HTML(props) {
           />
           {props.postBodyComponents}
         </div>
-
-        {/* Google Analytics */}
-        {process.env.NODE_ENV === 'production' ? (
-          <div className="d-none">
-            <script
-              async
-              src="https://www.googletagmanager.com/gtag/js?id=UA-84285092-1"
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag("js", new Date());
-                  gtag("config", "UA-84285092-1", { "anonymize_ip": true });
-                `,
-              }}
-            />
-          </div>
-        ) : (
-          undefined
-        )}
       </body>
     </html>
   )
