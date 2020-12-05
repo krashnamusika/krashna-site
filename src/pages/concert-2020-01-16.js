@@ -78,7 +78,7 @@ const LiveStreamSection = () => (
           Doneer aan Krashna
         </button>
         <a
-          href="https://pogramma.boekje.krashna"
+          href="http://files.krashna.nl/manfred-programma.pdf"
           className="btn btn-outline-dark"
           target="_blank"
         >
