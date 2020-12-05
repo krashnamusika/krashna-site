@@ -3,22 +3,49 @@ import { injectIntl } from 'gatsby-plugin-intl'
 import PageTemplate from "../templates/pageTemplate";
 import messiahPoster from "../../static/images/krashna-messiah-poster-2018.jpg";
 
+const donateButtons = [
+  {
+    amount: 10,
+    link: "https://krashna.nl/doneer",
+  }, {
+    amount: 15,
+    link: "https://krashna.nl/doneer",
+  }, {
+    amount: 25,
+    link: "https://krashna.nl/doneer",
+  }, {
+    amount: 50,
+    link: "https://krashna.nl/doneer",
+  }
+];
+
 const DonateModal = () => (
   <div className="modal fade" id="donateModal" tabIndex={-1} role="dialog" aria-hidden={true}>
-    <div className="modal-dialog modal-dialog-centered" role="document">
+    <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
       <div className="modal-content">
         <div className="modal-header">
-          <h5 className="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <h5 className="modal-title" id="exampleModalLongTitle">Doneer aan Krashna</h5>
           <button type="button" className="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div className="modal-body">
-          ...
+          <p>
+            <i className="border-bottom">Enjoying your time? Empty your pockets!</i>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            {donateButtons.map(({amount, link}) => (
+              <a href={link} className="btn btn-outline-dark mr-3" target="_blank">
+                &euro;&nbsp;{amount},-
+              </a>
+            ))}
+          </p>
         </div>
         <div className="modal-footer">
           <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" className="btn btn-primary">Save changes</button>
         </div>
       </div>
     </div>
