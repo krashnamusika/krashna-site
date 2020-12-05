@@ -1,0 +1,89 @@
+import React from "react";
+import { injectIntl } from 'gatsby-plugin-intl'
+import PageTemplate from "../templates/pageTemplate";
+import messiahPoster from "../../static/images/krashna-messiah-poster-2018.jpg";
+
+const DonateModal = () => (
+  <div className="modal fade" id="donateModal" tabIndex={-1} role="dialog" aria-hidden={true}>
+    <div className="modal-dialog modal-dialog-centered" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <h5 className="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div className="modal-body">
+          ...
+        </div>
+        <div className="modal-footer">
+          <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" className="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+);
+
+const PosterSection = () => (
+  <img alt="" src={messiahPoster} className="img-fluid" />
+);
+
+const LiveStreamSection = () => (
+  <div>
+    <div className="row">
+      <div className="col">
+        <div className="embed-responsive embed-responsive-16by9">
+          <iframe title="Concert live stream" className="embed-responsive-item" width="840" height="473"
+            src="https://www.youtube.com/embed/uvJtQk0XetA"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen />
+        </div>
+      </div>
+    </div>
+    <div className="row mt-3">
+      <div className="col">
+        <a
+          className="btn btn-outline-dark mr-2"
+          data-toggle="modal"
+          data-target="#donateModal"
+        >
+          Doneer aan Krashna
+        </a>
+      </div>
+      <div className="col">
+        <a
+          href="https://pogramma.boekje.krashna"
+          className="btn btn-outline-dark mr-2"
+          target="_blank"
+        >
+          Programmaboekje&nbsp;<i className="pl-2 fa fa-arrow-right" />
+        </a>
+      </div>
+    </div>
+  </div>
+);
+
+const ConcertPage = ({ intl }) => {
+  const title = "Concert 16 januari 2021: Working title";
+  return (
+    <PageTemplate title={title} useCustomStructure={true}>
+      <div className="mx-5 px-5 mb-5">
+        <div style={{paddingTop: '60px', flex: 'auto'}}>
+          <h1 className="text-center mt-2 mb-4">{title}</h1>
+        </div>
+        <div className="row">
+          <div className="col-4">
+            <PosterSection />
+          </div>
+          <div className="col-8">
+            <LiveStreamSection />
+          </div>
+        </div>
+      </div>
+      <DonateModal />
+    </PageTemplate>
+  )
+};
+
+export default injectIntl(ConcertPage);
