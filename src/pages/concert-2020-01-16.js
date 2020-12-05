@@ -42,19 +42,17 @@ const LiveStreamSection = () => (
       </div>
     </div>
     <div className="row mt-3">
-      <div className="col">
-        <a
-          className="btn btn-outline-dark mr-2"
+      <div className="col d-flex justify-content-end">
+        <button
+          className="btn btn-danger mr-2"
           data-toggle="modal"
           data-target="#donateModal"
         >
           Doneer aan Krashna
-        </a>
-      </div>
-      <div className="col">
+        </button>
         <a
           href="https://pogramma.boekje.krashna"
-          className="btn btn-outline-dark mr-2"
+          className="btn btn-outline-dark"
           target="_blank"
         >
           Programmaboekje&nbsp;<i className="pl-2 fa fa-arrow-right" />
@@ -68,15 +66,15 @@ const ConcertPage = ({ intl }) => {
   const title = "Concert 16 januari 2021: Working title";
   return (
     <PageTemplate title={title} useCustomStructure={true}>
-      <div className="mx-5 px-5 mb-5">
+      <div className="mx-5 px-5 my-5 pb-5">
         <div style={{paddingTop: '60px', flex: 'auto'}}>
-          <h1 className="text-center mt-2 mb-4">{title}</h1>
+          <h1 className="text-center mt-4 mb-4">{title}</h1>
         </div>
         <div className="row">
-          <div className="col-4">
+          <div className="col-4 pr-4">
             <PosterSection />
           </div>
-          <div className="col-8">
+          <div className="col-8 pl-4">
             <LiveStreamSection />
           </div>
         </div>
