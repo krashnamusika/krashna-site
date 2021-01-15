@@ -72,16 +72,6 @@ const PosterSection = ({ intl }) => (
 
 const LiveStreamSection = ({ intl }) => (
   <div>
-    <div className="row">
-      <div className="col">
-        <div className="embed-responsive embed-responsive-16by9">
-          <iframe title="Concert live stream" className="embed-responsive-item" width="840" height="473"
-            src="https://www.youtube.com/embed/TrNE30wPRIw"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen />
-        </div>
-      </div>
-    </div>
     <div className="row mt-3">
       <div className="col d-flex justify-content-end">
         <button
@@ -91,6 +81,16 @@ const LiveStreamSection = ({ intl }) => (
         >
           {intl.formatMessage({ id: "concert-2021-01-16.donate" })}
         </button>
+      </div>
+    </div>
+    <div className="row mt-3">
+      <div className="col">
+        <div className="embed-responsive embed-responsive-16by9">
+          <iframe title="Concert live stream" className="embed-responsive-item" width="840" height="473"
+                  src="https://www.youtube.com/embed/TrNE30wPRIw"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen />
+        </div>
       </div>
     </div>
   </div>
