@@ -76,7 +76,7 @@ const LiveStreamSection = ({ intl }) => (
       <div className="col">
         <div className="embed-responsive embed-responsive-16by9">
           <iframe title="Concert live stream" className="embed-responsive-item" width="840" height="473"
-            src="https://www.youtube.com/embed/uvJtQk0XetA"
+            src="https://www.youtube.com/embed/TrNE30wPRIw"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen />
         </div>
@@ -85,7 +85,7 @@ const LiveStreamSection = ({ intl }) => (
     <div className="row mt-3">
       <div className="col d-flex justify-content-end">
         <button
-          className="btn btn-danger"
+          className="btn-block btn-lg btn-danger"
           data-toggle="modal"
           data-target="#donateModal"
         >
