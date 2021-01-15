@@ -530,3 +530,28 @@ owee:
     Geef je op voor de interesselijst!
   form-detail: |
     Dan krijg je binnenkort een mail met meer info! Je schrijft je hiermee verder nog nergens voor in.
+
+concert-2021-01-16:
+  title: "Krashna in concert: Kamerkoor"
+  text: |
+    Het Krashna Musika Kamerkoor bestaat uit een groep van 16 enthousiaste studenten die in een korte
+    periode intensief repeteren om elk jaar in het voorjaar een concert te geven. Omdat het kamerkoor
+    nu niet kan zingen, worden nog niet eerder vertoonde opnames van het kamerkoor uit 2018 en 2019
+    live uitgezonden!
+    In 2018 heeft het kamerkoor o.l.v. Sebastiaan de Leeuw een internationaal programma gezongen,
+    dat stukken bevat in veel verschillende talen en stijlen, van oud-Amerikaanse en modern Hongaarse
+    volksmuziek tot klassiek Latijnse missen en meer.
+    In 2019 heeft het kamerkoor een programma ten gehore gebracht met twee verschillende thema’s.
+    Het eerste thema is “De Profundis”, met Russische muziek van componisten zoals Rachmaninov. Hier
+    staan de lage mannenstemmen centraal en ook zal lage Basso Profundo-solist Lennart Ackermans te
+    horen zijn.
+    Het tweede thema is “England’s Ales”, met oud Engelse muziekstukken die door kerkgangers na een
+    lange mis gezongen werden in de kroeg.
+  donate: Doneer aan Krashna
+  donate-text: |
+    Ook Krashna Musika wordt door corona hard getroffen. Vanwege de strikte corona maatregelen kan
+    Krashna niet repeteren. Geplande concerten zijn geannuleerd. Omdat Krashna minder inkomsten
+    binnenkrijgt is uw hulp hard nodig! Met een tikkie kunt u Krashna steunen in deze onzekere tijd,
+    zodat we in de toekomst mooie concerten kunnen blijven geven.
+  modal-close: Terug
+  choose-amount: Kies bedrag
