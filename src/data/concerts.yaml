@@ -255,3 +255,10 @@
   locationLink: "https://youtu.be/czwuJ2rG0gc"
   time: "14:30"
   facebookEvent: "https://www.facebook.com/events/591078945163025"
+
+- id: krashko-13-feb-2021
+  type: krashko
+  date: 2021-02-13
+  location: Krashna site
+  locationLink: "https://krashna.nl/concert"
+  time: "21:00"
