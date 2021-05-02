@@ -527,3 +527,23 @@ concert-2021-02-13:
     uncertain times, so that we will be able to organise great concerts in the future.
   modal-close: Close
   choose-amount: Choose amount
+
+contrabassoon:
+  title: "Contrabassoon radio broadcast"
+  text: |
+    This coming Monday, 20:00, there will be a radio show all about the
+    contrabassoon. Sander Borst and Taeke van Kuijk will cap off a half year of fund
+    raising with an evening of contrabassoon centered music, tall tales,
+    personal stories (by professional bassoonists) and all-around fun times.
+
+    The radio will be streamed at twitch.tv/sanderbenjamin and will be in Dutch,
+    however, it won’t be all talk, there will be a lot of music as well!
+    Donating is possible (and greatly appreciated) using the button below!
+  donate: Donate to Krashna
+  donate-text: |
+    Krashna Musika very regularly plays large symphonic repertoire, which often contains a contrabassoon.
+    For this reason, we're buying a contrabassoon, and your contributions towards this goal would be greatly appreciated.
+    With a ‘‘Tikkie’’ you can support Krashna in the journey towards buying a contrabassoon!
+
+  modal-close: Close
+  choose-amount: Choose amount
