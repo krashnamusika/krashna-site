@@ -119,7 +119,7 @@ const LiveStreamSection = ({ intl }) => (
         <div className="embed-responsive embed-responsive-16by9">
           <iframe
             title="Contrabassoon radio broadcast"
-            src="https://player.twitch.tv/?channel=sanderbenjamin&parent=krashna.nl"
+            src="https://player.twitch.tv/?channel=sanderbenjamin&parent=www.krashna.nl"
             height="840"
             width="473"
             allowFullScreen={true}
