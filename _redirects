@@ -42,6 +42,11 @@
 # Concerts
 /concerts /all-concerts 301!
 
+# Tickets
+/tickets https://theaterdeveste.nl/programma 301!
+/kaarten https://theaterdeveste.nl/programma 301!
+/kaartjes https://theaterdeveste.nl/programma 301!
+
 # Old site
 /upcoming / 301!
 
