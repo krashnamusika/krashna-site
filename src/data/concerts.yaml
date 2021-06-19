@@ -262,3 +262,27 @@
   location: Krashna site
   locationLink: "https://krashna.nl/concert"
   time: "21:00"
+
+- id: tour-2021-delft
+  type: main
+  date: 2021-07-04
+  time: "19:30"
+  location: Aula, TU Delft
+  locationLink: "https://goo.gl/maps/bqdbLYs9T952"
+  tickets: "https://www.theaterdeveste.nl/programma/7717/Krashna_Musika/Krashna_Green_Tour_in_de_Aula_van_de_TU_Delft_"
+
+- id: tour-2021-haarlem
+  type: main
+  date: 2021-07-05
+  time: "20:00"
+  location: St.-Bavokerk, Haarlem
+  locationLink: "https://goo.gl/maps/yGFrZDSyjDtPs24J9"
+  tickets: "https://www.theaterdeveste.nl/programma/7719/Krashna_Musika/_Krashna_Green_Tour_in_de_Grote_of_St_Bavokerk_te_Haarlem"
+
+- id: tour-2021-amsterdam
+  type: main
+  date: 2021-07-10
+  time: "15:00"
+  location: Dominicuskerk, Amsterdam
+  locationLink: "https://goo.gl/maps/P9fRYiPc2rXx834o8"
+  tickets: "https://www.theaterdeveste.nl/programma/7721/Krashna_Musika/Krashna_Green_Tour_in_de_Dominicuskerk_te_Amsterdam"
