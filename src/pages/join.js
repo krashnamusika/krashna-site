@@ -12,7 +12,7 @@ const JoinPage = ({ intl }) => (
         target="blank"
       >
         <span className="fa fa-pencil mr-2" />
-        {intl.formatMessage({ id: "owee.form" })}
+        {intl.formatMessage({ id: "join.form" })}
       </a>
     </div>
     <Markdown>{intl.formatMessage({ id: "join.text" })}</Markdown>

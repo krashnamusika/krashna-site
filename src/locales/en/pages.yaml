@@ -13,6 +13,9 @@ index:
     text-both: |
       There are upcoming open rehearsals for the choir and orchestra! Click the button below to see all the details.
     more: View all dates
+    banner:
+      title: Come join Krashna!
+      learn-more: Learn more
   monument-donation:
     more: More information
   upcoming-concerts:
@@ -27,7 +30,7 @@ index:
     question: Want to hire a musical ensemble for your occasion?
     learn-more: Learn more
   owee:
-    question: We're at the OWee!
+    title: We're at the OWee!
     learn-more: Learn more
   sponsor-kliks:
     question: Want to sponsor Krashna for free?
@@ -291,6 +294,7 @@ committees:
 
 join:
   title: Join us
+  form: Sign up for our interest list!
   text: |
     ### Would you like to join Krashna Musika?
 
@@ -329,7 +333,7 @@ join:
 open-rehearsals:
   banner:
     title: Open Rehearsals and Auditions
-    more: More info
+    more: Learn more
     text: |
       The orchestra and choir will start with a new programme this January, which means there will be a new round of open rehearsals and auditions. For all info, click on the button below.
   page:
@@ -525,10 +529,22 @@ addendum-50:
 
 owee:
   title: Krashna at the OWee 2021
+  text: |
+    Hi there! Here you can find our activities and enroll yourself in the Bingo and Pubquiz.
+    Come find us at our stand at Search@X to meet Krashna, and come listen to performances at Search@X or the Sciencemarket.
+    Below you can sign up for the evening activities. Want to join Krashna? You can find more info [here](/join).
+  evening-activities: |
+    #### Group A
+
+    - Monday 16th of August Bingo 20.00@Delftse Hout (exact location via e-mail)
+    - Tuesday 17th of August Borrelen 21.00@Delftse Hout (exact location via e-mail)
+
+    #### Group B
+
+    - Thursday 19th of August Bingo 20.00@Delftse Hout (exact location via e-mail)
+    - Friday 20th of August Borrelen 21.00@Delftse Hout (exact location via e-mail)
   form: |
-    Sign up for our interest list!
-  form-detail: |
-    We will send you an email with more info! You are not yet registering for anything else yet with this sign-up.
+    Sign up for our evening events
 
 concert-2021-02-13:
   title: "KrashKO live on February 13"

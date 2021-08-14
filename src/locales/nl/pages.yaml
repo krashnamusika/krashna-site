@@ -10,6 +10,9 @@ index:
     text-orchestra: Er komen weer open repetities aan bij het orkest! Bekijk alle info door op het linkje te klikken.
     text-both: Er komen weer open repetities aan bij het koor en orkest! Bekijk alle info door op het linkje te klikken.
     more: Alle data
+    banner:
+      title: Word lid bij Krashna!
+      learn-more: Meer info
   monument-donation:
     more: Meer informatie
   upcoming-concerts:
@@ -24,8 +27,8 @@ index:
     question: Een muzikaal ensemble huren voor uw event?
     learn-more: Dat kan!
   owee:
-    question: We zijn op de OWee aanwezig!
-    learn-more: Inschrijven
+    title: Krashna op de OWee!
+    learn-more: Meer info
   sponsor-kliks:
     question: Krashna gratis sponsoren?
 
@@ -300,6 +303,7 @@ committees:
 
 join:
   title: Lid worden
+  form: Schrijf jezelf in op de interesselijst!
   text: |
     ### Wil jij spelen of zingen bij Krashna Musika?
 
@@ -310,7 +314,7 @@ join:
 
     **Lid worden bij het [Krashna Koor](/choir)?**
 
-    Zet jezelf op de [interesselijst](https://forms.gle/B5Fgyp4vqQtMyZWQ9), dan wordt je op de hoogte gehouden van wanneer de open repetities zijn, waar je je kan inschrijven. 
+    Zet jezelf op de [interesselijst](https://forms.gle/B5Fgyp4vqQtMyZWQ9), dan wordt je op de hoogte gehouden van wanneer de open repetities zijn, waar je je kan inschrijven.
 
     Het grootkoor staat open voor zangers van alle niveau's. Door onze mix van ervaren en beginnende zangers en onze geweldige dirigent is voor ieder wat wils in onze repetities. Als je een keer mee wil komen zingen ben je altijd welkom. Laat het ons even weten via de mail en afhankelijk van hoe ver we al zijn met het huidige project kun je misschien nog wel mee doen.
 
@@ -321,7 +325,7 @@ join:
 
     **Lid worden bij het [Krashna Symfonieorkest](/orchestra)?**
 
-    Zet jezelf op de [interesselijst](https://forms.gle/B5Fgyp4vqQtMyZWQ9), dan wordt je op de hoogte gehouden van wanneer de open repetities zijn, waar je je kan inschrijven. 
+    Zet jezelf op de [interesselijst](https://forms.gle/B5Fgyp4vqQtMyZWQ9), dan wordt je op de hoogte gehouden van wanneer de open repetities zijn, waar je je kan inschrijven.
 
     Het symfonieorkest is vaak opzoek naar nieuwe leden. Doordat we een studenten orkest zijn vernieuwen we vaak omdat mensen afstuderen en daarna verhuizen. Wil jij mee spelen met het Krashna symfonieorkest, [mail](mailto:krashna@tudelft.nl) dan om te kijken of er nieuwe posities zijn of komen. Om mee te kunnen doen wordt er eerst een auditie afgenomen om je niveau te controleren. Je zult daarvoor een paar stukken moeten voorbereiden.
 
@@ -544,10 +548,22 @@ addendum-50:
 
 owee:
   title: Krashna bij de OWee 2021
+  text: |
+    Hey! Hier kun je onze activiteiten op de OWee vinden en jezelf opgeven voor de Bingo en Pubquiz.
+    Zoek ons op bij Search@X of kom luisteren bij een van de optredens bij Search@X of de Sciencemarket.
+    Je kunt je hieronder opgeven voor de avondactiviteiten. Wil je lid worden? Kijk dan [hier](/join).
+  evening-activities: |
+    #### Groep A
+
+    - Maandag 16 Augustus Bingo 20.00@Delftse Hout (exacte locatie via e-mail)
+    - Dinsdag 17 Augustus Borrelen 21.00@Delftse Hout (exacte locatie via e-mail)
+
+    #### Groep B
+
+    - Donderdag 19 Augustus Bingo 20.00@Delftse Hout (exacte locatie via e-mail)
+    - Vrijdag 20 Augustus Borrelen 21.00@Delftse Hout (exacte locatie via e-mail)
   form: |
-    Geef je op voor de interesselijst!
-  form-detail: |
-    Dan krijg je binnenkort een mail met meer info! Je schrijft je hiermee verder nog nergens voor in.
+    Geef je op
 
 concert-2021-02-13:
   title: "KrashKO live op 13 februari"
