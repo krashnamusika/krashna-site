@@ -7,7 +7,7 @@ const OWeeSection = ({ intl }) => {
     <div>
       <div className="container pt-5 pb-5 text-center">
         <TwoPartLayout
-          title={intl.formatMessage({ id: 'index.owee.question' })}
+          title={intl.formatMessage({ id: 'index.owee.title' })}
         >
           <Link className="btn btn-danger" to="/owee">
             {intl.formatMessage({ id: 'index.owee.learn-more' })}

@@ -4,6 +4,7 @@ import ConcertSection from '../components/IndexPage/ConcertSection';
 import HireEnsembleSection from '../components/IndexPage/HireEnsembleSection';
 import Jumbotron from '../components/IndexPage/Jumbotron';
 import NewsSection from '../components/IndexPage/NewsSection';
+import OpenRehearsalsBanner from "../components/IndexPage/OpenRehearsalsBanner";
 import SponsorKliksSection from '../components/IndexPage/SponsorKliksSection';
 import PageTemplate from '../templates/pageTemplate';
 import OWeeSection from '../components/IndexPage/OWeeSection';
@@ -11,10 +12,10 @@ import OWeeSection from '../components/IndexPage/OWeeSection';
 const IndexPage = ({ data }) => (
   <PageTemplate useCustomStructure={true}>
     <Jumbotron />
-    {/*<OpenRehearsalsSection />*/}
+    <OWeeSection />
+    <OpenRehearsalsBanner />
     <ConcertSection concerts={data.allConcertsYaml.edges} />
     <NewsSection news={data.allNewsYaml.edges} />
-    <OWeeSection />
     <HireEnsembleSection />
     <SponsorKliksSection />
   </PageTemplate>
