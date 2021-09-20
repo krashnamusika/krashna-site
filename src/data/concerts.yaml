@@ -286,3 +286,25 @@
   location: Dominicuskerk, Amsterdam
   locationLink: "https://goo.gl/maps/P9fRYiPc2rXx834o8"
   tickets: "https://www.theaterdeveste.nl/programma/7721/Krashna_Musika/Krashna_Green_Tour_in_de_Dominicuskerk_te_Amsterdam"
+
+- id: najaar-2021-vredeskerk
+  type: main
+  date: 2021-10-03
+  time: "19:00"
+  location: Vredeskerk, Delft
+  locationLink: "https://goo.gl/maps/krZdtafAxSbSkryM9"
+
+- id: fource-2021
+  type: main
+  date: 2021-12-12
+  #time:
+  location: Brabanthallen, Den Bosch
+  locationLink: "https://goo.gl/maps/nJDaXYCDHcEpUi2f9"
+  tickets: "https:/www.eventim.nl/event/fource-friends-kerstconcert-2021-mainstage-14063515/"
+
+- id: verdi-2022-amsterdam
+  type: main
+  date: 2022-03-01
+  time: "19:30"
+  location: Concertgebouw, Amsterdam
+  locationLink: "https://goo.gl/maps/jmw5fyEg2JNbmHg58"
