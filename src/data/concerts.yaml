@@ -297,7 +297,7 @@
 - id: fource-2021
   type: main
   date: 2021-12-12
-  #time:
+  time: "19:00"
   location: Brabanthallen, Den Bosch
   locationLink: "https://goo.gl/maps/nJDaXYCDHcEpUi2f9"
   tickets: "https:/www.eventim.nl/event/fource-friends-kerstconcert-2021-mainstage-14063515/"
