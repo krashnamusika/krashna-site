@@ -82,12 +82,17 @@
 /krashko-tickets https://forms.gle/MBJXUFaaK2gFNa1w6 301!
 
 # Coronavirus redirects
-
 # Krashna Koffika
 /koffie https://tudelft.zoom.us/j/92027309253?pwd=NnJRMFVQenNzcmhiNzdueTJYbGV5Zz09 301!
 /coffee /koffie 301!
 
+# Triage
 /triage https://forms.gle/BPmAn2N6FjgJvGTG8 301!
+
+# Krashna Jamulus server
+/jamulus https://amscloud.bencarp.com:32130 301!
+
+# Concert page redirects
 /concert /concerts/najaar-2021-vredeskerk 301!-
 
 # Najaarsconcert 2021 shortener
