@@ -90,7 +90,7 @@
 /triage https://forms.gle/BPmAn2N6FjgJvGTG8 301!
 
 # Krashna Jamulus server
-/jamulus https://amscloud.bencarp.com:32130 301!
+/jamulus udp://amscloud.bencarp.com:32130 301!
 
 # Concert page redirects
 /concert /concerts/najaar-2021-vredeskerk 301!-
