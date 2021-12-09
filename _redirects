@@ -93,10 +93,10 @@
 /triage https://forms.gle/BPmAn2N6FjgJvGTG8 301!
 
 # Concert page redirects
-/concert /concerts/najaar-2021-vredeskerk 301!-
+/concert /concerts/verdi-2022-amsterdam 301!-
 
 # Najaarsconcert 2021 shortener
 /nj2021 https://www.theaterdeveste.nl/programma/7889/Krashna_Musika/Najaarsconcert_2021 301!
 
 # Verdi Concertgebouw 2022 shortener
-/verdi /concerts/verdi-2022-amsterdam 301!
+/verdi https://www.concertgebouw.nl/concerten/592421-verdis-requiem-door-krashna-musika-en-het-vu-koor 301!
