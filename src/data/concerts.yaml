@@ -298,8 +298,8 @@
 
 - id: fource-2021
   type: main
-  date: 2021-12-12
-  time: "19:00"
+  date: 2022-12-11
+  time: "15:00"
   location: Brabanthallen, Den Bosch
   locationLink: "https://goo.gl/maps/nJDaXYCDHcEpUi2f9"
   facebookEvent: "https://www.facebook.com/events/187506173370096"
@@ -308,6 +308,7 @@
 - id: verdi-2022-amsterdam
   type: main
   date: 2022-03-01
-  time: "19:30"
+  time: "20:15"
   location: Concertgebouw, Amsterdam
   locationLink: "https://goo.gl/maps/jmw5fyEg2JNbmHg58"
+  tickets: "https://forms.gle/n8C667kxTjcbj53d8"
