@@ -2,12 +2,7 @@ import React from 'react'
 import { injectIntl } from 'gatsby-plugin-intl'
 import krashnaSharp from './krashna-sharp.png'
 import SponsorSection from './SponsorSection'
-
-const SocialLink = ({ iconName, url }) => (
-  <a className="text-muted mr-2" href={url} target="blank">
-    <i className={'fa fa-' + iconName} />
-  </a>
-)
+import { SocialLink } from "../SocialLink";
 
 const SocialLinkList = () => (
   <li className="mt-3">

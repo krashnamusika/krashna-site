@@ -404,7 +404,7 @@ tour2018:
 
     #### Adopteer direct de Tourcie Teddy
 
-tour:
+tour2021:
   title: Krashna Green Tour 2021
   subtitle: U kunt weer naar Krashna komen luisteren!
 
@@ -432,6 +432,32 @@ tour:
 
   socialMedia: |
     Om te ontdekken waar de tourneecommissie zich mee bezig houdt, volg ons op [facebook](https://www.facebook.com/SchotlandTourKrashna/) en [instagram](https://www.instagram.com/krashnatour/).
+
+tour:
+  title: Krashna Châtours 2022 à France
+
+  frenchSubtitle: Krashna repart en tournée!
+
+  french: |
+    Avec plus de 100 musiciens passionnés, nous sommes l'orchestre et le chœur de l'association étudiante néerlandaise de musique "Krashna Musika" de Delft.
+    Du 25 juin au 2 juillet nous donnerons plusieurs concerts à Paris et à Tours, gardez un œil sur cette page pour plus d'informations sur les lieux et les dates!
+    J'espère que nous vous verrons en été!
+
+    Salutations musicales,\
+    Le TourCie 2022
+
+  frenchSocials: Suivez-nous sur nos réseaux sociaux
+
+  subtitle: Krashna gaat weer op Tour!
+  description: |
+    Met meer dan 100 gedreven musici, zijn we het orkest en koor van de Nederlandse muziek studentenvereiniging "Krashna Musika" uit Delft.
+    Van 25 juni t/m 2 juli zullen we in Parijs en Tours meerdere concerten geven, hou deze pagina in de gaten voor meer informatie over de locaties en data!
+    Hopelijk zien we je in de zomer!
+
+    Muziekale groeten,\
+    De TourCie 2022
+
+  socials: Volg de TourCie op social media
 
 vacature:
   title: Orchestra conductor wanted for Krashna Musika
