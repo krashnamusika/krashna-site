@@ -92,21 +92,16 @@
 # Triage
 /triage https://forms.gle/BPmAn2N6FjgJvGTG8 301!
 
-# Concert page redirects
-/concert /concerts/verdi-2022-amsterdam 301!-
-
 # Najaarsconcert 2021 shortener
 /nj2021 https://www.theaterdeveste.nl/programma/7889/Krashna_Musika/Najaarsconcert_2021 301!
 
 # Verdi Concertgebouw 2022 shortener
 /verdi https://www.concertgebouw.nl/concerten/609396-verdis-requiem-door-krashna-musika-en-het-vu-koor 301!
 
-# Verdi interest form
-/singalong https://forms.gle/ExRgsirtKxaLrPLJ8 301!
-/meezingen /singalong 301!
-
 # new year's lunch
 /nieuwjaarslunch https://forms.gle/Li2kqdrSHbjDQb2T9 301!
 
-# Kamu Online
-/kamu https://www.youtube.com/watch?v=4UmFiZsBWCk 301!
+# maestro X 11/04
+/maestro https://www.tudelft.nl/evenementen/2022/x/11-04-x-maestro 301!
+
+
