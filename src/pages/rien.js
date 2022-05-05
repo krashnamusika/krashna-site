@@ -25,7 +25,7 @@ const Rien = ({ intl }) => {
             <p className='lead'></p>
             <h4 className='mb-3'>Rien Fröhlich</h4>
             <p>1931 - 2021</p>
-            <p className='font-italic mt-5 mb-5'>erelid van Krashna Musika sinds 1996 wegens zijn verdienste voor kamermuziek en opera</p>
+            <p className='font-italic mt-5 mb-5'>Erelid van Krashna Musika sinds 1996 wegens zijn verdienste voor kamermuziek en opera</p>
           </div>
           <div></div>
           <div className='my-auto'>
