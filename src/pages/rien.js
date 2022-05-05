@@ -1,6 +1,7 @@
 import { injectIntl } from 'gatsby-plugin-intl';
 import React from 'react';
 import PageTemplate from '../templates/pageTemplate';
+import Markdown from 'react-remarkable'
 import RienImage from '../components/IndexPage/rien.jpg';
 
 const Rien = ({ intl }) => {
@@ -38,7 +39,7 @@ const Rien = ({ intl }) => {
             <div className='row justify-content-center'>
 
               <div className='col-md-8 col-12'>
-                {intl.formatMessage({ id: 'rien.body' })}
+                <Markdown options={{ html: true }}>{intl.formatMessage({ id: 'rien.body' })}</Markdown>
               </div>
             </div>
           </div>
