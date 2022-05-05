@@ -5,7 +5,7 @@ import PageTemplate from '../templates/pageTemplate'
 
 const HonoraryMembersPage = ({ intl }) => (
   <PageTemplate title={intl.formatMessage({ id: 'honorary-members.title' })}>
-    <Markdown>{intl.formatMessage({ id: 'honorary-members.text' })}</Markdown>
+    <Markdown options={{ html: true }}>{intl.formatMessage({ id: 'honorary-members.text' })}</Markdown>
   </PageTemplate>
 )
 
