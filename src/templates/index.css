@@ -59,6 +59,16 @@ img[src*="centerme"] {
   max-width: 100%;
 }
 
+img[src*="centerme-90"] {
+  width: 90%;
+}
+
+@media (max-width: 575px) {
+  img[src*="centerme-90"]{
+    width: 100%
+  }
+}
+
 img[src*="centerme-75"] {
   max-width: 75%;
 }
@@ -68,7 +78,7 @@ img[src*="centerme-50"] {
 }
 
 @media (max-width: 575px) {
-  img[src*="centerme-50"], img[src*="centerme-75"] {
+  img[src*="centerme-50"], img[src*="centerme-75"]{
     max-width: 100%;
   }
 }
