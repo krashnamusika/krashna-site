@@ -23,7 +23,6 @@ const Rien = ({ intl }) => {
               {intl.formatMessage({ id: 'rien.title' })}
             </h2>
             <p className='lead'></p>
-            <h4 className='mb-3'>Rien Fröhlich</h4>
             <p>1931 - 2021</p>
             <p className='font-italic mt-5 mb-5'>Erelid van Krashna Musika sinds 1996 wegens zijn verdienste voor kamermuziek en opera</p>
           </div>
