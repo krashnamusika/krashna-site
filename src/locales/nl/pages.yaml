@@ -166,10 +166,10 @@ donate:
 
     ## Hartelijk dank voor uw steun!
 
-hire-instrument:
+rent-instrument:
   title: Instrumentenverhuur
   text: |
-    ### Huur een instrument NEW!
+    ### Huur een instrument!
 
     Krashna Musika is in het bezit van diverse instrumenten voor haar eigen repetities en concerten. Deze instrumenten zijn ook te huur voor kortstondig gebruik door andere verenigingen, bedrijven of particulieren. Natuurlijk moet er wel naar de planning gekeken worden.
 
@@ -224,13 +224,6 @@ hire-instrument:
     * Elektrische piano
     * Dirigenten bok
     * Dirigenten lessenaar
-
-rent-instrument:
-  title: Instrumentenverhuur
-  text: |
-    ### Huur een instrument!
-
-
 
 hire-orchestra-choir:
   title: Orkest/Koor huren

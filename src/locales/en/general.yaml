@@ -22,7 +22,7 @@ header:
     videos: Videos
   business:
     name: Business
-    hire-instrument: Rent an instrument
+    rent-instrument: Rent an instrument
     hire-ensemble: Hire an ensemble
     hire-orchestra-choir: Hire the orchestra/choir
     donate: Donate

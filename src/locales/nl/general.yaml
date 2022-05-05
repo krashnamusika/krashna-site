@@ -22,7 +22,7 @@ header:
     videos: Video's
   business:
     name: Zakelijk
-    hire-instrument: Instrumentenverhuur
+    rent-instrument: Instrumentenverhuur
     hire-ensemble: Ensemble huren
     hire-orchestra-choir: Orkest/Koor huren
     donate: Donateurschap
