@@ -32,7 +32,7 @@ const nestedMenuItems = {
   ],
   impressions: ['photos', 'videos'],
   business: [
-    'rent-instrument',
+    'hire-instrument',
     'hire-ensemble',
     'hire-orchestra-choir',
     'donate',
