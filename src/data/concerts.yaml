@@ -314,9 +314,16 @@
   facebookEvent: "https://www.facebook.com/events/1162151564191869"
   tickets: "https://www.concertgebouw.nl/concerten/609396-verdis-requiem-door-krashna-musika-en-het-vu-koor"
 
+- id: kamu-mei-2022
+  type: kamu
+  date: 2022-05-15
+  time: "19:30"
+  location: Theaterzaal, X TU Delft
+  freeEntrance: true
+
 - id: tour-2022-amare
   type: main
   date: 2022-07-02
   time: "20:15"
-  location: "Amare - Den Haag"
+  location: Amare - Den Haag
   locationLink: "https://goo.gl/maps/DfpqZPLXHb1gKrZ46"
