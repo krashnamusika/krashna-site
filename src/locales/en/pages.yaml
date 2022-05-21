@@ -484,7 +484,7 @@ tour2021:
     To see what the tour committee is up to follow us on [facebook](https://www.facebook.com/SchotlandTourKrashna/) and [instagram](https://www.instagram.com/krashnatour/).
 
 tour:
-  title: Krashna Châtours 2022 en France
+  title: Krashna ChâTours 2022 en France
 
   frenchSubtitle: Krashna repart en tournée!
 
@@ -499,14 +499,48 @@ tour:
   frenchSocials: Suivez-nous sur nos réseaux sociaux
 
   subtitle: Krashna is going on tour again!
-
   description: |
-    With more than 100 passionate musicians, we are the orchestra and choir of the Dutch music student association "Krashna Musika" from Delft.
-    From 25 June to 2 July we will be giving several concerts in Paris and Tours, keep an eye on this page for more information about the locations and dates!
-    Hopefully we'll see you in the summer!
+    This summer Krashna is going to France! Almost 100 musicians will travel to Paris
+    and the Loire valley between the 25th of June and the 2nd of July, to conclude our
+    tour with a concert in Amare in The Hague. Along the way, we will give concerts,
+    play chamber music, get a taste of French culture and kitchen and form close
+    friendships.
 
-    Musical greetings,\
-    The TourCie 2022
+  concertTitle: Concerts
+  concertDescription: |
+    We will start our tour in Paris, the cultural center of France. There we will perform
+    in the Église Saint-Roch on Monday the 27th of June. After we have discovered Paris, we
+    will travel to Tours, on the Loire river. Here too we will perform with the entire orchestra
+    and choir, on Tuesday the 28th of June in the Basilique Saint-Julien. Following the theme of
+    this tour, we will also visit a castle (château), where we will perform in small chambermusic
+    ensembles. We end our tour with a grand concert in the newly built Amare in The Hague on the
+    2nd of July. More information and tickets for this concert can be found [here](/concerts/tour-2022-amare).
+
+  repertoireTitle: Repertoire
+  repertoireDescription: |
+    Last March we have started rehearsing on a varied repertoire consisting of
+    large romantic works by Russian and French composers, alternated by old and new
+    religious hymns. The full repertoire is as follows:
+
+      *Choir repertoire*
+      * Bortniansky – Cherubijnse hymne No. 7
+      * Schnittke – Three Sacred Hymns
+      * Duruflé – Ubi caritas *and* Tantum ergo
+      * Buxtehude – Der Herr ist mit Mir *and* Man singet mit freuden vom sieg
+      * Durante – Magnificat
+
+      *Orchestra repertoire*
+      * Glazunov – Symphony No. 7
+      * Tcherepnin – La princesse lointaine
+      * Brahms – Tragische ouverture
+
+  aekTitle: Adopt a Krashnees
+  aekDescription: |
+    To make this fantistic week a reality, we are still looking for sponsoring
+    and donations. Do you want to help us? You can do this by ‘adopting‘ a Krashnees.
+    You choose the amount you want to sponsor yourself. 75% of this will help finance our tour,
+    the remaining 25% will be a discounted from the tour fee of that Krashnees. More
+    information and the signup form can be found [here](/adopteer).
 
   socials: Follow the TourCie at social media
 
