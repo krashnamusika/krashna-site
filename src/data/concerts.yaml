@@ -321,6 +321,14 @@
   location: Theaterzaal, X TU Delft
   freeEntrance: true
 
+- id: kamerkoor-juni-2022
+  type: chamber-choir
+  date: 2022-06-03
+  time: "20:30"
+  location: Schuilkerk Bagijnhof, Delft
+  locationLink: "https://goo.gl/maps/o3awWej4UHywQuva7"
+  facebookEvent: "https://www.facebook.com/events/700512014400068"
+
 - id: tour-2022-amare
   type: main
   date: 2022-07-02
