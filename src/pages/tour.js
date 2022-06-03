@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import tourLogo from '../../static/images/krashna-tour-2022-banner.png'
@@ -34,14 +34,12 @@ const TourPage = ({ intl }) => (
       </div>
       <Markdown>{intl.formatMessage({ id: 'tour.description' })}</Markdown>
 
-      <p><strong><Markdown>{intl.formatMessage({ id: 'tour.concertTitle' })}</Markdown></strong></p>
-      <Markdown>{intl.formatMessage({ id: 'tour.concertDescription' })}</Markdown>
-
-      <p><strong><Markdown>{intl.formatMessage({ id: 'tour.repertoireTitle' })}</Markdown></strong></p>
-      <Markdown>{intl.formatMessage({ id: 'tour.repertoireDescription' })}</Markdown>
-
-      <p><strong><Markdown>{intl.formatMessage({ id: 'tour.aekTitle' })}</Markdown></strong></p>
-      <Markdown>{intl.formatMessage({ id: 'tour.aekDescription' })}</Markdown>
+      {['concert', 'repertoire', 'aek'].map(id => (
+        <span key={id}>
+          <p><strong><Markdown>{intl.formatMessage({ id: `tour.${id}Title`})}</Markdown></strong></p>
+          <Markdown>{intl.formatMessage({ id: `tour.${id}`})}</Markdown>
+        </span>
+      ))}
 
       <Markdown>{intl.formatMessage({ id: 'tour.socials' })}</Markdown>
       <span>

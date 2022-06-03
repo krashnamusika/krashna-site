@@ -519,7 +519,7 @@ tour:
     opbouwen.
 
   concertTitle: Concerten
-  concertDescription: |
+  concert: |
     Wij beginnen onze tournee in Parijs, het culturele centrum van Frankrijk. Hier
     treden wij op in de Église Saint-Roch, op maandag 27 juni. Na Parijs te hebben
     ontdekt, gaan wij verder naar Tours, langs de Loire. Ook hier geven wij een
@@ -532,7 +532,7 @@ tour:
     zijn.
 
   repertoireTitle: Repertoire
-  repertoireDescription: |
+  repertoire: |
     Ter voorbereiding van deze concerten zijn wij al hard aan het repeteren. Wij
     studeren nu op een gevarieerd programma met grote romantische werken, van
     Russische en Franse componisten, afgewisseld met oude en nieuwe geestelijke
@@ -551,13 +551,13 @@ tour:
       * Brahms – Tragische ouverture
 
   aekTitle: Adopteer een Krashnees
-  aekDescription: |
+  aek: |
     Om deze fantastische week waar te maken, hebben wij nog steeds sponsorgeld
     nodig. Wilt u ons helpen? Dit kunt u doen door een van onze muzikanten te
     ‘adopteren’. U sponsort deze krashnees dan met een zelfgekozen bedrag.
     Hiervan gaat 75% direct naar de financiering van de tournee, de overige 25% zal
     een korting zijn op de eigen bijdrage van deze Krashnees. Meer informatie en het
-    formulier vindt u via [hier](/adopteer).
+    formulier vindt u via [hier](https://krashna.nl/adopteer).
 
   socials: Volg de TourCie op social media
 

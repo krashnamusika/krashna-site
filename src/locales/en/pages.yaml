@@ -509,7 +509,7 @@ tour:
     friendships.
 
   concertTitle: Concerts
-  concertDescription: |
+  concert: |
     We will start our tour in Paris, the cultural center of France. There we will perform
     in the Église Saint-Roch on Monday the 27th of June. After we have discovered Paris, we
     will travel to Tours, on the Loire river. Here too we will perform with the entire orchestra
@@ -519,7 +519,7 @@ tour:
     2nd of July. More information and tickets for this concert can be found [here](/concerts/tour-2022-amare).
 
   repertoireTitle: Repertoire
-  repertoireDescription: |
+  repertoire: |
     Last March we have started rehearsing on a varied repertoire consisting of
     large romantic works by Russian and French composers, alternated by old and new
     religious hymns. The full repertoire is as follows:
@@ -537,12 +537,12 @@ tour:
       * Brahms – Tragische ouverture
 
   aekTitle: Adopt a Krashnees
-  aekDescription: |
+  aek: |
     To make this fantistic week a reality, we are still looking for sponsoring
     and donations. Do you want to help us? You can do this by ‘adopting‘ a Krashnees.
     You choose the amount you want to sponsor yourself. 75% of this will help finance our tour,
     the remaining 25% will be a discounted from the tour fee of that Krashnees. More
-    information and the signup form can be found [here](/adopteer).
+    information and the signup form can be found [here](https://krashna.nl/adopteer).
 
   socials: Follow the TourCie at social media
 
