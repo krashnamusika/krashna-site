@@ -29,6 +29,7 @@ const TourPage = ({ intl }) => (
       </SectionContainer>
     </div>
     <SectionContainer>
+      <div style={{fontStyle: "italic"}}>{intl.formatMessage({ id: 'tour.frenchBelow' })}</div>
       <div className="lead">
         <Markdown>{intl.formatMessage({ id: 'tour.subtitle' })}</Markdown>
       </div>
