@@ -15,7 +15,7 @@ const JoinPage = ({ intl }) => (
         {intl.formatMessage({ id: "join.form" })}
       </a>
     </div>
-    <Markdown>{intl.formatMessage({ id: "join.text" })}</Markdown>
+    <Markdown options={{ html: true }}>{intl.formatMessage({ id: "join.text" })}</Markdown>
   </PageTemplate>
 );
 
