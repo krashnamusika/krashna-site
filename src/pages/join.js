@@ -8,7 +8,7 @@ const JoinPage = ({ intl }) => (
     <div className="text-center pt-3 pb-3">
       <a
         className="btn btn-primary btn-lg"
-        href="https://forms.gle/B5Fgyp4vqQtMyZWQ9"
+        href="/interest"
         target="blank"
       >
         <span className="fa fa-pencil mr-2" />
