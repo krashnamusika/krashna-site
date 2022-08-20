@@ -1,7 +1,7 @@
 import React from 'react'
 import { injectIntl } from 'gatsby-plugin-intl'
 
-const TowPartLayout = ({ title, titleLeft, children }) => {
+const TwoPartLayout = ({ title, titleLeft, children }) => {
   return (
     <div className="row">
       <h2
@@ -22,8 +22,8 @@ const TowPartLayout = ({ title, titleLeft, children }) => {
   )
 }
 
-TowPartLayout.defaultProps = {
+TwoPartLayout.defaultProps = {
   titleLeft: true,
 }
 
-export default injectIntl(TowPartLayout)
+export default injectIntl(TwoPartLayout)
