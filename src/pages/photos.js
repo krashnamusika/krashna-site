@@ -26,6 +26,13 @@ const PhotoPage = ({ intl }) => (
       <span className="fa fa-camera mr-2" />
       {intl.formatMessage({ id: 'photos.flickr' })}
     </CenteredButton>
+    <CenteredButton
+      url="/memberphotos"
+      external={false}
+    >
+      <span className="fa fa-camera mr-2" />
+      {intl.formatMessage({ id: 'photos.members' })}
+    </CenteredButton>
   </PageTemplate>
 )
 
