@@ -6,16 +6,14 @@ import Jumbotron from '../components/IndexPage/Jumbotron';
 import NewsSection from '../components/IndexPage/NewsSection';
 import OpenRehearsalsBanner from "../components/IndexPage/OpenRehearsalsBanner";
 import SponsorKliksSection from '../components/IndexPage/SponsorKliksSection';
-import OWeeSection from "../components/IndexPage/OWeeSection";
 import PageTemplate from '../templates/pageTemplate';
 
 const IndexPage = ({ data }) => (
   <PageTemplate useCustomStructure={true}>
     <Jumbotron />
-    <OWeeSection />
+    <OpenRehearsalsBanner />
     <ConcertSection concerts={data.allConcertsYaml.edges} />
     <NewsSection news={data.allNewsYaml.edges} />
-    <OpenRehearsalsBanner />
     <HireEnsembleSection />
     <SponsorKliksSection />
   </PageTemplate>
