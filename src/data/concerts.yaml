@@ -350,9 +350,11 @@
   time: "20:00"
   location: "Geertekerk Utrecht"
   locationLink: "https://goo.gl/maps/VhcLtCSRVhUT82pt5"
+  tickets: "https://www.theaterdeveste.nl/programma/8533/Krashna_Musika_speelt_Mahler_en_Faure_/Winterconcert_"
 
 - id: winterconcerten-2023-delft
   date: 2023-02-25
   time: "20:00"
   location: "Aula TU Delft"
   locationLink: "https://goo.gl/maps/gFt4PAqypJDp5wfP8"
+  tickets: "https://www.theaterdeveste.nl/programma/8536/Krashna_Musika_speelt_Mahler_en_Faure/Winterconcert"
