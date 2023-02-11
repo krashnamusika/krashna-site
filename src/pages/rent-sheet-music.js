@@ -3,8 +3,8 @@ import { injectIntl } from 'gatsby-plugin-intl'
 import PageTemplate from '../templates/pageTemplate';
 import TEMP_SHEET_MUSIC_LIST from '../data/temp_sheetmusic_codes.json'
 
-const RentSheetMusicPage = ({ intl }) => {
-  let code = new URLSearchParams(document.location.search).get('code')
+const RentSheetMusicPage = ({ location }) => {
+  let code = new URLSearchParams(location.search).get('code')
   let index = TEMP_SHEET_MUSIC_LIST.findIndex(c => c === code)
 
   let indexIsUnknown = index < 0
