@@ -358,3 +358,24 @@
   location: "Aula TU Delft"
   locationLink: "https://goo.gl/maps/gFt4PAqypJDp5wfP8"
   tickets: "https://www.theaterdeveste.nl/programma/8536/Krashna_Musika_speelt_Mahler_en_Faure/Winterconcert"
+
+- id: lustrum-2023-07-05
+  date: 2023-07-05
+  time: "19:30"
+  location: "Aula TU Delft"
+  locationLink: "https://goo.gl/maps/gFt4PAqypJDp5wfP8"
+  tickets: "https://www.theaterdeveste.nl/programma/8614/Krashna_Musika/Lustrumconcerten"
+
+- id: lustrum-2023-07-06
+  date: 2023-07-06
+  time: "19:30"
+  location: "Aula TU Delft"
+  locationLink: "https://goo.gl/maps/gFt4PAqypJDp5wfP8"
+  tickets: "https://www.theaterdeveste.nl/programma/8614/Krashna_Musika/Lustrumconcerten"
+
+- id: lustrum-2023-07-08
+  date: 2023-07-08
+  time: "16:00"
+  location: "Aula TU Delft"
+  locationLink: "https://goo.gl/maps/gFt4PAqypJDp5wfP8"
+  tickets: "https://www.theaterdeveste.nl/programma/8614/Krashna_Musika/Lustrumconcerten"
