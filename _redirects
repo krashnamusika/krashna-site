@@ -116,6 +116,7 @@ Owee helpers document
 
 # External Kamu concert ticket link
 /kamu-tickets https://forms.gle/pkK1otXMLo5WmLkx7 301!
+/kamu /kamu-tickets 301!
 
 # Lustrumconcerten 55
 /lustrum /all-concerts/ 301!
