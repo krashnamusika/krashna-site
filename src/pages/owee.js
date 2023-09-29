@@ -8,7 +8,7 @@ const OweePage = ({ intl }) => (
     <div className="container">
       <div className="row">
         <div className="col-sm">
-          <img width="100%" src={intl.formatMessage({id: "owee.poster"})}/>
+          <img width="100%" src={intl.formatMessage({id: "owee.poster"})} alt="owee.poster"/>
         </div>
         <div className="col-sm">
           <Markdown options={{html: true}}>
