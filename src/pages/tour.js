@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import tourLogo from '../../static/images/krashna-tour-2022-banner.png'

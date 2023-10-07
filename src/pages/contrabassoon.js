@@ -56,6 +56,7 @@ const DonateModal = ({ intl }) => (
                 href={link}
                 className="btn btn-outline-dark mr-3"
                 target="_blank"
+                rel="noreferrer"
               >
                 &euro;&nbsp;{amount},-
               </a>
@@ -66,6 +67,7 @@ const DonateModal = ({ intl }) => (
               }
               className="btn btn-outline-dark"
               target="_blank"
+              rel="noreferrer"
             >
               {intl.formatMessage({ id: "contrabassoon.choose-amount" })}
             </a>
