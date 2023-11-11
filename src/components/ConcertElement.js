@@ -21,7 +21,7 @@ const ConcertElement = ({ concert, intl }) => (
         {' - '}
         <span className="fa fa-map-marker mr-1" />
         <a href={concert.locationLink} className="mr-2">
-          {concert.location}
+          {concert.location || intl.formatMessage({id: 'translations.tbd'})}
         </a>
         {concert.tickets ? (
           <a href={concert.tickets}>

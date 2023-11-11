@@ -22,7 +22,7 @@ const ConcertPageTemplate = ({ pageContext, intl }) => {
       </div>
       <div>
         <span className="fa fa-map-marker mr-2" />
-        <a href={concert.locationLink}>{concert.location}</a>
+        <a href={concert.locationLink}>{concert.location || intl.formatMessage({ id: 'translations.tbd' })}</a>
       </div>
       {concert.facebookEvent ? (
         <div>
