@@ -19,6 +19,11 @@ const ConcertPageTemplate = ({ pageContext, intl }) => {
         <span className="fa fa-calendar mr-2" />
         {new Date(concert.date).toLocaleDateString('nl-NL')}
         {concert.time ? ', ' + concert.time : undefined}
+        {concert.doorsOpen
+          ? ` (${intl.formatMessage({ id: "translations.doors-open" })}: ${
+            concert.doorsOpen
+          })`
+          : undefined}
       </div>
       <div>
         <span className="fa fa-map-marker mr-2" />

@@ -389,13 +389,19 @@
 
 - id: winterconcerten-2024-01-19
   date: 2024-01-19
-  time: "19:30"
+  time: "20:00"
+  doorsOpen: "19:30"
+  location: "Geertekerk Utrecht"
+  locationLink: "https://goo.gl/maps/pZA7JAEMvXBkVcdX7"
+  tickets: "https://www.theaterdeveste.nl/programma/9271/krashna-musika/winterconcerten-krashna-musika-geertekerk-utrecht"
 
 - id: winterconcerten-2024-01-20
   date: 2024-01-20
-  time: "19:30"
+  time: "20:00"
+  doorsOpen: "19:30"
   location: "Aula TU Delft"
   locationLink: "https://goo.gl/maps/gFt4PAqypJDp5wfP8"
+  tickets: "https://www.theaterdeveste.nl/programma/9274/krashna-musika/winterconcerten-krashna-musika-aula-tu-delft"
 
 - id: matthaus-2024-03-22
   date: 2024-03-22

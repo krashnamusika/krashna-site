@@ -44,6 +44,7 @@ exports.createPages = ({graphql, actions}) => {
               type
               date
               time
+              doorsOpen
               location
               locationLink
               tickets
