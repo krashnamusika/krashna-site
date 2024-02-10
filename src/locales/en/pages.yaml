@@ -580,6 +580,52 @@ tour2022:
   socials: Follow the TourCie at social media
 
 tour:
+  title: Tour Krashna Musika 2024
+  intro:
+    title: Krashna is going on tour again!
+    body: |
+      This summer, Krashna will be going on tour to the Czech Republic and Poland!
+      With about 100 musicians, we will be traveling from Prague to Krakow between
+      the 29th of June and the 6th of July. We will end our tour with a concert in the
+      Zuiderkerk in Amsterdam. On the go we will give concerts, play chamber music,
+      experience the Czech and Polish cultures and build close friendships.
+  concerts:
+    title: Concerts
+    body: |
+      We will start the tour with a concert in Prague. Hereafter, we will continue to
+      Krakow and also give a concert there. Apart from this, we will also play some
+      chamber music with smaller ensembles. We will end our tour with a big concert
+      in the Zuiderkerk in Amsterdam on the 7th of July. More information about this
+      concert and the ticket-sale will be available here soon.
+  repertoire:
+    title: Repertoire
+    body: |
+      From April on, we will be rehearsing our tour programme. We will play works of
+      mostly Czech and Polish composers in honor of the countries we will visit. The
+      complete repertoire will be:
+
+      *Choir, conducted by Ruben de Grauw*
+      * Haydn - Te Deum
+      * Elsner - Missa Sancti Josephi
+
+      *Orchestra, conducted by Stijn Berkouwer*
+      * Smetana - Vltava
+      * Novák - Lady Godiva
+      * Karłowicz - Bianca da Molena
+      * Różycki - Mona Lisa Gioconda
+
+      *Choir and orchestra*
+      * Janáček - Kačena divoká
+  aek:
+    title: Adopt a Krashnese
+    body: |
+      To make this fantastic week possible, we need some extra financial support.
+      Would you like to help us? You can do this by “adopting” one of our musicians.
+      You will sponsor this Krashnese with an amount chosen by you. 75% of this
+      amount will be used to finance the tour and the remaining 25% will be a discount
+      to the members-fee for the tour of this Krashnese. More information and a form to
+      sign up can be found here.
+  socials: Follow the TourCie at social media
 
 daan:
   title: |
