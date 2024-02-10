@@ -518,7 +518,7 @@ tour2021:
   socialMedia: |
     Om te ontdekken waar de tourneecommissie zich mee bezig houdt, volg ons op [facebook](https://www.facebook.com/SchotlandTourKrashna/) en [instagram](https://www.instagram.com/krashnatour/).
 
-tour:
+tour2022:
   title: Krashna ChâTours 2022 en France
 
   frenchBelow: // Français ci-dessous
@@ -593,6 +593,56 @@ tour:
     een korting zijn op de eigen bijdrage van deze Krashnees. Meer informatie en het
     formulier vindt u via [hier](https://krashna.nl/adopteer).
 
+  socials: Volg de TourCie op social media
+
+tour:
+  title: Tour Krashna Musika 2024
+  intro:
+    title: Krashna gaat weer op Tour!
+    body: |
+      Komende zomer gaat Krashna op tournee naar Tsjechië en Polen! Met zo’n 100
+      musici zullen wij tussen 29 juni en 6 juli via Praag naar Krakau reizen om
+      vervolgens af te sluiten in de Zuiderkerk in Amsterdam. Onderweg zullen wij
+      concerten geven, kamermuziek spelen, de Tsjechische en Poolse cultuur
+      opsnuiven en hechte vriendschappen opbouwen.
+  concerts:
+    title: Concerten
+    body: |
+      We beginnen de tournee met een concert in Praag. Hierna zullen wij verder gaan
+      naar Krakau om daar ook een concert te geven. Hierbuiten zullen wij ook met
+      kleinere ensembles kamermuziek ten gehore brengen. We zullen onze tournee
+      afsluiten met een groot concert in de Zuiderkerk in Amsterdam op zondag 7 juli.
+      Meer informatie over dit concert en de kaartverkoop zullen binnenkort hier te
+      vinden zijn.
+  repertoire:
+    title: Repertoire
+    body: |
+      Ter voorbereiding van deze concerten zullen wij vanaf april hard aan het
+      tourprogramma gaan werken. Wij zullen voornamelijk werken van Tsjechische en
+      Poolse componisten spelen om daarmee de landen die wij zullen bezoeken te
+      weerspiegelen. Het luidt als volgt:
+
+      *Koor, onder leiding van Ruben de Grauw*
+      * Haydn - Te Deum
+      * Elsner - Missa Sancti Josephi
+
+      *Orkest, onder leiding van Stijn Berkouwer*
+      * Smetana - Vltava
+      * Novák - Lady Godiva
+      * Karłowicz - Bianca da Molena
+      * Różycki - Mona Lisa Gioconda
+
+      *Koor en orkest*
+      * Janáček - Kačena divoká
+  aek:
+    title: Adopteer een Krashnees
+    body: |
+      Om deze fantastische week waar te maken, hebben wij nog wat extra
+      sponsorgeld nodig. Wilt u ons helpen? Dit kunt u doen door een van onze
+      muzikanten te ‘adopteren’. U sponsort deze Krashnees dan met een zelfgekozen
+      bedrag. Hiervan gaat 75% direct naar de financiering van de tournee, de overige
+      25% zal een korting zijn op de eigen bijdrage van deze Krashnees. Meer
+      informatie en het formulier kunt u hier vinden.
   socials: Volg de TourCie op social media
 
 daan:
