@@ -506,7 +506,7 @@ tour2021:
   socialMedia: |
     To see what the tour committee is up to follow us on [facebook](https://www.facebook.com/SchotlandTourKrashna/) and [instagram](https://www.instagram.com/krashnatour/).
 
-tour:
+tour2022:
   title: Krashna ChâTours 2022 en France
 
   frenchBelow: // Français ci-dessous
@@ -578,6 +578,8 @@ tour:
     information and the signup form can be found [here](https://krashna.nl/adopteer).
 
   socials: Follow the TourCie at social media
+
+tour:
 
 daan:
   title: |
