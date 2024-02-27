@@ -398,11 +398,17 @@
   locationLink: "https://goo.gl/maps/gFt4PAqypJDp5wfP8"
 
 - id: matthaus-2024-03-22
+  type: main
   date: 2024-03-22
-  location: "Maria van Jessekerk Delft"
+  time: "19:00"
+  location: Maria van Jessekerk, Delft
   locationLink: "https://goo.gl/maps/8tuf7pMqLiR2"
+  tickets: "https://www.theaterdeveste.nl/programma/9287/krashna-musika-o-l-v-ruben-de-grauw/matthaus-passion"
 
 - id: matthaus-2024-03-23
+  type: main
   date: 2024-03-23
-  location: "Maria van Jessekerk Delft"
+  time: "14:00"
+  location: Maria van Jessekerk, Delft
   locationLink: "https://goo.gl/maps/8tuf7pMqLiR2"
+  tickets: "https://www.theaterdeveste.nl/programma/9287/krashna-musika-o-l-v-ruben-de-grauw/matthaus-passion"
