@@ -1,9 +1,7 @@
 import React from 'react'
 import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
-import tourLogo from '../../static/images/krashna-tour-2022-banner.png'
 import PageTemplate from '../templates/pageTemplate'
-import { SocialLink } from "../components/SocialLink";
 
 const SectionContainer = ({ style, children }) => (
   <div style={style}>
@@ -22,47 +20,14 @@ const TourPage = ({ intl }) => (
     useCustomStructure={true}
   >
     <div style={{ paddingTop: '60px', flex: 'auto' }}>
-      <SectionContainer style={{ backgroundColor: '#0071bc' }}>
-        <h1 className="text-center text-white font-weight-bold pb-3 pt-3">
+      <SectionContainer style={{ backgroundColor: '#CC0000' }}>
+        <h1 className="text-center text-white font-weight-bold pb-4 pt-4">
           {intl.formatMessage({ id: 'tour.title' })}
         </h1>
       </SectionContainer>
     </div>
     <SectionContainer>
-      <div style={{fontStyle: "italic"}}>{intl.formatMessage({ id: 'tour.frenchBelow' })}</div>
-      <div className="lead">
-        <Markdown>{intl.formatMessage({ id: 'tour.subtitle' })}</Markdown>
-      </div>
-      <Markdown>{intl.formatMessage({ id: 'tour.description' })}</Markdown>
-
-      {['concert', 'repertoire', 'aek'].map(id => (
-        <span key={id}>
-          <p><strong><Markdown>{intl.formatMessage({ id: `tour.${id}Title`})}</Markdown></strong></p>
-          <Markdown>{intl.formatMessage({ id: `tour.${id}`})}</Markdown>
-        </span>
-      ))}
-
-      <Markdown>{intl.formatMessage({ id: 'tour.socials' })}</Markdown>
-      <span>
-        <SocialLink iconName="facebook" url="https://facebook.com/TourKrashna" target="blank" />
-        <SocialLink iconName="instagram" url="https://instagram.com/krashnatour" target="blank" />
-      </span>
-
-      <div
-        className="col-9 mx-auto mb-5"
-        style={{ marginTop: '5rem' }}
-      >
-        <img src={tourLogo} className="img-fluid" alt="Krashna Tour 2022" />
-      </div>
-      <div className="lead">
-        <Markdown>{intl.formatMessage({ id: 'tour.frenchSubtitle' })}</Markdown>
-      </div>
-      <Markdown>{intl.formatMessage({ id: 'tour.french' })}</Markdown>
-      <Markdown container="span">{intl.formatMessage({ id: 'tour.frenchSocials' })}</Markdown>
-      <span>
-        <SocialLink iconName="facebook" url="https://facebook.com/TourKrashna" target="blank" />
-        <SocialLink iconName="instagram" url="https://instagram.com/krashnatour" target="blank" />
-      </span>
+      <Markdown>{intl.formatMessage({ id: 'tour.intro' })}</Markdown>
     </SectionContainer>
   </PageTemplate>
 )
