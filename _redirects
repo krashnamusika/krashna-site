@@ -36,7 +36,11 @@
 /kamermuziek /chamber-music 301!
 /kamerkoor /chamber-choir 301!
 /kamerorkest /chamber-orchestra 301!
-/krashko /chamber-orchestra 301!
+
+## Change back after concert on 2 june 2024 is over
+# /krashko /chamber-orchestra 301!
+/krashko /concerts/krashko-2024-06-02
+
 /over-ons /about 301!
 /commissies /committees 301!
 /comite-van-aanbeveling /recommendation 301!
@@ -130,9 +134,6 @@
 /sognodivolare https://youtu.be/hPK1_av9JXY 301!
 /droomproject https://youtu.be/hPK1_av9JXY 301!
 /film https://youtu.be/hPK1_av9JXY 301!
-
-# Krashko 2024 sign up shortener
-/krashko-signup https://forms.gle/69XjuMa2ELrwZG1b7 301!
 
 # Kerstconcert 2023 shortener
 /kerstconcert-2023 https://www.theaterdeveste.nl/programma/9250/krashna-musika-o-l-v-ruben-de-grauw/kerstconcert-kerstmuziek-door-de-eeuwen-heen 301!
