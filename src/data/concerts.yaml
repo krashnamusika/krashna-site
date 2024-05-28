@@ -426,3 +426,10 @@
   location: Lutherse Kerk, Den Haag
   locationLink: "https://maps.app.goo.gl/79GTvRR3iv6PQX4m6"
   tickets: "https://eventix.shop/gs6qyqt7"
+
+- id: tour-2024
+  type: main
+  date: 2024-07-07
+  time: "16:00"
+  location: Zuiderkerk, Amsterdam
+  locationLink: "https://maps.app.goo.gl/wwTuEDDzweWAzEt28"
