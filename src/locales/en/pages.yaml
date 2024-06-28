@@ -761,7 +761,7 @@ owee:
       The OWee is almost over, but don't worry! On Thursday, you can come by one last time to burn off your remaining energy with a game of Just Dance in the Theaterzaal of X.
   faq-title: |
     # General info/FAQ
-
+  faq: |
     ## When are the rehearsals?
       The choir and orchestra both rehearse weekly. The orchestra rehearses on Mondays (7:30 PM - 10:30 PM) and the choir on Wednesdays (7:30 PM - 10:00 PM). You can join both if you like. Rehearsals take place at X, followed by a social drink.
 
@@ -788,9 +788,8 @@ owee:
 
     ## Is it possible to practice somewhere?
       As a member of Krashna, you automatically get a subscription to X, which means you can use the facilities at the sports and cultural center. There are also rehearsal rooms available if you don’t want to disturb your housemates.
-  faq:
 
-  
+
 concert-2021-02-13:
   title: "KrashKO live on February 13"
   text: |
